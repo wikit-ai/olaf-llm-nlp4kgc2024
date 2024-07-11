@@ -1,0 +1,624 @@
+{
+  "concepts": [
+    {
+      "concept_id": 140300046248176,
+      "label": "density",
+      "lrs": [
+        { "label": "strip off", "co_texts": [] },
+        { "label": "remove surface", "co_texts": [] },
+        { "label": "peel", "co_texts": [] },
+        { "label": "denseness", "co_texts": [] },
+        { "label": "concentration", "co_texts": [] },
+        { "label": "thickness", "co_texts": [] },
+        { "label": "density", "co_texts": ["density"] },
+        { "label": "strip surface", "co_texts": ["strip surface"] }
+      ]
+    },
+    {
+      "concept_id": 140300055689536,
+      "label": "Rolled pit",
+      "lrs": [
+        { "label": "pocket bread", "co_texts": [] },
+        { "label": "recurring swellings", "co_texts": [] },
+        { "label": "pita bread", "co_texts": [] },
+        { "label": "pita pocket", "co_texts": [] },
+        { "label": "periodic bulges", "co_texts": ["periodic bulges"] },
+        { "label": "Rolled pit", "co_texts": ["Rolled pit"] },
+        { "label": "regular protrusions", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 140300046092608,
+      "label": "uneven temperature",
+      "lrs": [
+        { "label": "uneven pressure", "co_texts": ["uneven pressure"] },
+        { "label": "inconsistent pressure", "co_texts": [] },
+        { "label": "irregular temperature", "co_texts": [] },
+        { "label": "unbalanced pressure", "co_texts": [] },
+        { "label": "temperature fluctuation", "co_texts": [] },
+        { "label": "uneven temperature", "co_texts": ["uneven temperature"] },
+        { "label": "inconsistent heat", "co_texts": [] },
+        { "label": "irregular pressure", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 140300046250336,
+      "label": "folds",
+      "lrs": [
+        { "label": "furrows", "co_texts": [] },
+        { "label": "local warping", "co_texts": [] },
+        { "label": "local distortion", "co_texts": [] },
+        { "label": "local deformation", "co_texts": ["local deformation"] },
+        { "label": "local bending", "co_texts": [] },
+        { "label": "pleats", "co_texts": [] },
+        { "label": "folds", "co_texts": ["folds"] },
+        { "label": "lines", "co_texts": [] },
+        { "label": "creases", "co_texts": [] },
+        { "label": "wrinkles", "co_texts": ["wrinkles"] }
+      ]
+    },
+    {
+      "concept_id": 140300046250384,
+      "label": "roller",
+      "lrs": [
+        { "label": "roller", "co_texts": ["roller"] },
+        { "label": "quad skate", "co_texts": [] },
+        {
+          "label": "production of steel strip",
+          "co_texts": ["production of steel strip"]
+        },
+        { "label": "tension roll damage", "co_texts": ["tension roll damage"] },
+        { "label": "stress roll damage", "co_texts": [] },
+        { "label": "steel strip production", "co_texts": [] },
+        { "label": "skate", "co_texts": [] },
+        { "label": "steel strip manufacturing", "co_texts": [] },
+        { "label": "roller skate", "co_texts": [] },
+        { "label": "strain roll damage", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 140300046250528,
+      "label": "defect",
+      "lrs": [
+        { "label": "faults", "co_texts": [] },
+        { "label": "imperfections", "co_texts": [] },
+        { "label": "defects", "co_texts": ["defects"] },
+        { "label": "flaws", "co_texts": [] },
+        { "label": "imperfection type", "co_texts": [] },
+        { "label": "flaw type", "co_texts": [] },
+        { "label": "flaw", "co_texts": [] },
+        { "label": "imperfection", "co_texts": [] },
+        { "label": "deficiency", "co_texts": [] },
+        { "label": "fault type", "co_texts": [] },
+        { "label": "failures", "co_texts": [] },
+        { "label": "fault", "co_texts": [] },
+        { "label": "defect", "co_texts": ["defect"] },
+        { "label": "defect type", "co_texts": ["defect type"] }
+      ]
+    },
+    {
+      "concept_id": 140300046252640,
+      "label": "production line",
+      "lrs": [
+        {
+          "label": "product specifications",
+          "co_texts": ["product specifications"]
+        },
+        { "label": "production process", "co_texts": [] },
+        { "label": "manufacturing line", "co_texts": [] },
+        { "label": "product details", "co_texts": [] },
+        { "label": "specs", "co_texts": [] },
+        { "label": "product features", "co_texts": [] },
+        { "label": "production line", "co_texts": ["production line"] },
+        { "label": "assembly line", "co_texts": [] },
+        { "label": "product attributes", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 140300046244528,
+      "label": "Inclusion",
+      "lrs": [
+        { "label": "fish scale shape", "co_texts": ["fish scale shape"] },
+        { "label": "incorporation", "co_texts": [] },
+        { "label": "integration", "co_texts": [] },
+        { "label": "fish scale pattern", "co_texts": [] },
+        { "label": "Inclusion", "co_texts": ["Inclusion"] },
+        { "label": "insertion", "co_texts": [] },
+        { "label": "fish scale motif", "co_texts": [] },
+        { "label": "addition", "co_texts": [] },
+        { "label": "fish scale design", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 140300046248656,
+      "label": "occurrence",
+      "lrs": [
+        { "label": "incident", "co_texts": [] },
+        { "label": "taint", "co_texts": [] },
+        { "label": "happening", "co_texts": [] },
+        { "label": "contamination", "co_texts": ["contamination"] },
+        { "label": "corruption", "co_texts": [] },
+        { "label": "pollution", "co_texts": [] },
+        { "label": "instance", "co_texts": [] },
+        { "label": "event", "co_texts": [] },
+        { "label": "adulteration", "co_texts": [] },
+        { "label": "phenomenon", "co_texts": [] },
+        { "label": "occurrence", "co_texts": ["occurrence"] }
+      ]
+    },
+    {
+      "concept_id": 140300055688000,
+      "label": "Crescent gap",
+      "lrs": [
+        { "label": "cutting", "co_texts": ["cutting"] },
+        { "label": "crescent opening", "co_texts": [] },
+        { "label": "crescent space", "co_texts": [] },
+        { "label": "Crescent gap", "co_texts": ["Crescent gap"] },
+        { "label": "crescent void", "co_texts": [] },
+        { "label": "trimming", "co_texts": [] },
+        { "label": "slicing", "co_texts": [] },
+        { "label": "carving", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 140300046095200,
+      "label": "coils",
+      "lrs": [
+        { "label": "spirals", "co_texts": [] },
+        { "label": "coils", "co_texts": ["coils"] },
+        { "label": "whorls", "co_texts": [] },
+        { "label": "rings", "co_texts": [] },
+        { "label": "curls", "co_texts": [] },
+        { "label": "division", "co_texts": [] },
+        { "label": "section", "co_texts": ["section"] },
+        { "label": "part", "co_texts": [] },
+        { "label": "portion", "co_texts": [] },
+        { "label": "piece", "co_texts": [] },
+        { "label": "loops", "co_texts": [] },
+        { "label": "segment", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 140300046238768,
+      "label": "rough pockmarked surfaces",
+      "lrs": [
+        { "label": "rugged surfaces", "co_texts": [] },
+        { "label": "surface imperfections", "co_texts": [] },
+        { "label": "bumpy surfaces", "co_texts": [] },
+        { "label": "metal flaws", "co_texts": [] },
+        { "label": "metal defects", "co_texts": [] },
+        {
+          "label": "metal surface defects",
+          "co_texts": ["metal surface defects"]
+        },
+        {
+          "label": "rough pockmarked surfaces",
+          "co_texts": ["rough pockmarked surfaces"]
+        },
+        { "label": "uneven surfaces", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 140300046099568,
+      "label": "mechanical lubricant",
+      "lrs": [
+        { "label": "oil spill", "co_texts": [] },
+        {
+          "label": "mechanical lubricant",
+          "co_texts": ["mechanical lubricant"]
+        },
+        { "label": "oil spots", "co_texts": ["oil spots"] },
+        { "label": "oil slick", "co_texts": [] },
+        { "label": "oil marks", "co_texts": [] },
+        { "label": "grease spots", "co_texts": [] },
+        { "label": "Oil spot", "co_texts": ["Oil spot"] },
+        { "label": "petroleum spot", "co_texts": [] },
+        { "label": "machine lubricant", "co_texts": [] },
+        { "label": "industrial lubricant", "co_texts": [] },
+        { "label": "oil stains", "co_texts": [] },
+        { "label": "lubricating oil", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 140300046243040,
+      "label": "strip length",
+      "lrs": [
+        { "label": "strip length", "co_texts": ["strip length"] },
+        { "label": "strip path", "co_texts": [] },
+        { "label": "length of strip", "co_texts": [] },
+        { "label": "strip size", "co_texts": [] },
+        { "label": "strip orientation", "co_texts": [] },
+        {
+          "label": "strip length direction",
+          "co_texts": ["strip length direction"]
+        },
+        { "label": "strip course", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 140300046245104,
+      "label": "steel strip surface",
+      "lrs": [
+        { "label": "upper and lower faces", "co_texts": [] },
+        {
+          "label": "upper and lower surfaces",
+          "co_texts": ["upper and lower surfaces"]
+        },
+        { "label": "steel sheet surface", "co_texts": [] },
+        { "label": "up and down sides", "co_texts": [] },
+        { "label": "steel strip surface", "co_texts": ["steel strip surface"] },
+        { "label": "top and bottom", "co_texts": [] },
+        { "label": "steel plate surface", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 140300046071024,
+      "label": "crease",
+      "lrs": [
+        { "label": "uniform spacing", "co_texts": [] },
+        { "label": "crumple", "co_texts": [] },
+        { "label": "inconsistent spacing", "co_texts": [] },
+        { "label": "crease", "co_texts": ["crease"] },
+        { "label": "wrinkle", "co_texts": [] },
+        {
+          "label": "regular or irregular spacing",
+          "co_texts": ["regular or irregular spacing"]
+        },
+        { "label": "fold", "co_texts": [] },
+        { "label": "crinkle", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 140300046069008,
+      "label": "mechanical failure",
+      "lrs": [
+        { "label": "mechanical failure", "co_texts": ["mechanical failure"] },
+        { "label": "breakdown", "co_texts": [] },
+        { "label": "hitting", "co_texts": [] },
+        { "label": "pounding", "co_texts": [] },
+        { "label": "malfunction", "co_texts": [] },
+        { "label": "striking", "co_texts": [] },
+        { "label": "punching", "co_texts": ["punching"] },
+        { "label": "failure", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 140300055688480,
+      "label": "strip shape",
+      "lrs": [
+        { "label": "elongated shape", "co_texts": [] },
+        { "label": "ribbon shape", "co_texts": [] },
+        { "label": "strip-like", "co_texts": ["strip-like"] },
+        { "label": "elongated", "co_texts": [] },
+        { "label": "strip shape", "co_texts": ["strip shape"] },
+        { "label": "band-like", "co_texts": [] },
+        { "label": "strip-shaped", "co_texts": [] },
+        { "label": "band shape", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 140300046245392,
+      "label": "punctate",
+      "lrs": [
+        { "label": "stippled", "co_texts": [] },
+        { "label": "uneven distribution", "co_texts": [] },
+        { "label": "irregular dispersion", "co_texts": [] },
+        { "label": "inconsistent distribution", "co_texts": [] },
+        { "label": "dots", "co_texts": [] },
+        { "label": "punctate", "co_texts": ["punctate"] },
+        { "label": "speckled", "co_texts": [] },
+        { "label": "dotted", "co_texts": [] },
+        { "label": "unreliable", "co_texts": [] },
+        { "label": "flaky", "co_texts": ["flaky"] },
+        { "label": "inconsistent", "co_texts": [] },
+        { "label": "flecks", "co_texts": [] },
+        {
+          "label": "block irregular distribution",
+          "co_texts": ["block irregular distribution"]
+        },
+        { "label": "erratic", "co_texts": [] },
+        { "label": "small spots", "co_texts": ["small spots"] },
+        { "label": "speckles", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 140300055688768,
+      "label": "local or continuous wave-like plaque",
+      "lrs": [
+        { "label": "silk patch", "co_texts": [] },
+        { "label": "continuous plaque", "co_texts": [] },
+        { "label": "silky spot", "co_texts": [] },
+        { "label": "Silk spot", "co_texts": ["Silk spot"] },
+        {
+          "label": "local or continuous wave-like plaque",
+          "co_texts": ["local or continuous wave-like plaque"]
+        },
+        { "label": "silk mark", "co_texts": [] },
+        { "label": "localized plaque", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 140300055686752,
+      "label": "low contrast",
+      "lrs": [
+        { "label": "evaporating", "co_texts": [] },
+        {
+          "label": "drying in production",
+          "co_texts": ["drying in production"]
+        },
+        { "label": "weak contrast", "co_texts": [] },
+        { "label": "water spot", "co_texts": ["water spot"] },
+        { "label": "poor contrast", "co_texts": [] },
+        { "label": "water stain", "co_texts": [] },
+        { "label": "faint contrast", "co_texts": [] },
+        { "label": "desiccating", "co_texts": [] },
+        { "label": "water mark", "co_texts": [] },
+        { "label": "dehydrating", "co_texts": [] },
+        { "label": "low contrast", "co_texts": ["low contrast"] }
+      ]
+    },
+    {
+      "concept_id": 140300046096112,
+      "label": "steel strip",
+      "lrs": [
+        { "label": "steel strip", "co_texts": ["steel strip"] },
+        { "label": "band", "co_texts": [] },
+        { "label": "steel plate", "co_texts": [] },
+        { "label": "strip", "co_texts": ["strip"] },
+        { "label": "bar", "co_texts": [] },
+        { "label": "steel sheet", "co_texts": [] },
+        { "label": "stripe", "co_texts": [] },
+        { "label": "steel band", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 140300046100240,
+      "label": "processes",
+      "lrs": [
+        { "label": "processes", "co_texts": ["processes"] },
+        { "label": "procedures", "co_texts": [] },
+        { "label": "techniques", "co_texts": [] },
+        { "label": "methods", "co_texts": [] },
+        { "label": "merchandise", "co_texts": [] },
+        { "label": "products", "co_texts": ["products"] },
+        { "label": "commodities", "co_texts": [] },
+        { "label": "goods", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 140300046245680,
+      "label": "moving direction",
+      "lrs": [
+        { "label": "path", "co_texts": [] },
+        { "label": "unrolling process", "co_texts": [] },
+        { "label": "moving direction", "co_texts": ["moving direction"] },
+        { "label": "unwinding process", "co_texts": [] },
+        { "label": "heading", "co_texts": [] },
+        { "label": "unfurling process", "co_texts": [] },
+        { "label": "uncoiling process", "co_texts": ["uncoiling process"] },
+        { "label": "course", "co_texts": [] },
+        { "label": "way", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 140300055687088,
+      "label": "punching defects",
+      "lrs": [
+        { "label": "punching flaws", "co_texts": [] },
+        { "label": "unwelcome striking", "co_texts": [] },
+        { "label": "punching defects", "co_texts": ["punching defects"] },
+        { "label": "punching imperfections", "co_texts": [] },
+        { "label": "unwanted punching", "co_texts": ["unwanted punching"] },
+        { "label": "undesired hitting", "co_texts": [] },
+        { "label": "punching errors", "co_texts": [] },
+        { "label": "unsolicited blow", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 140300055691216,
+      "label": "defect parts",
+      "lrs": [
+        { "label": "low-greenhouse gas", "co_texts": [] },
+        { "label": "low-carbon dioxide", "co_texts": [] },
+        { "label": "defective pieces", "co_texts": [] },
+        { "label": "low-emission", "co_texts": [] },
+        { "label": "low-carbon", "co_texts": ["low-carbon"] },
+        { "label": "low-pollution", "co_texts": [] },
+        { "label": "defect parts", "co_texts": ["defect parts"] },
+        { "label": "faulty components", "co_texts": [] },
+        { "label": "flawed parts", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 140300046252016,
+      "label": "crease",
+      "lrs": [
+        { "label": "fold", "co_texts": [] },
+        { "label": "plica semilunaris", "co_texts": [] },
+        { "label": "perimeter of the strip", "co_texts": [] },
+        { "label": "semilunar fold", "co_texts": [] },
+        { "label": "crumple", "co_texts": [] },
+        { "label": "edge of the strip", "co_texts": ["edge of the strip"] },
+        { "label": "boundary of the strip", "co_texts": [] },
+        { "label": "crease", "co_texts": ["crease"] },
+        {
+          "label": "vertical transverse fold",
+          "co_texts": ["vertical transverse fold"]
+        },
+        { "label": "border of the strip", "co_texts": [] },
+        { "label": "wrinkle", "co_texts": [] },
+        { "label": "crinkle", "co_texts": [] }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "source_concept_id": null,
+      "destination_concept_id": null,
+      "label": "is",
+      "lrs": [{ "label": "is", "co_texts": ["is"] }]
+    },
+    {
+      "source_concept_id": 140300046099568,
+      "destination_concept_id": 140300046248656,
+      "label": "caused by",
+      "lrs": [{ "label": "caused by", "co_texts": ["caused by"] }]
+    },
+    {
+      "source_concept_id": 140300046250528,
+      "destination_concept_id": 140300046245392,
+      "label": "showing",
+      "lrs": [{ "label": "showing", "co_texts": ["showing"] }]
+    },
+    {
+      "source_concept_id": null,
+      "destination_concept_id": null,
+      "label": "is described",
+      "lrs": [{ "label": "is described", "co_texts": ["is described"] }]
+    },
+    {
+      "source_concept_id": 140300046099568,
+      "destination_concept_id": 140300046099568,
+      "label": "caused by",
+      "lrs": [{ "label": "caused by", "co_texts": ["caused by"] }]
+    },
+    {
+      "source_concept_id": null,
+      "destination_concept_id": null,
+      "label": "may appear",
+      "lrs": [{ "label": "may appear", "co_texts": ["may appear"] }]
+    },
+    {
+      "source_concept_id": null,
+      "destination_concept_id": null,
+      "label": "appears",
+      "lrs": [{ "label": "appears", "co_texts": ["appears"] }]
+    },
+    {
+      "source_concept_id": 140300046096112,
+      "destination_concept_id": 140300046250528,
+      "label": "results in",
+      "lrs": [{ "label": "results in", "co_texts": ["results in"] }]
+    },
+    {
+      "source_concept_id": null,
+      "destination_concept_id": null,
+      "label": "may appear",
+      "lrs": [{ "label": "may appear", "co_texts": ["may appear"] }]
+    },
+    {
+      "source_concept_id": 140300046238768,
+      "destination_concept_id": 140300046245392,
+      "label": "showing",
+      "lrs": [{ "label": "showing", "co_texts": ["showing"] }]
+    },
+    {
+      "source_concept_id": 140300046069008,
+      "destination_concept_id": 140300055687088,
+      "label": "lead to",
+      "lrs": [{ "label": "lead to", "co_texts": ["lead to"] }]
+    },
+    {
+      "source_concept_id": 140300046252016,
+      "destination_concept_id": 140300046252016,
+      "label": "is",
+      "lrs": [{ "label": "is", "co_texts": ["is"] }]
+    },
+    {
+      "source_concept_id": 140300046250336,
+      "destination_concept_id": 140300046250336,
+      "label": "indicating",
+      "lrs": [{ "label": "indicating", "co_texts": ["indicating"] }]
+    },
+    {
+      "source_concept_id": 140300055688000,
+      "destination_concept_id": 140300046250528,
+      "label": "results in",
+      "lrs": [{ "label": "results in", "co_texts": ["results in"] }]
+    },
+    {
+      "source_concept_id": null,
+      "destination_concept_id": null,
+      "label": "needs",
+      "lrs": [{ "label": "needs", "co_texts": ["needs"] }]
+    },
+    {
+      "source_concept_id": 140300046244528,
+      "destination_concept_id": 140300046250528,
+      "label": "is",
+      "lrs": [{ "label": "is", "co_texts": ["is"] }]
+    },
+    {
+      "source_concept_id": 140300046069008,
+      "destination_concept_id": 140300046069008,
+      "label": "lead to",
+      "lrs": [{ "label": "lead to", "co_texts": ["lead to"] }]
+    },
+    {
+      "source_concept_id": null,
+      "destination_concept_id": null,
+      "label": "lies",
+      "lrs": [{ "label": "lies", "co_texts": ["lies"] }]
+    },
+    {
+      "source_concept_id": 140300046252016,
+      "destination_concept_id": 140300046252016,
+      "label": "is",
+      "lrs": [{ "label": "is", "co_texts": ["is"] }]
+    },
+    {
+      "source_concept_id": 140300046244528,
+      "destination_concept_id": 140300046250528,
+      "label": "is",
+      "lrs": [{ "label": "is", "co_texts": ["is"] }]
+    },
+    {
+      "source_concept_id": null,
+      "destination_concept_id": null,
+      "label": "caused by",
+      "lrs": [
+        { "label": "caused by", "co_texts": ["caused by"] },
+        { "label": "is", "co_texts": ["is"] }
+      ]
+    },
+    {
+      "source_concept_id": null,
+      "destination_concept_id": null,
+      "label": "affect",
+      "lrs": [{ "label": "affect", "co_texts": ["affect"] }]
+    },
+    {
+      "source_concept_id": 140300046244528,
+      "destination_concept_id": 140300046250528,
+      "label": "is",
+      "lrs": [{ "label": "is", "co_texts": ["is"] }]
+    },
+    {
+      "source_concept_id": 140300046252016,
+      "destination_concept_id": 140300046252016,
+      "label": "is",
+      "lrs": [{ "label": "is", "co_texts": ["is"] }]
+    },
+    {
+      "source_concept_id": null,
+      "destination_concept_id": null,
+      "label": "is",
+      "lrs": [{ "label": "is", "co_texts": ["is"] }]
+    }
+  ],
+  "metarelations": [
+    {
+      "source_concept_id": 140300046244528,
+      "destination_concept_id": 140300046250528,
+      "label": "is_generalised_by",
+      "lrs": []
+    },
+    {
+      "source_concept_id": 140300055689536,
+      "destination_concept_id": 140300046250528,
+      "label": "is_generalised_by",
+      "lrs": []
+    }
+  ],
+  "rdf_graph": "@prefix owl: <http://www.w3.org/2002/07/owl#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#Inclusion> a owl:Class ;\n    rdfs:subClassOf <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#defect> .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#Oil_spot> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#Silk_spot> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#addition> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#adulteration> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#assembly_line> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#band> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#band-like> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#band_shape> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#bar> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#block_irregular_distribution> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#breakdown> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#bumpy_surfaces> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#carving> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#coils> a owl:Class .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#commodities> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#concentration> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#contamination> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#continuous_plaque> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#corruption> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#course> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#creases> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#crescent_opening> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#crescent_space> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#crescent_void> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#crinkle> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#crumple> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#curls> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#cutting> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#defect_parts> a owl:Class .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#defect_type> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#defective_pieces> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#defects> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#deficiency> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#dehydrating> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#denseness> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#density> a owl:Class .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#desiccating> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#division> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#dots> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#dotted> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#drying_in_production> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#elongated> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#elongated_shape> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#erratic> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#evaporating> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#event> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#failure> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#failures> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#faint_contrast> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#fault> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#fault_type> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#faults> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#faulty_components> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#fish_scale_design> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#fish_scale_motif> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#fish_scale_pattern> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#fish_scale_shape> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#flaky> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#flaw_type> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#flawed_parts> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#flaws> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#flecks> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#fold> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#furrows> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#goods> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#grease_spots> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#happening> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#heading> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#hitting> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#imperfection> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#imperfection_type> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#imperfections> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#incident> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#inconsistent> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#inconsistent_distribution> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#inconsistent_heat> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#inconsistent_pressure> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#inconsistent_spacing> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#incorporation> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#industrial_lubricant> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#insertion> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#instance> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#integration> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#irregular_dispersion> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#irregular_pressure> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#irregular_temperature> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#length_of_strip> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#lines> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#local_bending> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#local_deformation> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#local_distortion> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#local_or_continuous_wave-like_plaque> a owl:Class .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#local_warping> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#localized_plaque> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#loops> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#low-carbon> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#low-carbon_dioxide> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#low-emission> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#low-greenhouse_gas> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#low-pollution> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#low_contrast> a owl:Class .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#lubricating_oil> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#machine_lubricant> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#malfunction> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#manufacturing_line> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#mechanical_failure> a owl:Class ;\n    rdfs:subClassOf [ a owl:Restriction ;\n            owl:onProperty <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#lead_to> ;\n            owl:someValuesFrom <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#punching_defects> ],\n        [ a owl:Restriction ;\n            owl:onProperty <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#affect> ;\n            owl:someValuesFrom <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#production_line> ] .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#mechanical_lubricant> a owl:Class ;\n    rdfs:subClassOf [ a owl:Restriction ;\n            owl:onProperty <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#caused_by> ;\n            owl:someValuesFrom <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#occurrence> ],\n        [ a owl:Restriction ;\n            owl:onProperty <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#needs> ;\n            owl:someValuesFrom <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#processes> ] .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#merchandise> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#metal_defects> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#metal_flaws> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#metal_surface_defects> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#methods> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#moving_direction> a owl:Class .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#oil_marks> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#oil_slick> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#oil_spill> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#oil_spots> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#oil_stains> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#part> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#path> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#peel> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#periodic_bulges> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#petroleum_spot> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#phenomenon> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#piece> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#pita_bread> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#pita_pocket> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#pleats> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#pocket_bread> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#pollution> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#poor_contrast> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#portion> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#pounding> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#procedures> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#product_attributes> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#product_details> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#product_features> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#product_specifications> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#production_of_steel_strip> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#production_process> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#products> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#punching> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#punching_errors> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#punching_flaws> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#punching_imperfections> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#quad_skate> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#recurring_swellings> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#regular_or_irregular_spacing> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#regular_protrusions> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#remove_surface> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#ribbon_shape> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#rings> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#roller> a owl:Class .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#roller_skate> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#rough_pockmarked_surfaces> a owl:Class .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#rugged_surfaces> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#section> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#segment> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#silk_mark> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#silk_patch> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#silky_spot> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#skate> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#slicing> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#small_spots> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#speckled> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#speckles> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#specs> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#spirals> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#steel_band> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#steel_plate> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#steel_plate_surface> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#steel_sheet> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#steel_sheet_surface> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#steel_strip> a owl:Class ;\n    rdfs:subClassOf [ a owl:Restriction ;\n            owl:onProperty <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#results_in> ;\n            owl:someValuesFrom <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#defect> ] .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#steel_strip_manufacturing> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#steel_strip_production> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#stippled> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#strain_roll_damage> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#stress_roll_damage> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#striking> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#strip> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#strip-like> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#strip-shaped> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#strip_course> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#strip_length> a owl:Class .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#strip_length_direction> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#strip_off> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#strip_orientation> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#strip_path> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#strip_shape> a owl:Class .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#strip_size> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#stripe> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#surface_imperfections> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#taint> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#techniques> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#temperature_fluctuation> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#tension_roll_damage> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#thickness> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#top_and_bottom> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#trimming> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#unbalanced_pressure> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#uncoiling_process> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#undesired_hitting> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#uneven_distribution> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#uneven_pressure> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#uneven_surfaces> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#unfurling_process> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#uniform_spacing> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#unreliable> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#unrolling_process> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#unsolicited_blow> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#unwanted_punching> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#unwelcome_striking> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#unwinding_process> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#up_and_down_sides> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#upper_and_lower_faces> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#upper_and_lower_surfaces> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#water_mark> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#water_spot> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#water_stain> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#way> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#weak_contrast> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#whorls> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#wrinkle> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#wrinkles> a owl:ObjectProperty .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#Crescent_gap> a owl:Class .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#Rolled_pit> a owl:Class ;\n    rdfs:subClassOf <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#defect> .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#crease> a owl:Class .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#folds> a owl:Class ;\n    rdfs:subClassOf [ a owl:Restriction ;\n            owl:onProperty <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#indicating> ;\n            owl:someValuesFrom <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#folds> ] .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#occurrence> a owl:Class .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#processes> a owl:Class .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#production_line> a owl:Class .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#punching_defects> a owl:Class .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#punctate> a owl:Class .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#steel_strip_surface> a owl:Class .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#uneven_temperature> a owl:Class .\n\n<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#defect> a owl:Class ;\n    rdfs:subClassOf [ a owl:Restriction ;\n            owl:onProperty <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#is_described> ;\n            owl:someValuesFrom <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#crease> ],\n        [ a owl:Restriction ;\n            owl:onProperty <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#may_appear> ;\n            owl:someValuesFrom <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#Crescent_gap> ],\n        [ a owl:Restriction ;\n            owl:onProperty <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#appears> ;\n            owl:someValuesFrom <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#uneven_temperature> ],\n        [ a owl:Restriction ;\n            owl:onProperty <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#showing> ;\n            owl:someValuesFrom <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#punctate> ],\n        [ a owl:Restriction ;\n            owl:onProperty <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#lies> ;\n            owl:someValuesFrom <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#steel_strip_surface> ],\n        [ a owl:Restriction ;\n            owl:onProperty <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#is> ;\n            owl:someValuesFrom <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#Rolled_pit> ] .\n\n"
+}

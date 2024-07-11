@@ -1,0 +1,540 @@
+{
+  "concepts": [
+    {
+      "concept_id": 139830820763680,
+      "label": "Vegetable Topping",
+      "lrs": [
+        { "label": "Vegetable Topping", "co_texts": ["Vegetable Topping"] },
+        { "label": "vegetable garnish", "co_texts": [] },
+        { "label": "vegetable addition", "co_texts": [] },
+        { "label": "Vegetarian Pizza", "co_texts": ["Vegetarian Pizza"] },
+        { "label": "veggie pizza", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 139830820640880,
+      "label": "Sloppy Giuseppe Pizza",
+      "lrs": [
+        {
+          "label": "Sloppy Giuseppe Pizza",
+          "co_texts": ["Sloppy Giuseppe Pizza"]
+        },
+        { "label": "Messy Joe's Pizza", "co_texts": [] },
+        { "label": "Sloppy Joe's Pizza Variant", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 139830820642992,
+      "label": "anchovies",
+      "lrs": [
+        { "label": "anchovies", "co_texts": ["anchovies"] },
+        { "label": "engraulis mordax", "co_texts": [] },
+        { "label": "anchovy fish", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 139830820640976,
+      "label": "sweet peppers",
+      "lrs": [
+        { "label": "capsicum annuum", "co_texts": [] },
+        { "label": "sweet bell peppers", "co_texts": [] },
+        { "label": "sweet peppers", "co_texts": ["sweet peppers"] }
+      ]
+    },
+    {
+      "concept_id": 139830820643040,
+      "label": "basil",
+      "lrs": [
+        { "label": "sweet basil", "co_texts": [] },
+        { "label": "basil", "co_texts": ["basil"] },
+        { "label": "Saint John's-wort basil", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 139830820757824,
+      "label": "unique combinations",
+      "lrs": [
+        { "label": "distinctive", "co_texts": [] },
+        { "label": "uncommon toppings", "co_texts": [] },
+        { "label": "unique toppings", "co_texts": ["unique toppings"] },
+        { "label": "one-of-a-kind", "co_texts": [] },
+        { "label": "distinctive toppings", "co_texts": [] },
+        { "label": "unique combinations", "co_texts": ["unique combinations"] },
+        { "label": "unparalleled", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 139830822072720,
+      "label": "ingredients",
+      "lrs": [
+        { "label": "toppings", "co_texts": ["toppings"] },
+        { "label": "tomatoes", "co_texts": ["tomatoes"] },
+        { "label": "fermented wheat dough", "co_texts": [] },
+        { "label": "ingrediential", "co_texts": [] },
+        { "label": "substance", "co_texts": [] },
+        { "label": "garnishes", "co_texts": [] },
+        { "label": "love apples", "co_texts": [] },
+        {
+          "label": "leavened wheat-based dough",
+          "co_texts": ["leavened wheat-based dough"]
+        },
+        { "label": "toppings, extras", "co_texts": [] },
+        { "label": "ingredients", "co_texts": ["ingredients"] },
+        { "label": "leavened bread dough", "co_texts": [] },
+        { "label": "tomato fruit", "co_texts": [] },
+        { "label": "component", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 139830820598304,
+      "label": "Onion Topping",
+      "lrs": [
+        { "label": "funghi", "co_texts": [] },
+        { "label": "green bell pepper", "co_texts": [] },
+        { "label": "green olive", "co_texts": [] },
+        {
+          "label": "Cheesy Vegetable Topping",
+          "co_texts": ["Cheesy Vegetable Topping"]
+        },
+        { "label": "chives", "co_texts": [] },
+        { "label": "Cheesy Vegetable Layer", "co_texts": [] },
+        { "label": "Giardiniera Pizza", "co_texts": ["Giardiniera Pizza"] },
+        { "label": "Mushroom Topping", "co_texts": ["Mushroom Topping"] },
+        { "label": "Onion Topping", "co_texts": ["Onion Topping"] },
+        { "label": "black olive", "co_texts": [] },
+        { "label": "Spinach Topping", "co_texts": ["Spinach Topping"] },
+        { "label": "Artichoke Topping", "co_texts": ["Artichoke Topping"] },
+        { "label": "Asparagus Topping", "co_texts": ["Asparagus Topping"] },
+        { "label": "Cheesy Vegetable Cover", "co_texts": [] },
+        { "label": "raw spinach", "co_texts": [] },
+        { "label": "Leek Flower", "co_texts": [] },
+        { "label": "Olive Topping", "co_texts": ["Olive Topping"] },
+        { "label": "mushroom cap", "co_texts": [] },
+        { "label": "bell pepper top", "co_texts": [] },
+        { "label": "vegetable garnish", "co_texts": [] },
+        { "label": "Leek Topping", "co_texts": ["Leek Topping"] },
+        { "label": "scallion top", "co_texts": [] },
+        { "label": "Vegetable Topping", "co_texts": ["Vegetable Topping"] },
+        { "label": "fresh spinach", "co_texts": [] },
+        { "label": "vegetable addition", "co_texts": [] },
+        {
+          "label": "Green Pepper Topping",
+          "co_texts": ["Green Pepper Topping"]
+        },
+        { "label": "Leek Top", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 139830820600368,
+      "label": "Thin And Crispy Base",
+      "lrs": [
+        { "label": "lean", "co_texts": [] },
+        { "label": "wafer-thin", "co_texts": [] },
+        { "label": "slim", "co_texts": [] },
+        { "label": "thin and brittle base", "co_texts": [] },
+        {
+          "label": "Thin And Crispy Base",
+          "co_texts": ["Thin And Crispy Base"]
+        },
+        { "label": "delicately crisp", "co_texts": [] },
+        { "label": "thin and crispy", "co_texts": ["thin and crispy"] },
+        { "label": "thin and crunchy base", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 139830820643424,
+      "label": "ham",
+      "lrs": [
+        { "label": "ham", "co_texts": ["ham"] },
+        { "label": "hambone", "co_texts": [] },
+        { "label": "cured pork leg", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 139830820647552,
+      "label": "olives",
+      "lrs": [
+        { "label": "al-zuwwar", "co_texts": [] },
+        { "label": "olive fruit", "co_texts": [] },
+        { "label": "olives", "co_texts": ["olives"] }
+      ]
+    },
+    {
+      "concept_id": 139830820635408,
+      "label": "red onions",
+      "lrs": [
+        { "label": "crimson onions", "co_texts": [] },
+        { "label": "red onions", "co_texts": ["red onions"] },
+        { "label": "red bulb onions", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 139830820647744,
+      "label": "capers",
+      "lrs": [
+        { "label": "capers", "co_texts": ["capers"] },
+        { "label": "caper bush", "co_texts": [] },
+        { "label": "capers bush", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 139830822075360,
+      "label": "Hot Green Pepper Topping",
+      "lrs": [
+        { "label": "jalapeno pepper sauce", "co_texts": [] },
+        { "label": "spicy pepper topping", "co_texts": [] },
+        { "label": "Cajun Pizza", "co_texts": ["Cajun Pizza"] },
+        { "label": "American Hot Pizza", "co_texts": ["American Hot Pizza"] },
+        {
+          "label": "Jalapeno Pepper Topping",
+          "co_texts": ["Jalapeno Pepper Topping"]
+        },
+        { "label": "hot pizza", "co_texts": [] },
+        { "label": "Cajun Seasoning", "co_texts": [] },
+        { "label": "hot chili topping", "co_texts": [] },
+        { "label": "spicy pizza", "co_texts": ["spicy pizza"] },
+        { "label": "Cajun Spice Topping", "co_texts": ["Cajun Spice Topping"] },
+        { "label": "peppery pizza", "co_texts": [] },
+        {
+          "label": "Hot Green Pepper Topping",
+          "co_texts": ["Hot Green Pepper Topping"]
+        },
+        { "label": "Cajun Blend", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 139830820647936,
+      "label": "versatile dish",
+      "lrs": [
+        { "label": "flexible dish", "co_texts": [] },
+        { "label": "palate", "co_texts": ["palate"] },
+        { "label": "diverse", "co_texts": ["diverse"] },
+        { "label": "varied", "co_texts": [] },
+        { "label": "palatum", "co_texts": [] },
+        { "label": "heterogeneous", "co_texts": [] },
+        { "label": "multi-purpose dish", "co_texts": [] },
+        { "label": "versatile dish", "co_texts": ["versatile dish"] },
+        { "label": "roof of the mouth", "co_texts": [] },
+        { "label": "multifarious", "co_texts": [] },
+        { "label": "tastebuds", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 139830820637808,
+      "label": "green peppers",
+      "lrs": [
+        { "label": "verdura", "co_texts": [] },
+        { "label": "green bell peppers", "co_texts": [] },
+        { "label": "green peppers", "co_texts": ["green peppers"] }
+      ]
+    },
+    {
+      "concept_id": 139830820586736,
+      "label": "pizzas",
+      "lrs": [
+        { "label": "pizzas", "co_texts": ["pizzas"] },
+        { "label": "Italian pizza", "co_texts": [] },
+        { "label": "pizza", "co_texts": ["pizza"] },
+        { "label": "Italian-descent", "co_texts": [] },
+        { "label": "italian pizza", "co_texts": [] },
+        { "label": "Italian origin", "co_texts": ["Italian origin"] },
+        { "label": "pizza pie", "co_texts": [] },
+        { "label": "Italian-origin", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 139830820762912,
+      "label": "Peperoni Sausage Topping",
+      "lrs": [
+        { "label": "Pepperoni Topping", "co_texts": [] },
+        { "label": "Meat Topping", "co_texts": ["Meat Topping"] },
+        { "label": "meat sauce", "co_texts": [] },
+        { "label": "Chicken Topping", "co_texts": ["Chicken Topping"] },
+        { "label": "Parma Ham Topping", "co_texts": ["Parma Ham Topping"] },
+        { "label": "ground meat", "co_texts": [] },
+        { "label": "chicken piece topping", "co_texts": [] },
+        { "label": "Meaty Pizza", "co_texts": ["Meaty Pizza"] },
+        { "label": "poultry topping", "co_texts": [] },
+        { "label": "Pepperoni Pizza", "co_texts": [] },
+        {
+          "label": "Peperoni Sausage Topping",
+          "co_texts": ["Peperoni Sausage Topping"]
+        },
+        { "label": "Meat Lovers Pizza", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 139830820635984,
+      "label": "pizza bases",
+      "lrs": [
+        { "label": "pizza dough", "co_texts": [] },
+        { "label": "pizza bases", "co_texts": ["pizza bases"] },
+        { "label": "pizza crust", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 139830820593264,
+      "label": "cheese",
+      "lrs": [
+        { "label": "Italian ricotta", "co_texts": [] },
+        { "label": "Parmesan cheese", "co_texts": [] },
+        { "label": "parmesan", "co_texts": ["parmesan"] },
+        { "label": "fromage", "co_texts": [] },
+        { "label": "cheese", "co_texts": ["cheese"] },
+        { "label": "cheese product", "co_texts": [] },
+        { "label": "ricotta", "co_texts": ["ricotta"] },
+        { "label": "sheep's milk ricotta", "co_texts": [] },
+        {
+          "label": "Cheesy Vegetable Topping",
+          "co_texts": ["Cheesy Vegetable Topping"]
+        },
+        { "label": "gorgonzola", "co_texts": ["gorgonzola"] },
+        { "label": "Fontina cheese", "co_texts": [] },
+        { "label": "Cheesy Vegetable Cover", "co_texts": [] },
+        { "label": "Gorgonzola cheese", "co_texts": [] },
+        { "label": "fontina", "co_texts": ["fontina"] },
+        { "label": "Cheesy Vegetable Layer", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 139830820757344,
+      "label": "Prawns Topping",
+      "lrs": [
+        {
+          "label": "Frutti Di Mare Pizza",
+          "co_texts": ["Frutti Di Mare Pizza"]
+        },
+        {
+          "label": "Mixed Seafood Topping",
+          "co_texts": ["Mixed Seafood Topping"]
+        },
+        { "label": "Seafood Medley", "co_texts": [] },
+        { "label": "shrimp", "co_texts": [] },
+        { "label": "prawn", "co_texts": [] },
+        { "label": "Mixed Seafood Salad", "co_texts": [] },
+        { "label": "Prawns Topping", "co_texts": ["Prawns Topping"] },
+        { "label": "seafood garnish", "co_texts": [] },
+        { "label": "Seafood Topping", "co_texts": ["Seafood Topping"] },
+        { "label": "Seafood Pizza", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 139830820648800,
+      "label": "Pollo Ad Astra Pizza",
+      "lrs": [
+        {
+          "label": "Pollo Ad Astra Pizza",
+          "co_texts": ["Pollo Ad Astra Pizza"]
+        }
+      ]
+    },
+    {
+      "concept_id": 139830820599696,
+      "label": "thick and doughy",
+      "lrs": [
+        { "label": "cloying", "co_texts": [] },
+        { "label": "stodgy", "co_texts": [] },
+        { "label": "heavy", "co_texts": [] },
+        { "label": "thick and doughy", "co_texts": ["thick and doughy"] },
+        { "label": "Deep Pan Base", "co_texts": ["Deep Pan Base"] },
+        { "label": "dense", "co_texts": [] },
+        { "label": "sticky", "co_texts": [] }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "source_concept_id": 139830820586736,
+      "destination_concept_id": 139830820643424,
+      "label": "features",
+      "lrs": [{ "label": "features", "co_texts": ["features"] }]
+    },
+    {
+      "source_concept_id": 139830822072720,
+      "destination_concept_id": 139830820647936,
+      "label": "cater",
+      "lrs": [{ "label": "cater", "co_texts": ["cater"] }]
+    },
+    {
+      "source_concept_id": 139830822072720,
+      "destination_concept_id": 139830820647936,
+      "label": "are",
+      "lrs": [{ "label": "are", "co_texts": ["are"] }]
+    },
+    {
+      "source_concept_id": 139830820586736,
+      "destination_concept_id": 139830820598304,
+      "label": "include",
+      "lrs": [{ "label": "include", "co_texts": ["include"] }]
+    },
+    {
+      "source_concept_id": 139830820586736,
+      "destination_concept_id": 139830820640976,
+      "label": "features",
+      "lrs": [{ "label": "features", "co_texts": ["features"] }]
+    },
+    {
+      "source_concept_id": 139830820598304,
+      "destination_concept_id": 139830820586736,
+      "label": "is a staple",
+      "lrs": [{ "label": "is a staple", "co_texts": ["is a staple"] }]
+    },
+    {
+      "source_concept_id": 139830820593264,
+      "destination_concept_id": 139830820586736,
+      "label": "is a staple",
+      "lrs": [{ "label": "is a staple", "co_texts": ["is a staple"] }]
+    },
+    {
+      "source_concept_id": 139830820586736,
+      "destination_concept_id": 139830822072720,
+      "label": "known for",
+      "lrs": [{ "label": "known for", "co_texts": ["known for"] }]
+    },
+    {
+      "source_concept_id": 139830820762912,
+      "destination_concept_id": 139830820763680,
+      "label": "is popular",
+      "lrs": [{ "label": "is popular", "co_texts": ["is popular"] }]
+    },
+    {
+      "source_concept_id": null,
+      "destination_concept_id": null,
+      "label": "like",
+      "lrs": [{ "label": "like", "co_texts": ["like"] }]
+    },
+    {
+      "source_concept_id": null,
+      "destination_concept_id": null,
+      "label": "often loaded",
+      "lrs": [{ "label": "often loaded", "co_texts": ["often loaded"] }]
+    },
+    {
+      "source_concept_id": 139830820763680,
+      "destination_concept_id": 139830820598304,
+      "label": "include",
+      "lrs": [{ "label": "include", "co_texts": ["include"] }]
+    },
+    {
+      "source_concept_id": 139830822072720,
+      "destination_concept_id": 139830820593264,
+      "label": "can be categorized",
+      "lrs": [
+        { "label": "can be categorized", "co_texts": ["can be categorized"] }
+      ]
+    },
+    {
+      "source_concept_id": null,
+      "destination_concept_id": null,
+      "label": "prefer",
+      "lrs": [{ "label": "prefer", "co_texts": ["prefer"] }]
+    },
+    {
+      "source_concept_id": 139830820586736,
+      "destination_concept_id": 139830820757824,
+      "label": "known for",
+      "lrs": [{ "label": "known for", "co_texts": ["known for"] }]
+    },
+    {
+      "source_concept_id": 139830820586736,
+      "destination_concept_id": 139830820647936,
+      "label": "are",
+      "lrs": [{ "label": "are", "co_texts": ["are"] }]
+    },
+    {
+      "source_concept_id": 139830820763680,
+      "destination_concept_id": 139830820763680,
+      "label": "is a staple",
+      "lrs": [{ "label": "is a staple", "co_texts": ["is a staple"] }]
+    },
+    {
+      "source_concept_id": 139830820763680,
+      "destination_concept_id": 139830820598304,
+      "label": "include",
+      "lrs": [{ "label": "include", "co_texts": ["include"] }]
+    },
+    {
+      "source_concept_id": 139830820586736,
+      "destination_concept_id": 139830820598304,
+      "label": "include",
+      "lrs": [{ "label": "include", "co_texts": ["include"] }]
+    },
+    {
+      "source_concept_id": 139830820763680,
+      "destination_concept_id": 139830820586736,
+      "label": "is a staple",
+      "lrs": [{ "label": "is a staple", "co_texts": ["is a staple"] }]
+    },
+    {
+      "source_concept_id": 139830820586736,
+      "destination_concept_id": 139830820762912,
+      "label": "ranging",
+      "lrs": [{ "label": "ranging", "co_texts": ["ranging"] }]
+    },
+    {
+      "source_concept_id": 139830820762912,
+      "destination_concept_id": 139830820586736,
+      "label": "is popular",
+      "lrs": [{ "label": "is popular", "co_texts": ["is popular"] }]
+    },
+    {
+      "source_concept_id": 139830820763680,
+      "destination_concept_id": 139830820762912,
+      "label": "ranging",
+      "lrs": [{ "label": "ranging", "co_texts": ["ranging"] }]
+    },
+    {
+      "source_concept_id": 139830820647936,
+      "destination_concept_id": 139830820593264,
+      "label": "can be categorized",
+      "lrs": [
+        { "label": "can be categorized", "co_texts": ["can be categorized"] }
+      ]
+    },
+    {
+      "source_concept_id": 139830820598304,
+      "destination_concept_id": 139830820763680,
+      "label": "is a staple",
+      "lrs": [{ "label": "is a staple", "co_texts": ["is a staple"] }]
+    },
+    {
+      "source_concept_id": null,
+      "destination_concept_id": null,
+      "label": "consisting",
+      "lrs": [{ "label": "consisting", "co_texts": ["consisting"] }]
+    }
+  ],
+  "metarelations": [
+    {
+      "source_concept_id": 139830820598304,
+      "destination_concept_id": 139830820763680,
+      "label": "is_generalised_by",
+      "lrs": []
+    },
+    {
+      "source_concept_id": 139830820600368,
+      "destination_concept_id": 139830820635984,
+      "label": "is_generalised_by",
+      "lrs": []
+    },
+    {
+      "source_concept_id": 139830820593264,
+      "destination_concept_id": 139830822072720,
+      "label": "is_generalised_by",
+      "lrs": []
+    },
+    {
+      "source_concept_id": 139830820763680,
+      "destination_concept_id": 139830822072720,
+      "label": "is_generalised_by",
+      "lrs": []
+    },
+    {
+      "source_concept_id": 139830820648800,
+      "destination_concept_id": 139830820586736,
+      "label": "is_generalised_by",
+      "lrs": []
+    }
+  ],
+  "rdf_graph": "@prefix ns1: <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#> .\n@prefix owl: <http://www.w3.org/2002/07/owl#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\nns1:Anchovies a owl:Class ;\n    rdfs:label \"anchovies\" ;\n    rdfs:comment \"engraulis mordax, anchovy fish\" .\n\nns1:Basil a owl:Class ;\n    rdfs:label \"basil\" ;\n    rdfs:comment \"sweet basil, Saint John's-wort basil\" .\n\nns1:Capers a owl:Class ;\n    rdfs:label \"capers\" ;\n    rdfs:comment \"caper bush, capers bush\" .\n\nns1:GreenPeppers a owl:Class ;\n    rdfs:label \"green peppers\" ;\n    rdfs:comment \"verdura, green bell peppers\" .\n\nns1:HotGreenPepperTopping a owl:Class ;\n    rdfs:label \"Hot Green Pepper Topping\" ;\n    rdfs:comment \"jalapeno pepper sauce, spicy pepper topping, Cajun Pizza, American Hot Pizza, Jalapeno Pepper Topping, hot pizza, Cajun Seasoning, hot chili topping, spicy pizza, Cajun Spice Topping, peppery pizza, Cajun Blend\" .\n\nns1:Olives a owl:Class ;\n    rdfs:label \"olives\" ;\n    rdfs:comment \"al-zuwwar, olive fruit\" .\n\nns1:PolloAdAstraPizza a owl:Class,\n        ns1:Pizzas ;\n    rdfs:label \"Pollo Ad Astra Pizza\" ;\n    rdfs:subClassOf ns1:Pizzas ;\n    ns1:features ns1:Ham .\n\nns1:PrawnsTopping a owl:Class ;\n    rdfs:label \"Prawns Topping\" ;\n    rdfs:comment \"Frutti Di Mare Pizza, Mixed Seafood Topping, Seafood Medley, shrimp, prawn, Mixed Seafood Salad, seafood garnish, Seafood Topping, Seafood Pizza\" .\n\nns1:RedOnions a owl:Class ;\n    rdfs:label \"red onions\" ;\n    rdfs:comment \"crimson onions, red bulb onions\" .\n\nns1:SloppyGiuseppePizza a owl:Class,\n        owl:NamedIndividual ;\n    rdfs:label \"Sloppy Giuseppe Pizza\" ;\n    rdfs:comment \"Messy Joe's Pizza, Sloppy Joe's Pizza Variant\" .\n\nns1:SweetPeppers a owl:Class ;\n    rdfs:label \"sweet peppers\" ;\n    rdfs:comment \"capsicum annuum, sweet bell peppers\" .\n\nns1:ThickAndDoughy a owl:Class ;\n    rdfs:label \"thick and doughy\" ;\n    rdfs:comment \"cloying, stodgy, heavy, Deep Pan Base, dense, sticky\" .\n\nns1:ThinAndCrispyBase a owl:Class ;\n    rdfs:label \"Thin And Crispy Base\" ;\n    rdfs:comment \"lean, wafer-thin, slim, thin and brittle base, delicately crisp, thin and crispy, thin and crunchy base\" ;\n    rdfs:subClassOf ns1:PizzaBases .\n\nns1:UniqueCombinations a owl:Class ;\n    rdfs:label \"unique combinations\" ;\n    rdfs:comment \"distinctive, uncommon toppings, unique toppings, one-of-a-kind, distinctive toppings, unparalleled\" .\n\nns1:are a owl:ObjectProperty .\n\nns1:can_be_categorized a owl:ObjectProperty .\n\nns1:cater a owl:ObjectProperty .\n\nns1:consisting a owl:ObjectProperty .\n\nns1:features a owl:ObjectProperty .\n\nns1:include a owl:ObjectProperty .\n\nns1:is_a_staple a owl:ObjectProperty .\n\nns1:is_popular a owl:ObjectProperty .\n\nns1:known_for a owl:ObjectProperty .\n\nns1:like a owl:ObjectProperty .\n\nns1:often_loaded a owl:ObjectProperty .\n\nns1:prefer a owl:ObjectProperty .\n\nns1:ranging a owl:ObjectProperty .\n\nns1:Cheese a owl:Class ;\n    rdfs:label \"cheese\" ;\n    rdfs:comment \"Italian ricotta, Parmesan cheese, parmesan, fromage, cheese product, ricotta, sheep's milk ricotta, Cheesy Vegetable Topping, gorgonzola, Fontina cheese, Cheesy Vegetable Cover, Gorgonzola cheese, fontina, Cheesy Vegetable Layer\" ;\n    rdfs:subClassOf ns1:Ingredients .\n\nns1:Ham a owl:Class ;\n    rdfs:label \"ham\" ;\n    rdfs:comment \"hambone, cured pork leg\" .\n\nns1:OnionTopping a owl:Class ;\n    rdfs:label \"Onion Topping\" ;\n    rdfs:comment \"funghi, green bell pepper, green olive, Cheesy Vegetable Topping, chives, Cheesy Vegetable Layer, Giardiniera Pizza, Mushroom Topping, black olive, Spinach Topping, Artichoke Topping, Asparagus Topping, Cheesy Vegetable Cover, raw spinach, Leek Flower, Olive Topping, mushroom cap, bell pepper top, vegetable garnish, Leek Topping, scallion top, Vegetable Topping, fresh spinach, vegetable addition, Green Pepper Topping, Leek Top\" ;\n    rdfs:subClassOf ns1:VegetableTopping ;\n    ns1:is_a_staple ns1:Pizzas .\n\nns1:PeperoniSausageTopping a owl:Class ;\n    rdfs:label \"Peperoni Sausage Topping\" ;\n    rdfs:comment \"Pepperoni Topping, Meat Topping, meat sauce, Chicken Topping, Parma Ham Topping, ground meat, chicken piece topping, Meaty Pizza, poultry topping, Pepperoni Pizza, Meat Lovers Pizza\" ;\n    ns1:is_popular ns1:VegetableTopping .\n\nns1:PizzaBases a owl:Class ;\n    rdfs:label \"pizza bases\" ;\n    rdfs:comment \"pizza dough, pizza crust\" .\n\nns1:VegetableTopping a owl:Class ;\n    rdfs:label \"Vegetable Topping\" ;\n    rdfs:comment \"vegetable garnish, vegetable addition, Vegetarian Pizza, veggie pizza\" ;\n    rdfs:subClassOf ns1:Ingredients .\n\nns1:VersatileDish a owl:Class ;\n    rdfs:label \"versatile dish\" ;\n    rdfs:comment \"flexible dish, palate, diverse, varied, palatum, heterogeneous, multi-purpose dish, roof of the mouth, multifarious, tastebuds\" .\n\nns1:Ingredients a owl:Class ;\n    rdfs:label \"ingredients\" ;\n    rdfs:comment \"toppings, tomatoes, fermented wheat dough, ingrediential, substance, garnishes, love apples, leavened wheat-based dough, toppings, extras, leavened bread dough, tomato fruit, component\" ;\n    ns1:are ns1:VersatileDish ;\n    ns1:can_be_categorized ns1:Cheese ;\n    ns1:cater ns1:VersatileDish .\n\nns1:Pizzas a owl:Class ;\n    rdfs:label \"pizzas\" ;\n    rdfs:comment \"Italian pizza, pizza, Italian-descent, italian pizza, Italian origin, pizza pie, Italian-origin\" ;\n    ns1:consisting ns1:PizzaBases ;\n    ns1:include ns1:OnionTopping ;\n    ns1:known_for ns1:Ingredients ;\n    ns1:ranging ns1:PeperoniSausageTopping .\n\n"
+}

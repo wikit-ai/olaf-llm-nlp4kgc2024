@@ -1,0 +1,271 @@
+@prefix ns1: <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ns1:LowCarbon a owl:Class .
+
+ns1:StripLike a owl:Class .
+
+ns1:hasAppearance a owl:NamedIndividual,
+        owl:ObjectProperty ;
+    rdfs:domain ns1:product ;
+    rdfs:range ns1:appearance .
+
+ns1:hasCrescentGap a owl:NamedIndividual,
+        owl:ObjectProperty ;
+    rdfs:domain ns1:product ;
+    rdfs:range ns1:CrescentGap .
+
+ns1:hasFolds a owl:NamedIndividual,
+        owl:ObjectProperty ;
+    rdfs:domain ns1:product ;
+    rdfs:range ns1:folds .
+
+ns1:hasMechanicalFailure a owl:NamedIndividual,
+        owl:ObjectProperty ;
+    rdfs:domain ns1:product ;
+    rdfs:range ns1:mechanicalFailure .
+
+ns1:hasPlate a owl:NamedIndividual,
+        owl:ObjectProperty ;
+    rdfs:domain ns1:product ;
+    rdfs:range ns1:plate .
+
+ns1:hasProcess a owl:NamedIndividual,
+        owl:ObjectProperty ;
+    rdfs:domain ns1:product ;
+    rdfs:range ns1:processes .
+
+ns1:hasPunctate a owl:NamedIndividual,
+        owl:ObjectProperty ;
+    rdfs:domain ns1:product ;
+    rdfs:range ns1:punctate .
+
+ns1:hasReason a owl:NamedIndividual,
+        owl:ObjectProperty ;
+    rdfs:domain ns1:product ;
+    rdfs:range ns1:reasons .
+
+ns1:hasSilkSpot a owl:NamedIndividual,
+        owl:ObjectProperty ;
+    rdfs:domain ns1:product ;
+    rdfs:range ns1:SilkSpot .
+
+ns1:hasVerticalTransverseFold a owl:NamedIndividual,
+        owl:ObjectProperty ;
+    rdfs:domain ns1:product ;
+    rdfs:range ns1:verticalTransverseFold .
+
+ns1:hasWaterSpot a owl:NamedIndividual,
+        owl:ObjectProperty ;
+    rdfs:domain ns1:product ;
+    rdfs:range ns1:WaterSpot .
+
+ns1:hasWeldingLine a owl:NamedIndividual,
+        owl:ObjectProperty ;
+    rdfs:domain ns1:product ;
+    rdfs:range ns1:WeldingLine .
+
+ns1:lowCarbon a owl:NamedIndividual .
+
+ns1:pressed a owl:NamedIndividual .
+
+ns1:product1 a owl:NamedIndividual,
+        ns1:product ;
+    rdfs:label "merchandise" ;
+    ns1:hasAppearance ns1:appearance1 ;
+    ns1:hasCrescentGap ns1:CrescentGap1 ;
+    ns1:hasFolds ns1:folds1 ;
+    ns1:hasMechanicalFailure ns1:mechanicalFailure1 ;
+    ns1:hasPlate ns1:plate1 ;
+    ns1:hasProcess ns1:processes1 ;
+    ns1:hasPunctate ns1:punctate1 ;
+    ns1:hasReason ns1:reasons1 ;
+    ns1:hasSilkSpot ns1:SilkSpot1 ;
+    ns1:hasVerticalTransverseFold ns1:verticalTransverseFold1 ;
+    ns1:hasWaterSpot ns1:WaterSpot1 ;
+    ns1:hasWeldingLine ns1:WeldingLine1 .
+
+ns1:productionLine a owl:Class,
+        owl:NamedIndividual ;
+    rdfs:label "production line" ;
+    rdfs:subClassOf owl:Thing .
+
+ns1:punchingDefects a owl:NamedIndividual .
+
+ns1:punctate2 a owl:NamedIndividual,
+        ns1:punctate ;
+    rdfs:label "damage" .
+
+ns1:CrescentGap1 a owl:NamedIndividual,
+        ns1:CrescentGap ;
+    rdfs:label "steel tape" .
+
+ns1:Damage a owl:Class .
+
+ns1:Pressed a owl:Class .
+
+ns1:PunchingDefects a owl:Class .
+
+ns1:SilkSpot1 a owl:NamedIndividual,
+        ns1:SilkSpot ;
+    rdfs:label "strip" .
+
+ns1:WaterSpot1 a owl:NamedIndividual,
+        ns1:WaterSpot ;
+    rdfs:label "desiccation" .
+
+ns1:WeldingLine1 a owl:NamedIndividual,
+        ns1:WeldingLine ;
+    rdfs:label "weld line" .
+
+ns1:appearance1 a owl:NamedIndividual,
+        ns1:appearance ;
+    rdfs:label "infection" .
+
+ns1:folds1 a owl:NamedIndividual,
+        ns1:folds ;
+    rdfs:label "low-emission" .
+
+ns1:mechanicalFailure1 a owl:NamedIndividual,
+        ns1:mechanicalFailure ;
+    rdfs:label "line" .
+
+ns1:plate1 a owl:NamedIndividual,
+        ns1:plate ;
+    rdfs:label "block irregular distribution" .
+
+ns1:processes1 a owl:NamedIndividual,
+        ns1:processes ;
+    rdfs:label "merchandise" .
+
+ns1:punctate1 a owl:NamedIndividual,
+        ns1:punctate ;
+    rdfs:label "dotted" .
+
+ns1:reasons1 a owl:NamedIndividual,
+        ns1:reasons ;
+    rdfs:label "motives" .
+
+ns1:requirementsFor a owl:NamedIndividual .
+
+ns1:rolledFlaky a owl:NamedIndividual .
+
+ns1:rolledFlakyPitsBulges a owl:NamedIndividual .
+
+ns1:stripLikeDamageRolled a owl:NamedIndividual .
+
+ns1:verticalTransverseFold1 a owl:NamedIndividual,
+        ns1:verticalTransverseFold ;
+    rdfs:label "unwinding process" .
+
+ns1:CrescentGap a owl:Class,
+        owl:NamedIndividual ;
+    rdfs:label "Crescent gap" ;
+    rdfs:subClassOf owl:Thing .
+
+ns1:Rolled a owl:Class .
+
+ns1:SilkSpot a owl:Class,
+        owl:NamedIndividual ;
+    rdfs:label "Silk spot" ;
+    rdfs:subClassOf owl:Thing .
+
+ns1:WaterSpot a owl:Class,
+        owl:NamedIndividual,
+        ns1:Drying ;
+    rdfs:label "Water spot" ;
+    rdfs:subClassOf owl:Thing ;
+    owl:equivalentProperty ns1:drying .
+
+ns1:WeldingLine a owl:Class,
+        owl:NamedIndividual,
+        ns1:Cutting,
+        ns1:Weld ;
+    rdfs:label "Welding line" ;
+    rdfs:subClassOf owl:Thing ;
+    owl:equivalentProperty ns1:cutting,
+        ns1:weld .
+
+ns1:appearance a owl:Class,
+        owl:NamedIndividual,
+        ns1:Affect,
+        ns1:Pressed ;
+    rdfs:label "appearance" ;
+    rdfs:subClassOf owl:Thing ;
+    owl:equivalentProperty ns1:affect .
+
+ns1:folds a owl:Class,
+        owl:NamedIndividual,
+        ns1:Folding ;
+    rdfs:label "folds" ;
+    rdfs:subClassOf owl:Thing ;
+    owl:equivalentProperty ns1:folding .
+
+ns1:plate a owl:Class,
+        owl:NamedIndividual,
+        ns1:Fall,
+        ns1:Flaky,
+        ns1:Rolled,
+        ns1:Spacing,
+        ns1:StripLikeDamageRolled ;
+    rdfs:label "plate" ;
+    rdfs:subClassOf owl:Thing ;
+    owl:equivalentProperty ns1:fall,
+        ns1:flaky,
+        ns1:punctate,
+        ns1:spacing,
+        ns1:stripLikeDamageRolled .
+
+ns1:processes a owl:Class,
+        owl:NamedIndividual,
+        ns1:RequirementsFor ;
+    rdfs:label "processes" ;
+    rdfs:subClassOf owl:Thing ;
+    owl:equivalentProperty ns1:requirementsFor .
+
+ns1:reasons a owl:Class,
+        owl:NamedIndividual,
+        ns1:Circumvented ;
+    rdfs:label "reasons" ;
+    rdfs:subClassOf owl:Thing ;
+    owl:equivalentProperty ns1:circumvented .
+
+ns1:verticalTransverseFold a owl:Class,
+        owl:NamedIndividual,
+        ns1:Yield ;
+    rdfs:label "vertical transverse fold" ;
+    rdfs:subClassOf owl:Thing ;
+    owl:equivalentProperty ns1:yield .
+
+ns1:mechanicalFailure a owl:Class,
+        owl:NamedIndividual,
+        ns1:Damage,
+        ns1:Punching,
+        ns1:UnwantedPunching ;
+    rdfs:label "mechanical failure" ;
+    rdfs:subClassOf owl:Thing ;
+    owl:equivalentProperty ns1:punching,
+        ns1:unwantedPunching .
+
+ns1:punctate a owl:Class,
+        owl:NamedIndividual,
+        ns1:Punctate,
+        ns1:Rolled,
+        ns1:RolledFlaky,
+        ns1:RolledFlakyPitsBulges ;
+    rdfs:label "punctate" ;
+    rdfs:subClassOf owl:Thing ;
+    owl:equivalentProperty ns1:punctate,
+        ns1:rolled,
+        ns1:rolledFlaky,
+        ns1:rolledFlakyPitsBulges .
+
+ns1:product a owl:Class,
+        owl:NamedIndividual,
+        ns1:MechanicalFailure,
+        ns1:PunchingDefects ;
+    rdfs:label "product" ;
+    rdfs:subClassOf owl:Thing ;
+    owl:equivalentProperty ns1:mechanicalFailure .
+

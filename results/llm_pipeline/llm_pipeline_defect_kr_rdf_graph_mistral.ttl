@@ -1,0 +1,517 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#Inclusion> a owl:Class ;
+    rdfs:subClassOf <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#defect> .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#Oil_spot> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#Silk_spot> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#addition> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#adulteration> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#assembly_line> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#band> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#band-like> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#band_shape> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#bar> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#block_irregular_distribution> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#breakdown> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#bumpy_surfaces> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#carving> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#coils> a owl:Class .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#commodities> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#concentration> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#contamination> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#continuous_plaque> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#corruption> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#course> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#creases> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#crescent_opening> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#crescent_space> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#crescent_void> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#crinkle> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#crumple> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#curls> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#cutting> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#defect_parts> a owl:Class .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#defect_type> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#defective_pieces> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#defects> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#deficiency> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#dehydrating> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#denseness> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#density> a owl:Class .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#desiccating> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#division> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#dots> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#dotted> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#drying_in_production> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#elongated> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#elongated_shape> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#erratic> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#evaporating> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#event> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#failure> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#failures> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#faint_contrast> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#fault> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#fault_type> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#faults> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#faulty_components> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#fish_scale_design> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#fish_scale_motif> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#fish_scale_pattern> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#fish_scale_shape> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#flaky> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#flaw_type> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#flawed_parts> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#flaws> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#flecks> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#fold> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#furrows> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#goods> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#grease_spots> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#happening> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#heading> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#hitting> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#imperfection> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#imperfection_type> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#imperfections> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#incident> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#inconsistent> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#inconsistent_distribution> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#inconsistent_heat> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#inconsistent_pressure> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#inconsistent_spacing> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#incorporation> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#industrial_lubricant> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#insertion> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#instance> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#integration> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#irregular_dispersion> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#irregular_pressure> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#irregular_temperature> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#length_of_strip> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#lines> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#local_bending> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#local_deformation> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#local_distortion> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#local_or_continuous_wave-like_plaque> a owl:Class .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#local_warping> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#localized_plaque> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#loops> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#low-carbon> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#low-carbon_dioxide> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#low-emission> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#low-greenhouse_gas> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#low-pollution> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#low_contrast> a owl:Class .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#lubricating_oil> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#machine_lubricant> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#malfunction> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#manufacturing_line> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#mechanical_failure> a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#lead_to> ;
+            owl:someValuesFrom <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#punching_defects> ],
+        [ a owl:Restriction ;
+            owl:onProperty <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#affect> ;
+            owl:someValuesFrom <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#production_line> ] .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#mechanical_lubricant> a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#caused_by> ;
+            owl:someValuesFrom <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#occurrence> ],
+        [ a owl:Restriction ;
+            owl:onProperty <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#needs> ;
+            owl:someValuesFrom <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#processes> ] .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#merchandise> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#metal_defects> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#metal_flaws> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#metal_surface_defects> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#methods> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#moving_direction> a owl:Class .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#oil_marks> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#oil_slick> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#oil_spill> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#oil_spots> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#oil_stains> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#part> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#path> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#peel> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#periodic_bulges> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#petroleum_spot> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#phenomenon> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#piece> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#pita_bread> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#pita_pocket> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#pleats> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#pocket_bread> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#pollution> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#poor_contrast> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#portion> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#pounding> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#procedures> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#product_attributes> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#product_details> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#product_features> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#product_specifications> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#production_of_steel_strip> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#production_process> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#products> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#punching> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#punching_errors> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#punching_flaws> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#punching_imperfections> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#quad_skate> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#recurring_swellings> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#regular_or_irregular_spacing> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#regular_protrusions> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#remove_surface> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#ribbon_shape> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#rings> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#roller> a owl:Class .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#roller_skate> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#rough_pockmarked_surfaces> a owl:Class .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#rugged_surfaces> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#section> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#segment> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#silk_mark> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#silk_patch> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#silky_spot> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#skate> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#slicing> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#small_spots> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#speckled> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#speckles> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#specs> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#spirals> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#steel_band> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#steel_plate> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#steel_plate_surface> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#steel_sheet> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#steel_sheet_surface> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#steel_strip> a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#results_in> ;
+            owl:someValuesFrom <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#defect> ] .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#steel_strip_manufacturing> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#steel_strip_production> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#stippled> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#strain_roll_damage> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#stress_roll_damage> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#striking> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#strip> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#strip-like> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#strip-shaped> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#strip_course> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#strip_length> a owl:Class .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#strip_length_direction> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#strip_off> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#strip_orientation> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#strip_path> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#strip_shape> a owl:Class .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#strip_size> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#stripe> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#surface_imperfections> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#taint> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#techniques> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#temperature_fluctuation> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#tension_roll_damage> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#thickness> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#top_and_bottom> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#trimming> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#unbalanced_pressure> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#uncoiling_process> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#undesired_hitting> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#uneven_distribution> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#uneven_pressure> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#uneven_surfaces> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#unfurling_process> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#uniform_spacing> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#unreliable> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#unrolling_process> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#unsolicited_blow> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#unwanted_punching> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#unwelcome_striking> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#unwinding_process> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#up_and_down_sides> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#upper_and_lower_faces> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#upper_and_lower_surfaces> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#water_mark> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#water_spot> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#water_stain> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#way> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#weak_contrast> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#whorls> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#wrinkle> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#wrinkles> a owl:ObjectProperty .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#Crescent_gap> a owl:Class .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#Rolled_pit> a owl:Class ;
+    rdfs:subClassOf <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#defect> .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#crease> a owl:Class .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#folds> a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#indicating> ;
+            owl:someValuesFrom <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#folds> ] .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#occurrence> a owl:Class .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#processes> a owl:Class .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#production_line> a owl:Class .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#punching_defects> a owl:Class .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#punctate> a owl:Class .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#steel_strip_surface> a owl:Class .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#uneven_temperature> a owl:Class .
+
+<https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#defect> a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#is_described> ;
+            owl:someValuesFrom <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#crease> ],
+        [ a owl:Restriction ;
+            owl:onProperty <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#may_appear> ;
+            owl:someValuesFrom <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#Crescent_gap> ],
+        [ a owl:Restriction ;
+            owl:onProperty <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#appears> ;
+            owl:someValuesFrom <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#uneven_temperature> ],
+        [ a owl:Restriction ;
+            owl:onProperty <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#showing> ;
+            owl:someValuesFrom <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#punctate> ],
+        [ a owl:Restriction ;
+            owl:onProperty <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#lies> ;
+            owl:someValuesFrom <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#steel_strip_surface> ],
+        [ a owl:Restriction ;
+            owl:onProperty <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#is> ;
+            owl:someValuesFrom <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#Rolled_pit> ] .
+

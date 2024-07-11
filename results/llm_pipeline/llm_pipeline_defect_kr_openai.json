@@ -1,0 +1,799 @@
+{
+  "concepts": [
+    {
+      "concept_id": 140385325750288,
+      "label": "production line",
+      "lrs": [
+        { "label": "uncoiling process", "co_texts": ["uncoiling process"] },
+        { "label": "manufacturing line", "co_texts": [] },
+        { "label": "strip length orientation", "co_texts": [] },
+        { "label": "unraveling process", "co_texts": [] },
+        { "label": "unwinding process", "co_texts": [] },
+        { "label": "assembly line", "co_texts": [] },
+        {
+          "label": "strip length direction",
+          "co_texts": ["strip length direction"]
+        },
+        { "label": "production line", "co_texts": ["production line"] }
+      ]
+    },
+    {
+      "concept_id": 140385325321280,
+      "label": "punctate",
+      "lrs": [
+        { "label": "dotted", "co_texts": [] },
+        { "label": "damage", "co_texts": ["damage"] },
+        { "label": "steel plate", "co_texts": ["steel plate"] },
+        { "label": "holes", "co_texts": [] },
+        { "label": "spotted", "co_texts": [] },
+        { "label": "destruction", "co_texts": [] },
+        { "label": "metal plate", "co_texts": [] },
+        { "label": "flaky", "co_texts": ["flaky"] },
+        { "label": "harm", "co_texts": [] },
+        { "label": "Rolled pit", "co_texts": ["Rolled pit"] },
+        { "label": "steel sheet", "co_texts": [] },
+        { "label": "tidal bulges", "co_texts": [] },
+        { "label": "tidal deformations", "co_texts": [] },
+        { "label": "pits", "co_texts": ["pits"] },
+        { "label": "periodic bulges", "co_texts": ["periodic bulges"] },
+        { "label": "crumbly", "co_texts": [] },
+        { "label": "strip-shaped", "co_texts": [] },
+        { "label": "ribbon-like", "co_texts": [] },
+        { "label": "tension roll", "co_texts": ["tension roll"] },
+        { "label": "strip-like", "co_texts": ["strip-like"] },
+        { "label": "working roll", "co_texts": [] },
+        { "label": "indentations", "co_texts": [] },
+        { "label": "brittle", "co_texts": [] },
+        { "label": "work roller", "co_texts": [] },
+        { "label": "rolled pit", "co_texts": [] },
+        { "label": "work roll", "co_texts": ["work roll"] },
+        { "label": "punctate", "co_texts": ["punctate"] },
+        { "label": "breakable", "co_texts": [] },
+        { "label": "ruin", "co_texts": [] },
+        { "label": "fragile", "co_texts": [] },
+        { "label": "injury", "co_texts": [] },
+        { "label": "tension roller", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 140385322414672,
+      "label": "Silk spot",
+      "lrs": [
+        { "label": "strip", "co_texts": [] },
+        { "label": "roller", "co_texts": ["roller"] },
+        { "label": "surface", "co_texts": [] },
+        { "label": "plaque with wave-like appearance", "co_texts": [] },
+        { "label": "plaque resembling waves", "co_texts": [] },
+        { "label": "compactness", "co_texts": [] },
+        { "label": "concentration", "co_texts": [] },
+        { "label": "wave-like plaque", "co_texts": ["wave-like plaque"] },
+        { "label": "Silk spot", "co_texts": ["Silk spot"] },
+        { "label": "silk stain", "co_texts": [] },
+        { "label": "cylinder", "co_texts": [] },
+        { "label": "density", "co_texts": ["density"] },
+        { "label": "drum", "co_texts": [] },
+        { "label": "thickness", "co_texts": [] },
+        { "label": "silk blemish", "co_texts": [] },
+        { "label": "strip surface", "co_texts": ["strip surface"] }
+      ]
+    },
+    {
+      "concept_id": 140385321899088,
+      "label": "Crescent gap",
+      "lrs": [
+        { "label": "steel tape", "co_texts": [] },
+        { "label": "cutting", "co_texts": ["cutting"] },
+        { "label": "steel band", "co_texts": [] },
+        { "label": "crescent gap", "co_texts": [] },
+        { "label": "steel strip", "co_texts": ["steel strip"] },
+        { "label": "shearing", "co_texts": [] },
+        { "label": "semicircle", "co_texts": [] },
+        { "label": "Crescent gap", "co_texts": ["Crescent gap"] },
+        { "label": "trimming", "co_texts": [] },
+        { "label": "half a circle", "co_texts": ["half a circle"] },
+        { "label": "pruning", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 140385321694832,
+      "label": "processes",
+      "lrs": [
+        { "label": "merchandise", "co_texts": [] },
+        { "label": "specifications", "co_texts": [] },
+        { "label": "items", "co_texts": [] },
+        { "label": "processes", "co_texts": ["processes"] },
+        { "label": "defect", "co_texts": ["defect"] },
+        { "label": "fault", "co_texts": [] },
+        { "label": "imperfection", "co_texts": [] },
+        { "label": "products", "co_texts": ["products"] },
+        { "label": "prerequisites", "co_texts": [] },
+        { "label": "methods", "co_texts": [] },
+        { "label": "blemish", "co_texts": [] },
+        { "label": "procedures", "co_texts": [] },
+        { "label": "goods", "co_texts": [] },
+        {
+          "label": "strip length direction",
+          "co_texts": ["strip length direction"]
+        },
+        { "label": "steps", "co_texts": [] },
+        { "label": "requirements", "co_texts": ["requirements"] },
+        { "label": "needs", "co_texts": [] },
+        { "label": "flaw", "co_texts": [] },
+        { "label": "strip length orientation", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 140385321898128,
+      "label": "Welding line",
+      "lrs": [
+        { "label": "weld line", "co_texts": ["weld line"] },
+        { "label": "strip", "co_texts": ["strip"] },
+        { "label": "Welding line", "co_texts": ["Welding line"] },
+        { "label": "spirals", "co_texts": [] },
+        { "label": "successive cuts", "co_texts": [] },
+        { "label": "weld seam", "co_texts": [] },
+        { "label": "bar", "co_texts": [] },
+        { "label": "coils", "co_texts": ["coils"] },
+        { "label": "following cuts", "co_texts": [] },
+        { "label": "band", "co_texts": [] },
+        {
+          "label": "automatically detected",
+          "co_texts": ["automatically detected"]
+        },
+        { "label": "automatically identified", "co_texts": [] },
+        { "label": "windings", "co_texts": [] },
+        { "label": "streak", "co_texts": [] },
+        { "label": "subsequent cuts", "co_texts": ["subsequent cuts"] },
+        { "label": "welding line", "co_texts": [] },
+        { "label": "ribbon", "co_texts": [] },
+        { "label": "automatically recognized", "co_texts": [] },
+        { "label": "line", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 140385322593984,
+      "label": "product",
+      "lrs": [
+        { "label": "merchandise", "co_texts": [] },
+        { "label": "surface", "co_texts": ["surface"] },
+        { "label": "good", "co_texts": [] },
+        { "label": "strip surface", "co_texts": ["strip surface"] },
+        { "label": "outer", "co_texts": [] },
+        { "label": "top", "co_texts": [] },
+        { "label": "margin", "co_texts": [] },
+        { "label": "product", "co_texts": ["product"] },
+        { "label": "perimeter", "co_texts": [] },
+        { "label": "rim", "co_texts": [] },
+        { "label": "boundary", "co_texts": [] },
+        { "label": "border", "co_texts": [] },
+        { "label": "edge", "co_texts": ["edge"] },
+        { "label": "part", "co_texts": [] },
+        { "label": "making", "co_texts": [] },
+        { "label": "segment", "co_texts": [] },
+        { "label": "manufacturing", "co_texts": [] },
+        { "label": "portion", "co_texts": [] },
+        { "label": "creation", "co_texts": [] },
+        { "label": "section", "co_texts": ["section"] },
+        { "label": "fabrication", "co_texts": [] },
+        { "label": "steel strip finish", "co_texts": [] },
+        { "label": "production", "co_texts": ["production"] },
+        { "label": "steel strip coating", "co_texts": [] },
+        { "label": "chief factor", "co_texts": [] },
+        { "label": "steel strip outer layer", "co_texts": [] },
+        { "label": "primary cause", "co_texts": [] },
+        { "label": "steel strip surface", "co_texts": ["steel strip surface"] },
+        { "label": "main reason", "co_texts": ["main reason"] },
+        { "label": "strip size", "co_texts": [] },
+        { "label": "flaws", "co_texts": [] },
+        { "label": "strip measurement", "co_texts": [] },
+        { "label": "faults", "co_texts": [] },
+        { "label": "strip length", "co_texts": ["strip length"] },
+        { "label": "imperfections", "co_texts": [] },
+        { "label": "exterior", "co_texts": [] },
+        { "label": "item", "co_texts": [] },
+        { "label": "defects", "co_texts": ["defects"] },
+        { "label": "face", "co_texts": [] },
+        { "label": "commodity", "co_texts": [] },
+        { "label": "strip", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 140385325320464,
+      "label": "plate",
+      "lrs": [
+        {
+          "label": "block irregular distribution",
+          "co_texts": ["block irregular distribution"]
+        },
+        { "label": "free", "co_texts": [] },
+        { "label": "bumpy pockmarked surfaces", "co_texts": [] },
+        { "label": "distribution", "co_texts": [] },
+        { "label": "block", "co_texts": [] },
+        { "label": "squeezed", "co_texts": [] },
+        { "label": "droopy", "co_texts": [] },
+        { "label": "compressed", "co_texts": [] },
+        { "label": "uneven pitted surfaces", "co_texts": [] },
+        { "label": "fish scale pattern", "co_texts": [] },
+        { "label": "dots", "co_texts": [] },
+        { "label": "platter", "co_texts": [] },
+        { "label": "fish scale shape", "co_texts": ["fish scale shape"] },
+        { "label": "strip form", "co_texts": [] },
+        { "label": "encompassment", "co_texts": [] },
+        { "label": "slack", "co_texts": [] },
+        { "label": "pressed", "co_texts": ["pressed"] },
+        { "label": "spots", "co_texts": ["spots"] },
+        { "label": "unfastened", "co_texts": [] },
+        { "label": "strip shape", "co_texts": ["strip shape"] },
+        { "label": "integration", "co_texts": [] },
+        { "label": "freckles", "co_texts": [] },
+        { "label": "plate", "co_texts": ["plate"] },
+        {
+          "label": "rough pockmarked surfaces",
+          "co_texts": ["rough pockmarked surfaces"]
+        },
+        { "label": "strip configuration", "co_texts": [] },
+        { "label": "irregular", "co_texts": [] },
+        { "label": "loose", "co_texts": ["loose"] },
+        { "label": "crushed", "co_texts": [] },
+        { "label": "surface flaws", "co_texts": [] },
+        {
+          "label": "metal surface defects",
+          "co_texts": ["metal surface defects"]
+        },
+        { "label": "surface imperfections", "co_texts": [] },
+        { "label": "scale-like shape", "co_texts": [] },
+        { "label": "untied", "co_texts": [] },
+        { "label": "Inclusion", "co_texts": ["Inclusion"] },
+        { "label": "incorporation", "co_texts": [] },
+        { "label": "dish", "co_texts": [] },
+        { "label": "stains", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 140385321694496,
+      "label": "reasons",
+      "lrs": [
+        { "label": "motives", "co_texts": [] },
+        { "label": "course", "co_texts": [] },
+        { "label": "causes", "co_texts": [] },
+        { "label": "reasons", "co_texts": ["reasons"] },
+        { "label": "explanations", "co_texts": [] },
+        { "label": "direction", "co_texts": [] },
+        { "label": "tracked", "co_texts": ["tracked"] },
+        { "label": "followed", "co_texts": [] },
+        { "label": "traced", "co_texts": [] },
+        { "label": "pursued", "co_texts": [] },
+        { "label": "moving direction", "co_texts": ["moving direction"] },
+        { "label": "heading", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 140385321906480,
+      "label": "mechanical failure",
+      "lrs": [
+        { "label": "line", "co_texts": [] },
+        { "label": "streak", "co_texts": [] },
+        { "label": "ribbon", "co_texts": [] },
+        { "label": "band", "co_texts": [] },
+        { "label": "bar", "co_texts": [] },
+        { "label": "mechanical failure", "co_texts": ["mechanical failure"] },
+        { "label": "strip", "co_texts": ["strip"] },
+        { "label": "punching faults", "co_texts": [] },
+        { "label": "punching issues", "co_texts": [] },
+        { "label": "equipment failure", "co_texts": [] },
+        { "label": "punching defects", "co_texts": ["punching defects"] },
+        { "label": "mechanical breakdown", "co_texts": [] },
+        { "label": "hitting", "co_texts": [] },
+        { "label": "boxing", "co_texts": [] },
+        { "label": "striking", "co_texts": [] },
+        { "label": "Punching", "co_texts": ["Punching"] },
+        { "label": "product details", "co_texts": [] },
+        { "label": "product information", "co_texts": [] },
+        {
+          "label": "product specifications",
+          "co_texts": ["product specifications"]
+        }
+      ]
+    },
+    {
+      "concept_id": 140385322595136,
+      "label": "appearance",
+      "lrs": [
+        { "label": "infection", "co_texts": [] },
+        { "label": "look", "co_texts": [] },
+        { "label": "oil", "co_texts": [] },
+        { "label": "pollution", "co_texts": [] },
+        { "label": "lubricant", "co_texts": [] },
+        { "label": "impurity", "co_texts": [] },
+        { "label": "appearance", "co_texts": ["appearance"] },
+        {
+          "label": "mechanical lubricant",
+          "co_texts": ["mechanical lubricant"]
+        },
+        { "label": "contamination", "co_texts": ["contamination"] },
+        { "label": "presence", "co_texts": [] },
+        { "label": "grease", "co_texts": [] },
+        { "label": "taint", "co_texts": [] },
+        { "label": "aspect", "co_texts": [] },
+        { "label": "lube", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 140385325755808,
+      "label": "folds",
+      "lrs": [
+        { "label": "low-emission", "co_texts": [] },
+        { "label": "local deformation", "co_texts": ["local deformation"] },
+        { "label": "faulty parts", "co_texts": [] },
+        { "label": "low-carbon", "co_texts": ["low-carbon"] },
+        { "label": "creases", "co_texts": [] },
+        { "label": "imperfect parts", "co_texts": [] },
+        { "label": "waist tucking", "co_texts": [] },
+        { "label": "wrinkles", "co_texts": [] },
+        { "label": "defect parts", "co_texts": ["defect parts"] },
+        { "label": "low-carbon footprint", "co_texts": [] },
+        { "label": "waist cinching", "co_texts": [] },
+        { "label": "local strain", "co_texts": [] },
+        { "label": "Waist folding", "co_texts": ["Waist folding"] },
+        { "label": "folds", "co_texts": ["folds"] },
+        { "label": "local distortion", "co_texts": [] },
+        { "label": "flawed parts", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 140385322418080,
+      "label": "vertical transverse fold",
+      "lrs": [
+        { "label": "unwinding process", "co_texts": [] },
+        { "label": "regional output", "co_texts": [] },
+        { "label": "ribbon", "co_texts": [] },
+        { "label": "transverse fold", "co_texts": [] },
+        { "label": "bar", "co_texts": [] },
+        { "label": "uncoiling process", "co_texts": ["uncoiling process"] },
+        { "label": "band", "co_texts": [] },
+        { "label": "local production", "co_texts": [] },
+        { "label": "local yield", "co_texts": ["local yield"] },
+        { "label": "line", "co_texts": [] },
+        { "label": "vertical fold", "co_texts": [] },
+        { "label": "strip", "co_texts": ["strip"] },
+        {
+          "label": "vertical transverse fold",
+          "co_texts": ["vertical transverse fold"]
+        },
+        { "label": "unraveling process", "co_texts": [] },
+        { "label": "streak", "co_texts": [] }
+      ]
+    },
+    {
+      "concept_id": 140385321898992,
+      "label": "Water spot",
+      "lrs": [
+        { "label": "desiccation", "co_texts": [] },
+        { "label": "watermark", "co_texts": [] },
+        { "label": "oil spots", "co_texts": ["oil spots"] },
+        { "label": "oil stains", "co_texts": [] },
+        { "label": "low contrast", "co_texts": ["low contrast"] },
+        { "label": "poor contrast", "co_texts": [] },
+        { "label": "fault", "co_texts": [] },
+        { "label": "mistake", "co_texts": ["mistake"] },
+        { "label": "error", "co_texts": [] },
+        { "label": "gaffe", "co_texts": [] },
+        { "label": "grease spots", "co_texts": [] },
+        { "label": "slip", "co_texts": [] },
+        { "label": "Water spot", "co_texts": ["Water spot"] },
+        { "label": "evaporation", "co_texts": [] },
+        { "label": "weak contrast", "co_texts": [] },
+        { "label": "blunder", "co_texts": [] },
+        { "label": "drying", "co_texts": ["drying"] },
+        { "label": "stain", "co_texts": [] },
+        { "label": "blemish", "co_texts": [] }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "source_concept_id": 140385321694496,
+      "destination_concept_id": 140385321898128,
+      "label": "circumvented",
+      "lrs": [{ "label": "circumvented", "co_texts": ["circumvented"] }]
+    },
+    {
+      "source_concept_id": 140385321898128,
+      "destination_concept_id": 140385322593984,
+      "label": "cutting",
+      "lrs": [{ "label": "cutting", "co_texts": ["cutting"] }]
+    },
+    {
+      "source_concept_id": 140385325320464,
+      "destination_concept_id": 140385322414672,
+      "label": "spacing",
+      "lrs": [{ "label": "spacing", "co_texts": ["spacing"] }]
+    },
+    {
+      "source_concept_id": 140385325320464,
+      "destination_concept_id": 140385321906480,
+      "label": "flaky",
+      "lrs": [
+        { "label": "flaky", "co_texts": ["flaky"] },
+        { "label": "punctate", "co_texts": ["punctate"] }
+      ]
+    },
+    {
+      "source_concept_id": 140385325321280,
+      "destination_concept_id": 140385322593984,
+      "label": "flaky",
+      "lrs": [
+        { "label": "pits", "co_texts": ["pits"] },
+        { "label": "punctate", "co_texts": ["punctate"] },
+        { "label": "bulges", "co_texts": ["bulges"] },
+        { "label": "flaky", "co_texts": ["flaky"] }
+      ]
+    },
+    {
+      "source_concept_id": 140385321898128,
+      "destination_concept_id": 140385321906480,
+      "label": "weld",
+      "lrs": [{ "label": "weld", "co_texts": ["weld"] }]
+    },
+    {
+      "source_concept_id": null,
+      "destination_concept_id": null,
+      "label": "low-carbon",
+      "lrs": [{ "label": "low-carbon", "co_texts": ["low-carbon"] }]
+    },
+    {
+      "source_concept_id": 140385322418080,
+      "destination_concept_id": 140385321694496,
+      "label": "yield",
+      "lrs": [{ "label": "yield", "co_texts": ["yield"] }]
+    },
+    {
+      "source_concept_id": 140385322595136,
+      "destination_concept_id": 140385322595136,
+      "label": "affect",
+      "lrs": [{ "label": "affect", "co_texts": ["affect"] }]
+    },
+    {
+      "source_concept_id": 140385322418080,
+      "destination_concept_id": 140385322593984,
+      "label": "cutting",
+      "lrs": [{ "label": "cutting", "co_texts": ["cutting"] }]
+    },
+    {
+      "source_concept_id": 140385321906480,
+      "destination_concept_id": 140385322593984,
+      "label": "punching",
+      "lrs": [
+        { "label": "unwanted punching", "co_texts": ["unwanted punching"] },
+        { "label": "punching", "co_texts": ["punching"] }
+      ]
+    },
+    {
+      "source_concept_id": 140385321898128,
+      "destination_concept_id": 140385321898128,
+      "label": "weld",
+      "lrs": [{ "label": "weld", "co_texts": ["weld"] }]
+    },
+    {
+      "source_concept_id": 140385322418080,
+      "destination_concept_id": 140385321906480,
+      "label": "weld",
+      "lrs": [{ "label": "weld", "co_texts": ["weld"] }]
+    },
+    {
+      "source_concept_id": 140385325320464,
+      "destination_concept_id": 140385322418080,
+      "label": "spacing",
+      "lrs": [{ "label": "spacing", "co_texts": ["spacing"] }]
+    },
+    {
+      "source_concept_id": 140385321898992,
+      "destination_concept_id": 140385322593984,
+      "label": "drying in",
+      "lrs": [{ "label": "drying in", "co_texts": ["drying in"] }]
+    },
+    {
+      "source_concept_id": 140385321898128,
+      "destination_concept_id": 140385322418080,
+      "label": "weld",
+      "lrs": [{ "label": "weld", "co_texts": ["weld"] }]
+    },
+    {
+      "source_concept_id": null,
+      "destination_concept_id": null,
+      "label": "weld",
+      "lrs": [{ "label": "weld", "co_texts": ["weld"] }]
+    },
+    {
+      "source_concept_id": 140385321899088,
+      "destination_concept_id": 140385322593984,
+      "label": "cutting",
+      "lrs": [{ "label": "cutting", "co_texts": ["cutting"] }]
+    },
+    {
+      "source_concept_id": 140385325320464,
+      "destination_concept_id": 140385321898128,
+      "label": "punctate",
+      "lrs": [
+        { "label": "punctate", "co_texts": ["punctate"] },
+        { "label": "flaky", "co_texts": ["flaky"] }
+      ]
+    },
+    {
+      "source_concept_id": 140385325320464,
+      "destination_concept_id": 140385321906480,
+      "label": "spacing",
+      "lrs": [{ "label": "spacing", "co_texts": ["spacing"] }]
+    },
+    {
+      "source_concept_id": null,
+      "destination_concept_id": null,
+      "label": "punching defects",
+      "lrs": [
+        { "label": "punching", "co_texts": ["punching"] },
+        { "label": "punching defects", "co_texts": ["punching defects"] }
+      ]
+    },
+    {
+      "source_concept_id": 140385325320464,
+      "destination_concept_id": 140385325320464,
+      "label": "fall off",
+      "lrs": [{ "label": "fall off", "co_texts": ["fall off"] }]
+    },
+    {
+      "source_concept_id": 140385322593984,
+      "destination_concept_id": 140385321906480,
+      "label": "weld",
+      "lrs": [{ "label": "weld", "co_texts": ["weld"] }]
+    },
+    {
+      "source_concept_id": 140385322418080,
+      "destination_concept_id": 140385322418080,
+      "label": "weld",
+      "lrs": [{ "label": "weld", "co_texts": ["weld"] }]
+    },
+    {
+      "source_concept_id": 140385322414672,
+      "destination_concept_id": 140385322593984,
+      "label": "cutting",
+      "lrs": [{ "label": "cutting", "co_texts": ["cutting"] }]
+    },
+    {
+      "source_concept_id": 140385325320464,
+      "destination_concept_id": 140385322418080,
+      "label": "flaky",
+      "lrs": [
+        { "label": "flaky", "co_texts": ["flaky"] },
+        { "label": "punctate", "co_texts": ["punctate"] }
+      ]
+    },
+    {
+      "source_concept_id": 140385321906480,
+      "destination_concept_id": 140385322418080,
+      "label": "weld",
+      "lrs": [{ "label": "weld", "co_texts": ["weld"] }]
+    },
+    {
+      "source_concept_id": 140385322593984,
+      "destination_concept_id": 140385322418080,
+      "label": "weld",
+      "lrs": [{ "label": "weld", "co_texts": ["weld"] }]
+    },
+    {
+      "source_concept_id": 140385322593984,
+      "destination_concept_id": 140385321694496,
+      "label": "yield",
+      "lrs": [{ "label": "yield", "co_texts": ["yield"] }]
+    },
+    {
+      "source_concept_id": 140385325320464,
+      "destination_concept_id": 140385322593984,
+      "label": "flaky",
+      "lrs": [
+        { "label": "punctate", "co_texts": ["punctate"] },
+        { "label": "flaky", "co_texts": ["flaky"] }
+      ]
+    },
+    {
+      "source_concept_id": 140385322414672,
+      "destination_concept_id": 140385321906480,
+      "label": "weld",
+      "lrs": [{ "label": "weld", "co_texts": ["weld"] }]
+    },
+    {
+      "source_concept_id": 140385322593984,
+      "destination_concept_id": 140385321906480,
+      "label": "mechanical failure",
+      "lrs": [
+        { "label": "mechanical failure", "co_texts": ["mechanical failure"] }
+      ]
+    },
+    {
+      "source_concept_id": 140385322595136,
+      "destination_concept_id": 140385322593984,
+      "label": "affect",
+      "lrs": [{ "label": "affect", "co_texts": ["affect"] }]
+    },
+    {
+      "source_concept_id": 140385321906480,
+      "destination_concept_id": 140385321906480,
+      "label": "weld",
+      "lrs": [{ "label": "weld", "co_texts": ["weld"] }]
+    },
+    {
+      "source_concept_id": 140385325321280,
+      "destination_concept_id": 140385321898128,
+      "label": "flaky",
+      "lrs": [
+        { "label": "punctate", "co_texts": ["punctate"] },
+        { "label": "flaky", "co_texts": ["flaky"] }
+      ]
+    },
+    {
+      "source_concept_id": 140385322414672,
+      "destination_concept_id": 140385322418080,
+      "label": "weld",
+      "lrs": [{ "label": "weld", "co_texts": ["weld"] }]
+    },
+    {
+      "source_concept_id": 140385321906480,
+      "destination_concept_id": 140385322593984,
+      "label": "cutting",
+      "lrs": [{ "label": "cutting", "co_texts": ["cutting"] }]
+    },
+    {
+      "source_concept_id": 140385325320464,
+      "destination_concept_id": 140385325321280,
+      "label": "punctate",
+      "lrs": [
+        { "label": "flaky", "co_texts": ["flaky"] },
+        { "label": "punctate", "co_texts": ["punctate"] }
+      ]
+    },
+    {
+      "source_concept_id": 140385325320464,
+      "destination_concept_id": 140385322414672,
+      "label": "flaky",
+      "lrs": [
+        { "label": "flaky", "co_texts": ["flaky"] },
+        { "label": "punctate", "co_texts": ["punctate"] }
+      ]
+    },
+    {
+      "source_concept_id": 140385321694832,
+      "destination_concept_id": 140385321906480,
+      "label": "mechanical failure",
+      "lrs": [
+        { "label": "mechanical failure", "co_texts": ["mechanical failure"] }
+      ]
+    },
+    {
+      "source_concept_id": 140385321906480,
+      "destination_concept_id": 140385321906480,
+      "label": "unwanted punching",
+      "lrs": [
+        { "label": "unwanted punching", "co_texts": ["unwanted punching"] },
+        { "label": "mechanical failure", "co_texts": ["mechanical failure"] }
+      ]
+    },
+    {
+      "source_concept_id": 140385325755808,
+      "destination_concept_id": 140385325755808,
+      "label": "folding",
+      "lrs": [{ "label": "folding", "co_texts": ["folding"] }]
+    },
+    {
+      "source_concept_id": 140385322414672,
+      "destination_concept_id": 140385321898128,
+      "label": "weld",
+      "lrs": [{ "label": "weld", "co_texts": ["weld"] }]
+    },
+    {
+      "source_concept_id": 140385321898992,
+      "destination_concept_id": 140385321694832,
+      "label": "drying in",
+      "lrs": [{ "label": "drying in", "co_texts": ["drying in"] }]
+    },
+    {
+      "source_concept_id": 140385322418080,
+      "destination_concept_id": 140385321898128,
+      "label": "weld",
+      "lrs": [{ "label": "weld", "co_texts": ["weld"] }]
+    },
+    {
+      "source_concept_id": null,
+      "destination_concept_id": null,
+      "label": "pressed",
+      "lrs": [{ "label": "pressed", "co_texts": ["pressed"] }]
+    },
+    {
+      "source_concept_id": 140385321906480,
+      "destination_concept_id": 140385321898128,
+      "label": "weld",
+      "lrs": [{ "label": "weld", "co_texts": ["weld"] }]
+    },
+    {
+      "source_concept_id": 140385321694832,
+      "destination_concept_id": 140385321694832,
+      "label": "requirements for",
+      "lrs": [{ "label": "requirements for", "co_texts": ["requirements for"] }]
+    },
+    {
+      "source_concept_id": 140385322593984,
+      "destination_concept_id": 140385322593984,
+      "label": "cutting",
+      "lrs": [{ "label": "cutting", "co_texts": ["cutting"] }]
+    },
+    {
+      "source_concept_id": 140385325321280,
+      "destination_concept_id": 140385322414672,
+      "label": "punctate",
+      "lrs": [
+        { "label": "bulges", "co_texts": ["bulges"] },
+        { "label": "flaky", "co_texts": ["flaky"] },
+        { "label": "pits", "co_texts": ["pits"] },
+        { "label": "punctate", "co_texts": ["punctate"] }
+      ]
+    },
+    {
+      "source_concept_id": 140385325321280,
+      "destination_concept_id": 140385322418080,
+      "label": "flaky",
+      "lrs": [
+        { "label": "punctate", "co_texts": ["punctate"] },
+        { "label": "flaky", "co_texts": ["flaky"] }
+      ]
+    },
+    {
+      "source_concept_id": 140385325320464,
+      "destination_concept_id": 140385322593984,
+      "label": "spacing",
+      "lrs": [{ "label": "spacing", "co_texts": ["spacing"] }]
+    },
+    {
+      "source_concept_id": 140385325321280,
+      "destination_concept_id": 140385321906480,
+      "label": "flaky",
+      "lrs": [
+        { "label": "punctate", "co_texts": ["punctate"] },
+        { "label": "flaky", "co_texts": ["flaky"] }
+      ]
+    },
+    {
+      "source_concept_id": 140385322593984,
+      "destination_concept_id": 140385321898128,
+      "label": "weld",
+      "lrs": [{ "label": "weld", "co_texts": ["weld"] }]
+    },
+    {
+      "source_concept_id": null,
+      "destination_concept_id": null,
+      "label": "strip-like",
+      "lrs": [
+        { "label": "damage", "co_texts": ["damage"] },
+        { "label": "strip-like", "co_texts": ["strip-like"] },
+        { "label": "Rolled", "co_texts": ["Rolled"] }
+      ]
+    },
+    {
+      "source_concept_id": 140385325321280,
+      "destination_concept_id": 140385325321280,
+      "label": "Rolled",
+      "lrs": [
+        { "label": "flaky", "co_texts": ["flaky"] },
+        { "label": "pits", "co_texts": ["pits"] },
+        { "label": "bulges", "co_texts": ["bulges"] },
+        { "label": "Rolled", "co_texts": ["Rolled"] },
+        { "label": "punctate", "co_texts": ["punctate"] }
+      ]
+    },
+    {
+      "source_concept_id": 140385325320464,
+      "destination_concept_id": 140385321898128,
+      "label": "spacing",
+      "lrs": [{ "label": "spacing", "co_texts": ["spacing"] }]
+    }
+  ],
+  "metarelations": [],
+  "rdf_graph": "@prefix ns1: <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#> .\n@prefix owl: <http://www.w3.org/2002/07/owl#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\nns1:LowCarbon a owl:Class .\n\nns1:StripLike a owl:Class .\n\nns1:hasAppearance a owl:NamedIndividual,\n        owl:ObjectProperty ;\n    rdfs:domain ns1:product ;\n    rdfs:range ns1:appearance .\n\nns1:hasCrescentGap a owl:NamedIndividual,\n        owl:ObjectProperty ;\n    rdfs:domain ns1:product ;\n    rdfs:range ns1:CrescentGap .\n\nns1:hasFolds a owl:NamedIndividual,\n        owl:ObjectProperty ;\n    rdfs:domain ns1:product ;\n    rdfs:range ns1:folds .\n\nns1:hasMechanicalFailure a owl:NamedIndividual,\n        owl:ObjectProperty ;\n    rdfs:domain ns1:product ;\n    rdfs:range ns1:mechanicalFailure .\n\nns1:hasPlate a owl:NamedIndividual,\n        owl:ObjectProperty ;\n    rdfs:domain ns1:product ;\n    rdfs:range ns1:plate .\n\nns1:hasProcess a owl:NamedIndividual,\n        owl:ObjectProperty ;\n    rdfs:domain ns1:product ;\n    rdfs:range ns1:processes .\n\nns1:hasPunctate a owl:NamedIndividual,\n        owl:ObjectProperty ;\n    rdfs:domain ns1:product ;\n    rdfs:range ns1:punctate .\n\nns1:hasReason a owl:NamedIndividual,\n        owl:ObjectProperty ;\n    rdfs:domain ns1:product ;\n    rdfs:range ns1:reasons .\n\nns1:hasSilkSpot a owl:NamedIndividual,\n        owl:ObjectProperty ;\n    rdfs:domain ns1:product ;\n    rdfs:range ns1:SilkSpot .\n\nns1:hasVerticalTransverseFold a owl:NamedIndividual,\n        owl:ObjectProperty ;\n    rdfs:domain ns1:product ;\n    rdfs:range ns1:verticalTransverseFold .\n\nns1:hasWaterSpot a owl:NamedIndividual,\n        owl:ObjectProperty ;\n    rdfs:domain ns1:product ;\n    rdfs:range ns1:WaterSpot .\n\nns1:hasWeldingLine a owl:NamedIndividual,\n        owl:ObjectProperty ;\n    rdfs:domain ns1:product ;\n    rdfs:range ns1:WeldingLine .\n\nns1:lowCarbon a owl:NamedIndividual .\n\nns1:pressed a owl:NamedIndividual .\n\nns1:product1 a owl:NamedIndividual,\n        ns1:product ;\n    rdfs:label \"merchandise\" ;\n    ns1:hasAppearance ns1:appearance1 ;\n    ns1:hasCrescentGap ns1:CrescentGap1 ;\n    ns1:hasFolds ns1:folds1 ;\n    ns1:hasMechanicalFailure ns1:mechanicalFailure1 ;\n    ns1:hasPlate ns1:plate1 ;\n    ns1:hasProcess ns1:processes1 ;\n    ns1:hasPunctate ns1:punctate1 ;\n    ns1:hasReason ns1:reasons1 ;\n    ns1:hasSilkSpot ns1:SilkSpot1 ;\n    ns1:hasVerticalTransverseFold ns1:verticalTransverseFold1 ;\n    ns1:hasWaterSpot ns1:WaterSpot1 ;\n    ns1:hasWeldingLine ns1:WeldingLine1 .\n\nns1:productionLine a owl:Class,\n        owl:NamedIndividual ;\n    rdfs:label \"production line\" ;\n    rdfs:subClassOf owl:Thing .\n\nns1:punchingDefects a owl:NamedIndividual .\n\nns1:punctate2 a owl:NamedIndividual,\n        ns1:punctate ;\n    rdfs:label \"damage\" .\n\nns1:CrescentGap1 a owl:NamedIndividual,\n        ns1:CrescentGap ;\n    rdfs:label \"steel tape\" .\n\nns1:Damage a owl:Class .\n\nns1:Pressed a owl:Class .\n\nns1:PunchingDefects a owl:Class .\n\nns1:SilkSpot1 a owl:NamedIndividual,\n        ns1:SilkSpot ;\n    rdfs:label \"strip\" .\n\nns1:WaterSpot1 a owl:NamedIndividual,\n        ns1:WaterSpot ;\n    rdfs:label \"desiccation\" .\n\nns1:WeldingLine1 a owl:NamedIndividual,\n        ns1:WeldingLine ;\n    rdfs:label \"weld line\" .\n\nns1:appearance1 a owl:NamedIndividual,\n        ns1:appearance ;\n    rdfs:label \"infection\" .\n\nns1:folds1 a owl:NamedIndividual,\n        ns1:folds ;\n    rdfs:label \"low-emission\" .\n\nns1:mechanicalFailure1 a owl:NamedIndividual,\n        ns1:mechanicalFailure ;\n    rdfs:label \"line\" .\n\nns1:plate1 a owl:NamedIndividual,\n        ns1:plate ;\n    rdfs:label \"block irregular distribution\" .\n\nns1:processes1 a owl:NamedIndividual,\n        ns1:processes ;\n    rdfs:label \"merchandise\" .\n\nns1:punctate1 a owl:NamedIndividual,\n        ns1:punctate ;\n    rdfs:label \"dotted\" .\n\nns1:reasons1 a owl:NamedIndividual,\n        ns1:reasons ;\n    rdfs:label \"motives\" .\n\nns1:requirementsFor a owl:NamedIndividual .\n\nns1:rolledFlaky a owl:NamedIndividual .\n\nns1:rolledFlakyPitsBulges a owl:NamedIndividual .\n\nns1:stripLikeDamageRolled a owl:NamedIndividual .\n\nns1:verticalTransverseFold1 a owl:NamedIndividual,\n        ns1:verticalTransverseFold ;\n    rdfs:label \"unwinding process\" .\n\nns1:CrescentGap a owl:Class,\n        owl:NamedIndividual ;\n    rdfs:label \"Crescent gap\" ;\n    rdfs:subClassOf owl:Thing .\n\nns1:Rolled a owl:Class .\n\nns1:SilkSpot a owl:Class,\n        owl:NamedIndividual ;\n    rdfs:label \"Silk spot\" ;\n    rdfs:subClassOf owl:Thing .\n\nns1:WaterSpot a owl:Class,\n        owl:NamedIndividual,\n        ns1:Drying ;\n    rdfs:label \"Water spot\" ;\n    rdfs:subClassOf owl:Thing ;\n    owl:equivalentProperty ns1:drying .\n\nns1:WeldingLine a owl:Class,\n        owl:NamedIndividual,\n        ns1:Cutting,\n        ns1:Weld ;\n    rdfs:label \"Welding line\" ;\n    rdfs:subClassOf owl:Thing ;\n    owl:equivalentProperty ns1:cutting,\n        ns1:weld .\n\nns1:appearance a owl:Class,\n        owl:NamedIndividual,\n        ns1:Affect,\n        ns1:Pressed ;\n    rdfs:label \"appearance\" ;\n    rdfs:subClassOf owl:Thing ;\n    owl:equivalentProperty ns1:affect .\n\nns1:folds a owl:Class,\n        owl:NamedIndividual,\n        ns1:Folding ;\n    rdfs:label \"folds\" ;\n    rdfs:subClassOf owl:Thing ;\n    owl:equivalentProperty ns1:folding .\n\nns1:plate a owl:Class,\n        owl:NamedIndividual,\n        ns1:Fall,\n        ns1:Flaky,\n        ns1:Rolled,\n        ns1:Spacing,\n        ns1:StripLikeDamageRolled ;\n    rdfs:label \"plate\" ;\n    rdfs:subClassOf owl:Thing ;\n    owl:equivalentProperty ns1:fall,\n        ns1:flaky,\n        ns1:punctate,\n        ns1:spacing,\n        ns1:stripLikeDamageRolled .\n\nns1:processes a owl:Class,\n        owl:NamedIndividual,\n        ns1:RequirementsFor ;\n    rdfs:label \"processes\" ;\n    rdfs:subClassOf owl:Thing ;\n    owl:equivalentProperty ns1:requirementsFor .\n\nns1:reasons a owl:Class,\n        owl:NamedIndividual,\n        ns1:Circumvented ;\n    rdfs:label \"reasons\" ;\n    rdfs:subClassOf owl:Thing ;\n    owl:equivalentProperty ns1:circumvented .\n\nns1:verticalTransverseFold a owl:Class,\n        owl:NamedIndividual,\n        ns1:Yield ;\n    rdfs:label \"vertical transverse fold\" ;\n    rdfs:subClassOf owl:Thing ;\n    owl:equivalentProperty ns1:yield .\n\nns1:mechanicalFailure a owl:Class,\n        owl:NamedIndividual,\n        ns1:Damage,\n        ns1:Punching,\n        ns1:UnwantedPunching ;\n    rdfs:label \"mechanical failure\" ;\n    rdfs:subClassOf owl:Thing ;\n    owl:equivalentProperty ns1:punching,\n        ns1:unwantedPunching .\n\nns1:punctate a owl:Class,\n        owl:NamedIndividual,\n        ns1:Punctate,\n        ns1:Rolled,\n        ns1:RolledFlaky,\n        ns1:RolledFlakyPitsBulges ;\n    rdfs:label \"punctate\" ;\n    rdfs:subClassOf owl:Thing ;\n    owl:equivalentProperty ns1:punctate,\n        ns1:rolled,\n        ns1:rolledFlaky,\n        ns1:rolledFlakyPitsBulges .\n\nns1:product a owl:Class,\n        owl:NamedIndividual,\n        ns1:MechanicalFailure,\n        ns1:PunchingDefects ;\n    rdfs:label \"product\" ;\n    rdfs:subClassOf owl:Thing ;\n    owl:equivalentProperty ns1:mechanicalFailure .\n\n"
+}

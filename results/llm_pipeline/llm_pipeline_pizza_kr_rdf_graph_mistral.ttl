@@ -1,0 +1,138 @@
+@prefix ns1: <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ns1:Anchovies a owl:Class ;
+    rdfs:label "anchovies" ;
+    rdfs:comment "engraulis mordax, anchovy fish" .
+
+ns1:Basil a owl:Class ;
+    rdfs:label "basil" ;
+    rdfs:comment "sweet basil, Saint John's-wort basil" .
+
+ns1:Capers a owl:Class ;
+    rdfs:label "capers" ;
+    rdfs:comment "caper bush, capers bush" .
+
+ns1:GreenPeppers a owl:Class ;
+    rdfs:label "green peppers" ;
+    rdfs:comment "verdura, green bell peppers" .
+
+ns1:HotGreenPepperTopping a owl:Class ;
+    rdfs:label "Hot Green Pepper Topping" ;
+    rdfs:comment "jalapeno pepper sauce, spicy pepper topping, Cajun Pizza, American Hot Pizza, Jalapeno Pepper Topping, hot pizza, Cajun Seasoning, hot chili topping, spicy pizza, Cajun Spice Topping, peppery pizza, Cajun Blend" .
+
+ns1:Olives a owl:Class ;
+    rdfs:label "olives" ;
+    rdfs:comment "al-zuwwar, olive fruit" .
+
+ns1:PolloAdAstraPizza a owl:Class,
+        ns1:Pizzas ;
+    rdfs:label "Pollo Ad Astra Pizza" ;
+    rdfs:subClassOf ns1:Pizzas ;
+    ns1:features ns1:Ham .
+
+ns1:PrawnsTopping a owl:Class ;
+    rdfs:label "Prawns Topping" ;
+    rdfs:comment "Frutti Di Mare Pizza, Mixed Seafood Topping, Seafood Medley, shrimp, prawn, Mixed Seafood Salad, seafood garnish, Seafood Topping, Seafood Pizza" .
+
+ns1:RedOnions a owl:Class ;
+    rdfs:label "red onions" ;
+    rdfs:comment "crimson onions, red bulb onions" .
+
+ns1:SloppyGiuseppePizza a owl:Class,
+        owl:NamedIndividual ;
+    rdfs:label "Sloppy Giuseppe Pizza" ;
+    rdfs:comment "Messy Joe's Pizza, Sloppy Joe's Pizza Variant" .
+
+ns1:SweetPeppers a owl:Class ;
+    rdfs:label "sweet peppers" ;
+    rdfs:comment "capsicum annuum, sweet bell peppers" .
+
+ns1:ThickAndDoughy a owl:Class ;
+    rdfs:label "thick and doughy" ;
+    rdfs:comment "cloying, stodgy, heavy, Deep Pan Base, dense, sticky" .
+
+ns1:ThinAndCrispyBase a owl:Class ;
+    rdfs:label "Thin And Crispy Base" ;
+    rdfs:comment "lean, wafer-thin, slim, thin and brittle base, delicately crisp, thin and crispy, thin and crunchy base" ;
+    rdfs:subClassOf ns1:PizzaBases .
+
+ns1:UniqueCombinations a owl:Class ;
+    rdfs:label "unique combinations" ;
+    rdfs:comment "distinctive, uncommon toppings, unique toppings, one-of-a-kind, distinctive toppings, unparalleled" .
+
+ns1:are a owl:ObjectProperty .
+
+ns1:can_be_categorized a owl:ObjectProperty .
+
+ns1:cater a owl:ObjectProperty .
+
+ns1:consisting a owl:ObjectProperty .
+
+ns1:features a owl:ObjectProperty .
+
+ns1:include a owl:ObjectProperty .
+
+ns1:is_a_staple a owl:ObjectProperty .
+
+ns1:is_popular a owl:ObjectProperty .
+
+ns1:known_for a owl:ObjectProperty .
+
+ns1:like a owl:ObjectProperty .
+
+ns1:often_loaded a owl:ObjectProperty .
+
+ns1:prefer a owl:ObjectProperty .
+
+ns1:ranging a owl:ObjectProperty .
+
+ns1:Cheese a owl:Class ;
+    rdfs:label "cheese" ;
+    rdfs:comment "Italian ricotta, Parmesan cheese, parmesan, fromage, cheese product, ricotta, sheep's milk ricotta, Cheesy Vegetable Topping, gorgonzola, Fontina cheese, Cheesy Vegetable Cover, Gorgonzola cheese, fontina, Cheesy Vegetable Layer" ;
+    rdfs:subClassOf ns1:Ingredients .
+
+ns1:Ham a owl:Class ;
+    rdfs:label "ham" ;
+    rdfs:comment "hambone, cured pork leg" .
+
+ns1:OnionTopping a owl:Class ;
+    rdfs:label "Onion Topping" ;
+    rdfs:comment "funghi, green bell pepper, green olive, Cheesy Vegetable Topping, chives, Cheesy Vegetable Layer, Giardiniera Pizza, Mushroom Topping, black olive, Spinach Topping, Artichoke Topping, Asparagus Topping, Cheesy Vegetable Cover, raw spinach, Leek Flower, Olive Topping, mushroom cap, bell pepper top, vegetable garnish, Leek Topping, scallion top, Vegetable Topping, fresh spinach, vegetable addition, Green Pepper Topping, Leek Top" ;
+    rdfs:subClassOf ns1:VegetableTopping ;
+    ns1:is_a_staple ns1:Pizzas .
+
+ns1:PeperoniSausageTopping a owl:Class ;
+    rdfs:label "Peperoni Sausage Topping" ;
+    rdfs:comment "Pepperoni Topping, Meat Topping, meat sauce, Chicken Topping, Parma Ham Topping, ground meat, chicken piece topping, Meaty Pizza, poultry topping, Pepperoni Pizza, Meat Lovers Pizza" ;
+    ns1:is_popular ns1:VegetableTopping .
+
+ns1:PizzaBases a owl:Class ;
+    rdfs:label "pizza bases" ;
+    rdfs:comment "pizza dough, pizza crust" .
+
+ns1:VegetableTopping a owl:Class ;
+    rdfs:label "Vegetable Topping" ;
+    rdfs:comment "vegetable garnish, vegetable addition, Vegetarian Pizza, veggie pizza" ;
+    rdfs:subClassOf ns1:Ingredients .
+
+ns1:VersatileDish a owl:Class ;
+    rdfs:label "versatile dish" ;
+    rdfs:comment "flexible dish, palate, diverse, varied, palatum, heterogeneous, multi-purpose dish, roof of the mouth, multifarious, tastebuds" .
+
+ns1:Ingredients a owl:Class ;
+    rdfs:label "ingredients" ;
+    rdfs:comment "toppings, tomatoes, fermented wheat dough, ingrediential, substance, garnishes, love apples, leavened wheat-based dough, toppings, extras, leavened bread dough, tomato fruit, component" ;
+    ns1:are ns1:VersatileDish ;
+    ns1:can_be_categorized ns1:Cheese ;
+    ns1:cater ns1:VersatileDish .
+
+ns1:Pizzas a owl:Class ;
+    rdfs:label "pizzas" ;
+    rdfs:comment "Italian pizza, pizza, Italian-descent, italian pizza, Italian origin, pizza pie, Italian-origin" ;
+    ns1:consisting ns1:PizzaBases ;
+    ns1:include ns1:OnionTopping ;
+    ns1:known_for ns1:Ingredients ;
+    ns1:ranging ns1:PeperoniSausageTopping .
+
