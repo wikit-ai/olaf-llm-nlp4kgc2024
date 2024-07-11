@@ -38,7 +38,7 @@ def main() -> None:
     """Create OWL ontology from textual description with Mistral 7B model."""
 
     # with open(os.path.join(os.getenv("DATA_PATH"), "pizza_description.txt"), "r", encoding="utf8") as text_file:
-    with open(os.path.join(os.getenv("DATA_PATH"), "manufacturing_defect_description.txt"), "r", encoding="utf8") as text_file:
+    with open(os.path.join(os.getenv("DATA_PATH"), "defect_detection_description.txt"), "r", encoding="utf8") as text_file:
         onto_description = text_file.read()
 
     EcoLogits.init()

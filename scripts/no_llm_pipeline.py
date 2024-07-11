@@ -39,7 +39,7 @@ def create_pipeline() -> Pipeline:
     spacy_model = spacy.load("en_core_web_lg")
     corpus_loader = TextCorpusLoader(
         # corpus_path=os.path.join(os.getenv('DATA_PATH'), "pizza_description.txt")
-        corpus_path=os.path.join(os.getenv('DATA_PATH'), "manufacturing_defect_description.txt")
+        corpus_path=os.path.join(os.getenv('DATA_PATH'), "defect_detection_description.txt")
     )
     pipeline = Pipeline(
         spacy_model=spacy_model,
