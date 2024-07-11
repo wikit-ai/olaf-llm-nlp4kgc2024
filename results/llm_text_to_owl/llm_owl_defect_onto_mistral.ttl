@@ -1,0 +1,48 @@
+@prefix : <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+# Defect Ontology
+
+:DefectType a owl:Class .
+
+:Punching a :DefectType ;
+  rdfs:label "Punching"@en ;
+  rdfs:comment "Defect caused by unwanted punching in the production line." .
+
+:WeldingLine a :DefectType ;
+  rdfs:label "Welding Line"@en ;
+  rdfs:comment "Not a defect per se, but a line produced by welding two coils of the strip." .
+
+:CrescentGap a :DefectType ;
+  rdfs:label "Crescent Gap"@en ;
+  rdfs:comment "Defect resulting from cutting the steel strip." .
+
+:WaterSpot a :DefectType ;
+  rdfs:label "Water Spot"@en ;
+  rdfs:comment "Defect produced by drying in production, often mistakenly detected as other defects." .
+
+:OilSpot a :DefectType ;
+  rdfs:label "Oil Spot"@en ;
+  rdfs:comment "Defect caused by mechanical lubricant contamination." .
+
+:SilkSpot a :DefectType ;
+  rdfs:label "Silk Spot"@en ;
+  rdfs:comment "Defect caused by uneven temperature and pressure in the roller." .
+
+:Inclusion a :DefectType ;
+  rdfs:label "Inclusion"@en ;
+  rdfs:comment "Typical metal surface defect, often accompanied by rough pockmarked surfaces." .
+
+:RolledPit a :DefectType ;
+  rdfs:label "Rolled Pit"@en ;
+  rdfs:comment "Defect caused by work roll or tension roll damage." .
+
+:Crease a :DefectType ;
+  rdfs:label "Crease"@en ;
+  rdfs:comment "Defect caused by local yield along the moving direction of the strip." .
+
+:WaistFolding a :DefectType ;
+  rdfs:label "Waist Folding"@en ;
+  rdfs:comment "Defect caused by low-carbon, with obvious folds in the defect parts." .

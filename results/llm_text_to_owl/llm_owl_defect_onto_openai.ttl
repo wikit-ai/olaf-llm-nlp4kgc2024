@@ -1,0 +1,48 @@
+@prefix : <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+:DefectType rdf:type owl:Class ;
+    rdfs:label "Defect Type" ;
+    rdfs:comment "A type of defect that can occur on the steel strip surface." .
+
+:Punching rdf:type :DefectType ;
+    rdfs:label "Punching" ;
+    rdfs:comment "A defect caused by unwanted punching due to mechanical failure." .
+
+:WeldingLine rdf:type :DefectType ;
+    rdfs:label "Welding Line" ;
+    rdfs:comment "A defect caused by the weld line produced when changing the strip." .
+
+:CrescentGap rdf:type :DefectType ;
+    rdfs:label "Crescent Gap" ;
+    rdfs:comment "A defect that appears as a half-circle shape during cutting." .
+
+:WaterSpot rdf:type :DefectType ;
+    rdfs:label "Water Spot" ;
+    rdfs:comment "A defect caused by drying in production, often mistaken for other defects." .
+
+:OilSpot rdf:type :DefectType ;
+    rdfs:label "Oil Spot" ;
+    rdfs:comment "A defect caused by the contamination of mechanical lubricant." .
+
+:SilkSpot rdf:type :DefectType ;
+    rdfs:label "Silk Spot" ;
+    rdfs:comment "A defect that appears as a local or continuous wave-like plaque on the strip surface." .
+
+:Inclusion rdf:type :DefectType ;
+    rdfs:label "Inclusion" ;
+    rdfs:comment "A typical defect of metal surface defects, usually showing small spots, fish scale shape, strip shape, block irregular distribution." .
+
+:RolledPit rdf:type :DefectType ;
+    rdfs:label "Rolled Pit" ;
+    rdfs:comment "A defect that appears as periodic bulges or pits on the surface of a steel plate." .
+
+:Crease rdf:type :DefectType ;
+    rdfs:label "Crease" ;
+    rdfs:comment "A defect that appears as a vertical transverse fold across the strip." .
+
+:WaistFolding rdf:type :DefectType ;
+    rdfs:label "Waist Folding" ;
+    rdfs:comment "A defect that appears as obvious folds in the defect parts." .

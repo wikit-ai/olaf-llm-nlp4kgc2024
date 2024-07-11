@@ -1,0 +1,94 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix : <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#> .
+
+:Pizza a owl:Class ;
+  rdfs:subClassOf :FoodItem .
+
+:DeepPanBase a owl:Class ;
+  rdfs:subClassOf :PizzaBase ;
+  rdfs:label "Deep Pan Base"@en .
+
+:ThinAndCrispyBase a owl:Class ;
+  rdfs:subClassOf :PizzaBase ;
+  rdfs:label "Thin And Crispy Base"@en .
+
+:CheeseTopping a owl:Class ;
+  rdfs:subClassOf :PizzaTopping ;
+  rdfs:label "Cheese Topping"@en .
+
+:MozzarellaTopping a owl:Class ;
+  rdfs:subClassOf :CheeseTopping ;
+  rdfs:label "Mozzarella Topping"@en .
+
+:FourCheesesTopping a owl:Class ;
+  rdfs:subClassOf :CheeseTopping ;
+  rdfs:label "Four Cheeses Topping"@en .
+
+:MeatTopping a owl:Class ;
+  rdfs:subClassOf :PizzaTopping ;
+  rdfs:label "Meat Topping"@en .
+
+:ChickenTopping a owl:Class ;
+  rdfs:subClassOf :MeatTopping ;
+  rdfs:label "Chicken Topping"@en .
+
+:NonVegetarianPizza a owl:Class ;
+  rdfs:subClassOf :Pizza ;
+  rdfs:label "Non Vegetarian Pizza"@en .
+
+:VegetableTopping a owl:Class ;
+  rdfs:subClassOf :PizzaTopping ;
+  rdfs:label "Vegetable Topping"@en .
+
+:ArtichokeTopping a owl:Class ;
+  rdfs:subClassOf :VegetableTopping ;
+  rdfs:label "Artichoke Topping"@en .
+
+:GiardinieraPizza a owl:Class ;
+  rdfs:subClassOf :Pizza ;
+  rdfs:label "Giardiniera Pizza"@en .
+
+:SeafoodTopping a owl:Class ;
+  rdfs:subClassOf :PizzaTopping ;
+  rdfs:label "Seafood Topping"@en .
+
+:PrawnsTopping a owl:Class ;
+  rdfs:subClassOf :SeafoodTopping ;
+  rdfs:label "Prawns Topping"@en .
+
+:SpicyPizza a owl:Class ;
+  rdfs:subClassOf :Pizza ;
+  rdfs:label "Spicy Pizza"@en .
+
+:AmericanHotPizza a owl:Class ;
+  rdfs:subClassOf :SpicyPizza ;
+  rdfs:label "American Hot Pizza"@en .
+
+:CajunPizza a owl:Class ;
+  rdfs:subClassOf :SpicyPizza ;
+  rdfs:label "Cajun Pizza"@en .
+
+:UniqueTopping a owl:Class ;
+  rdfs:subClassOf :PizzaTopping ;
+  rdfs:label "Unique Topping"@en .
+
+:CapricciosaPizza a owl:Class ;
+  rdfs:subClassOf :Pizza ;
+  rdfs:label "Capricciosa Pizza"@en .
+
+:NapoletanaPizza a owl:Class ;
+  rdfs:subClassOf :Pizza ;
+  rdfs:label "Napoletana Pizza"@en .
+
+:MargheritaPizza a owl:Class ;
+  rdfs:subClassOf :Pizza ;
+  rdfs:label "Margherita Pizza"@en .
+
+:PolloAdAstraPizza a owl:Class ;
+  rdfs:subClassOf :Pizza ;
+  rdfs:label "Pollo Ad Astra Pizza"@en .
+
+:SloppyGiuseppePizza a owl:Class ;
+  rdfs:subClassOf :Pizza ;
+  rdfs:label "Sloppy Giuseppe Pizza"@en .
