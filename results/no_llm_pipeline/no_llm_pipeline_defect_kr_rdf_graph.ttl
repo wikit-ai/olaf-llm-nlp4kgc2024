@@ -1,0 +1,4718 @@
+@prefix ns1: <https://github.com/wikit-ai/olaf-llm-nlp4kgc2024/o/example#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ns1:_alloy a owl:NamedIndividual,
+        ns1:MetalSurface ;
+    rdfs:label "alloy" ;
+    ns1:showing ns1:_fish,
+        ns1:_fishScale,
+        ns1:_fishScaleShape,
+        ns1:_fishy,
+        ns1:_little,
+        ns1:_littleness,
+        ns1:_place,
+        ns1:_scale,
+        ns1:_scaleShape,
+        ns1:_small,
+        ns1:_smallSpots,
+        ns1:_smallness,
+        ns1:_spot,
+        ns1:_spots,
+        ns1:_topographicPoint,
+        ns1:_waterSpot,
+        ns1:_waterSpots .
+
+ns1:_atomicNumber6 a owl:NamedIndividual,
+        ns1:Carbon ;
+    rdfs:label "atomic number 6" .
+
+ns1:_big a owl:NamedIndividual,
+        ns1:Large ;
+    rdfs:label "big" .
+
+ns1:_bigness a owl:NamedIndividual,
+        ns1:Large ;
+    rdfs:label "bigness" .
+
+ns1:_bodyOfWater a owl:NamedIndividual,
+        ns1:Water ;
+    rdfs:label "body of water" ;
+    ns1:drying ns1:_assemblyLine,
+        ns1:_different,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_ware ;
+    ns1:produced ns1:_assemblyLine,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_ware .
+
+ns1:_business a owl:NamedIndividual,
+        ns1:Line ;
+    rdfs:label "business" ;
+    ns1:produced ns1:_strictly .
+
+ns1:_c a owl:NamedIndividual,
+        ns1:Carbon ;
+    rdfs:label "C" .
+
+ns1:_carbon a owl:NamedIndividual,
+        ns1:Carbon ;
+    rdfs:label "carbon" .
+
+ns1:_carbonate a owl:NamedIndividual,
+        ns1:Carbon ;
+    rdfs:label "carbonate" .
+
+ns1:_carbonic a owl:NamedIndividual,
+        ns1:Carbon ;
+    rdfs:label "carbonic" .
+
+ns1:_carbonise a owl:NamedIndividual,
+        ns1:Carbon ;
+    rdfs:label "carbonise" .
+
+ns1:_carbonize a owl:NamedIndividual,
+        ns1:Carbon ;
+    rdfs:label "carbonize" .
+
+ns1:_carburise a owl:NamedIndividual,
+        ns1:Carbon ;
+    rdfs:label "carburise" .
+
+ns1:_carburize a owl:NamedIndividual,
+        ns1:Carbon ;
+    rdfs:label "carburize" .
+
+ns1:_chiefly a owl:NamedIndividual,
+        ns1:Mainly ;
+    rdfs:label "chiefly" ;
+    ns1:caused ns1:_configuration,
+        ns1:_conformation,
+        ns1:_contour,
+        ns1:_figureOut,
+        ns1:_forge,
+        ns1:_form,
+        ns1:_formation,
+        ns1:_function,
+        ns1:_functioning,
+        ns1:_go,
+        ns1:_lick,
+        ns1:_mold,
+        ns1:_mould,
+        ns1:_operant,
+        ns1:_operate,
+        ns1:_operation,
+        ns1:_operative,
+        ns1:_pattern,
+        ns1:_pieceOfWork,
+        ns1:_puzzleOut,
+        ns1:_roll,
+        ns1:_roller,
+        ns1:_run,
+        ns1:_shape,
+        ns1:_shaper,
+        ns1:_shaping,
+        ns1:_solution,
+        ns1:_solve,
+        ns1:_solvent,
+        ns1:_solver,
+        ns1:_solving,
+        ns1:_stripShape,
+        ns1:_studious,
+        ns1:_study,
+        ns1:_tension,
+        ns1:_tensionRoll,
+        ns1:_tensionRollDamage,
+        ns1:_twine,
+        ns1:_wind,
+        ns1:_winder,
+        ns1:_work,
+        ns1:_workOut,
+        ns1:_workRoll,
+        ns1:_workable,
+        ns1:_workplace,
+        ns1:_wrap .
+
+ns1:_circle a owl:NamedIndividual,
+        ns1:Circle ;
+    rdfs:label "circle" .
+
+ns1:_commonly a owl:NamedIndividual,
+        ns1:Usually ;
+    rdfs:label "commonly" ;
+    ns1:caused ns1:_contamination,
+        ns1:_mechanical,
+        ns1:_mechanics,
+        ns1:_mechanism ;
+    ns1:detected ns1:_mistake ;
+    ns1:lies ns1:_temperature,
+        ns1:_uneven,
+        ns1:_unevenTemperature ;
+    ns1:showing ns1:_fish,
+        ns1:_fishScale,
+        ns1:_fishScaleShape,
+        ns1:_fishy,
+        ns1:_little,
+        ns1:_littleness,
+        ns1:_place,
+        ns1:_scale,
+        ns1:_scaleShape,
+        ns1:_small,
+        ns1:_smallSpots,
+        ns1:_smallness,
+        ns1:_spot,
+        ns1:_spots,
+        ns1:_topographicPoint,
+        ns1:_waterSpot,
+        ns1:_waterSpots .
+
+ns1:_continuity a owl:NamedIndividual,
+        ns1:Continuous ;
+    rdfs:label "continuity" .
+
+ns1:_continuous a owl:NamedIndividual,
+        ns1:Continuous ;
+    rdfs:label "continuous" .
+
+ns1:_continuousWave a owl:NamedIndividual,
+        ns1:ContinuousWave ;
+    rdfs:label "continuous wave" .
+
+ns1:_continuousness a owl:NamedIndividual,
+        ns1:Continuous ;
+    rdfs:label "continuousness" .
+
+ns1:_continuum a owl:NamedIndividual,
+        ns1:Continuous ;
+    rdfs:label "continuum" .
+
+ns1:_contrast a owl:NamedIndividual,
+        ns1:LowContrast ;
+    rdfs:label "contrast" .
+
+ns1:_crease a owl:NamedIndividual,
+        ns1:Crease ;
+    rdfs:label "crease" .
+
+ns1:_crescent a owl:NamedIndividual,
+        ns1:Crescent ;
+    rdfs:label "crescent" .
+
+ns1:_crescentGap a owl:NamedIndividual,
+        ns1:Gap ;
+    rdfs:label "crescent gap" .
+
+ns1:_crude a owl:NamedIndividual,
+        ns1:OilSpots ;
+    rdfs:label "crude" ;
+    ns1:caused ns1:_contamination,
+        ns1:_mechanical,
+        ns1:_mechanics,
+        ns1:_mechanism .
+
+ns1:_crudeOil a owl:NamedIndividual,
+        ns1:OilSpots ;
+    rdfs:label "crude oil" ;
+    ns1:caused ns1:_contamination,
+        ns1:_mechanical,
+        ns1:_mechanics,
+        ns1:_mechanism .
+
+ns1:_cut a owl:NamedIndividual,
+        ns1:SubsequentCuts ;
+    rdfs:label "cut" .
+
+ns1:_cuts a owl:NamedIndividual,
+        ns1:SubsequentCuts ;
+    rdfs:label "cuts" .
+
+ns1:_cutter a owl:NamedIndividual,
+        ns1:SubsequentCuts ;
+    rdfs:label "cutter" .
+
+ns1:_cutting a owl:NamedIndividual,
+        ns1:SubsequentCuts ;
+    rdfs:label "cutting" .
+
+ns1:_damage a owl:NamedIndividual,
+        ns1:RollDamage ;
+    rdfs:label "damage" .
+
+ns1:_density a owl:NamedIndividual,
+        ns1:Density ;
+    rdfs:label "density" .
+
+ns1:_disunite a owl:NamedIndividual,
+        ns1:Parts ;
+    rdfs:label "disunite" .
+
+ns1:_divide a owl:NamedIndividual,
+        ns1:Parts ;
+    rdfs:label "divide" .
+
+ns1:_easily a owl:NamedIndividual,
+        ns1:Easy ;
+    rdfs:label "easily" .
+
+ns1:_easy a owl:NamedIndividual,
+        ns1:Easy ;
+    rdfs:label "easy" .
+
+ns1:_edge a owl:NamedIndividual,
+        ns1:Edge ;
+    rdfs:label "edge" .
+
+ns1:_failure a owl:NamedIndividual,
+        ns1:Failure ;
+    rdfs:label "failure" ;
+    ns1:lead ns1:_unwanted,
+        ns1:_unwantedPunching .
+
+ns1:_flaky a owl:NamedIndividual,
+        ns1:Flaky ;
+    rdfs:label "flaky" .
+
+ns1:_forcePerUnitArea a owl:NamedIndividual,
+        ns1:UnevenPressure ;
+    rdfs:label "force per unit area" .
+
+ns1:_fossilOil a owl:NamedIndividual,
+        ns1:OilSpots ;
+    rdfs:label "fossil oil" ;
+    ns1:caused ns1:_contamination,
+        ns1:_mechanical,
+        ns1:_mechanics,
+        ns1:_mechanism .
+
+ns1:_gap a owl:NamedIndividual,
+        ns1:Gap ;
+    rdfs:label "gap" .
+
+ns1:_generally a owl:NamedIndividual,
+        ns1:Usually ;
+    rdfs:label "generally" ;
+    ns1:caused ns1:_contamination,
+        ns1:_mechanical,
+        ns1:_mechanics,
+        ns1:_mechanism ;
+    ns1:detected ns1:_mistake ;
+    ns1:lies ns1:_temperature,
+        ns1:_uneven,
+        ns1:_unevenTemperature ;
+    ns1:showing ns1:_fish,
+        ns1:_fishScale,
+        ns1:_fishScaleShape,
+        ns1:_fishy,
+        ns1:_little,
+        ns1:_littleness,
+        ns1:_place,
+        ns1:_scale,
+        ns1:_scaleShape,
+        ns1:_small,
+        ns1:_smallSpots,
+        ns1:_smallness,
+        ns1:_spot,
+        ns1:_spots,
+        ns1:_topographicPoint,
+        ns1:_waterSpot,
+        ns1:_waterSpots .
+
+ns1:_global a owl:NamedIndividual,
+        ns1:Global ;
+    rdfs:label "global" .
+
+ns1:_h2o a owl:NamedIndividual,
+        ns1:Water ;
+    rdfs:label "H2O" ;
+    ns1:drying ns1:_assemblyLine,
+        ns1:_different,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_ware ;
+    ns1:produced ns1:_assemblyLine,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_ware .
+
+ns1:_half a owl:NamedIndividual,
+        ns1:Half ;
+    rdfs:label "half" .
+
+ns1:_inTheMain a owl:NamedIndividual,
+        ns1:Mainly ;
+    rdfs:label "in the main" ;
+    ns1:caused ns1:_configuration,
+        ns1:_conformation,
+        ns1:_contour,
+        ns1:_figureOut,
+        ns1:_forge,
+        ns1:_form,
+        ns1:_formation,
+        ns1:_function,
+        ns1:_functioning,
+        ns1:_go,
+        ns1:_lick,
+        ns1:_mold,
+        ns1:_mould,
+        ns1:_operant,
+        ns1:_operate,
+        ns1:_operation,
+        ns1:_operative,
+        ns1:_pattern,
+        ns1:_pieceOfWork,
+        ns1:_puzzleOut,
+        ns1:_roll,
+        ns1:_roller,
+        ns1:_run,
+        ns1:_shape,
+        ns1:_shaper,
+        ns1:_shaping,
+        ns1:_solution,
+        ns1:_solve,
+        ns1:_solvent,
+        ns1:_solver,
+        ns1:_solving,
+        ns1:_stripShape,
+        ns1:_studious,
+        ns1:_study,
+        ns1:_tension,
+        ns1:_tensionRoll,
+        ns1:_tensionRollDamage,
+        ns1:_twine,
+        ns1:_wind,
+        ns1:_winder,
+        ns1:_work,
+        ns1:_workOut,
+        ns1:_workRoll,
+        ns1:_workable,
+        ns1:_workplace,
+        ns1:_wrap .
+
+ns1:_irregularSpacing a owl:NamedIndividual,
+        ns1:Spacing ;
+    rdfs:label "irregular spacing" .
+
+ns1:_job a owl:NamedIndividual,
+        ns1:Line ;
+    rdfs:label "job" ;
+    ns1:produced ns1:_strictly .
+
+ns1:_large a owl:NamedIndividual,
+        ns1:Large ;
+    rdfs:label "large" .
+
+ns1:_largeness a owl:NamedIndividual,
+        ns1:Large ;
+    rdfs:label "largeness" .
+
+ns1:_like a owl:NamedIndividual,
+        ns1:Like,
+        ns1:LittleLike ;
+    rdfs:label "like" ;
+    ns1:distributed ns1:_distance,
+        ns1:_length,
+        ns1:_lengthDirection,
+        ns1:_strip,
+        ns1:_stripLength,
+        ns1:_stripLengthDirection,
+        ns1:_stripSurface ;
+    ns1:indicating ns1:_deformation,
+        ns1:_local,
+        ns1:_localDeformation .
+
+ns1:_likeHalf a owl:NamedIndividual,
+        ns1:Half ;
+    rdfs:label "like half" .
+
+ns1:_likePlaque a owl:NamedIndividual,
+        ns1:Plaque ;
+    rdfs:label "like plaque" .
+
+ns1:_likeWrinkles a owl:NamedIndividual,
+        ns1:Wrinkles ;
+    rdfs:label "like wrinkles" ;
+    ns1:indicating ns1:_deformation,
+        ns1:_local,
+        ns1:_localDeformation .
+
+ns1:_likeness a owl:NamedIndividual,
+        ns1:Like,
+        ns1:LittleLike ;
+    rdfs:label "likeness" ;
+    ns1:distributed ns1:_distance,
+        ns1:_length,
+        ns1:_lengthDirection,
+        ns1:_strip,
+        ns1:_stripLength,
+        ns1:_stripLengthDirection,
+        ns1:_stripSurface ;
+    ns1:indicating ns1:_deformation,
+        ns1:_local,
+        ns1:_localDeformation .
+
+ns1:_lineOfWork a owl:NamedIndividual,
+        ns1:Line ;
+    rdfs:label "line of work" ;
+    ns1:produced ns1:_strictly .
+
+ns1:_littleLike a owl:NamedIndividual,
+        ns1:LittleLike ;
+    rdfs:label "little like" ;
+    ns1:distributed ns1:_distance,
+        ns1:_length,
+        ns1:_lengthDirection,
+        ns1:_strip,
+        ns1:_stripLength,
+        ns1:_stripLengthDirection,
+        ns1:_stripSurface ;
+    ns1:indicating ns1:_deformation,
+        ns1:_local,
+        ns1:_localDeformation .
+
+ns1:_littleLikeWrinkles a owl:NamedIndividual,
+        ns1:Wrinkles ;
+    rdfs:label "little like wrinkles" ;
+    ns1:indicating ns1:_deformation,
+        ns1:_local,
+        ns1:_localDeformation .
+
+ns1:_localYield a owl:NamedIndividual,
+        ns1:LocalYield ;
+    rdfs:label "local yield" ;
+    ns1:moving ns1:_direction,
+        ns1:_manage,
+        ns1:_management,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_loose a owl:NamedIndividual,
+        ns1:Loose ;
+    rdfs:label "loose" .
+
+ns1:_lowContrast a owl:NamedIndividual,
+        ns1:LowContrast ;
+    rdfs:label "low contrast" .
+
+ns1:_lube a owl:NamedIndividual,
+        ns1:MechanicalLubricant ;
+    rdfs:label "lube" ;
+    ns1:affect ns1:_appear,
+        ns1:_appearance,
+        ns1:_assemblyLine,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_visualAspect,
+        ns1:_ware .
+
+ns1:_lubricant a owl:NamedIndividual,
+        ns1:MechanicalLubricant ;
+    rdfs:label "lubricant" ;
+    ns1:affect ns1:_appear,
+        ns1:_appearance,
+        ns1:_assemblyLine,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_visualAspect,
+        ns1:_ware .
+
+ns1:_lubricate a owl:NamedIndividual,
+        ns1:MechanicalLubricant ;
+    rdfs:label "lubricate" ;
+    ns1:affect ns1:_appear,
+        ns1:_appearance,
+        ns1:_assemblyLine,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_visualAspect,
+        ns1:_ware .
+
+ns1:_lubricatingSubstance a owl:NamedIndividual,
+        ns1:MechanicalLubricant ;
+    rdfs:label "lubricating substance" ;
+    ns1:affect ns1:_appear,
+        ns1:_appearance,
+        ns1:_assemblyLine,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_visualAspect,
+        ns1:_ware .
+
+ns1:_lubricator a owl:NamedIndividual,
+        ns1:MechanicalLubricant ;
+    rdfs:label "lubricator" ;
+    ns1:affect ns1:_appear,
+        ns1:_appearance,
+        ns1:_assemblyLine,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_visualAspect,
+        ns1:_ware .
+
+ns1:_main a owl:NamedIndividual,
+        ns1:Main ;
+    rdfs:label "main" ;
+    ns1:lies ns1:_temperature,
+        ns1:_uneven,
+        ns1:_unevenTemperature .
+
+ns1:_mainReason a owl:NamedIndividual,
+        ns1:MainReason ;
+    rdfs:label "main reason" ;
+    ns1:lies ns1:_temperature,
+        ns1:_uneven,
+        ns1:_unevenTemperature .
+
+ns1:_mainly a owl:NamedIndividual,
+        ns1:Mainly ;
+    rdfs:label "mainly" ;
+    ns1:caused ns1:_configuration,
+        ns1:_conformation,
+        ns1:_contour,
+        ns1:_figureOut,
+        ns1:_forge,
+        ns1:_form,
+        ns1:_formation,
+        ns1:_function,
+        ns1:_functioning,
+        ns1:_go,
+        ns1:_lick,
+        ns1:_mold,
+        ns1:_mould,
+        ns1:_operant,
+        ns1:_operate,
+        ns1:_operation,
+        ns1:_operative,
+        ns1:_pattern,
+        ns1:_pieceOfWork,
+        ns1:_puzzleOut,
+        ns1:_roll,
+        ns1:_roller,
+        ns1:_run,
+        ns1:_shape,
+        ns1:_shaper,
+        ns1:_shaping,
+        ns1:_solution,
+        ns1:_solve,
+        ns1:_solvent,
+        ns1:_solver,
+        ns1:_solving,
+        ns1:_stripShape,
+        ns1:_studious,
+        ns1:_study,
+        ns1:_tension,
+        ns1:_tensionRoll,
+        ns1:_tensionRollDamage,
+        ns1:_twine,
+        ns1:_wind,
+        ns1:_winder,
+        ns1:_work,
+        ns1:_workOut,
+        ns1:_workRoll,
+        ns1:_workable,
+        ns1:_workplace,
+        ns1:_wrap .
+
+ns1:_mechanicalFailure a owl:NamedIndividual,
+        ns1:MechanicalFailure ;
+    rdfs:label "mechanical failure" ;
+    ns1:lead ns1:_unwanted,
+        ns1:_unwantedPunching .
+
+ns1:_mechanicalLubricant a owl:NamedIndividual,
+        ns1:MechanicalLubricant ;
+    rdfs:label "mechanical lubricant" ;
+    ns1:affect ns1:_appear,
+        ns1:_appearance,
+        ns1:_assemblyLine,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_visualAspect,
+        ns1:_ware .
+
+ns1:_metal a owl:NamedIndividual,
+        ns1:MetalSurface ;
+    rdfs:label "metal" ;
+    ns1:showing ns1:_fish,
+        ns1:_fishScale,
+        ns1:_fishScaleShape,
+        ns1:_fishy,
+        ns1:_little,
+        ns1:_littleness,
+        ns1:_place,
+        ns1:_scale,
+        ns1:_scaleShape,
+        ns1:_small,
+        ns1:_smallSpots,
+        ns1:_smallness,
+        ns1:_spot,
+        ns1:_spots,
+        ns1:_topographicPoint,
+        ns1:_waterSpot,
+        ns1:_waterSpots .
+
+ns1:_metalSurface a owl:NamedIndividual,
+        ns1:MetalSurface ;
+    rdfs:label "metal surface" ;
+    ns1:showing ns1:_fish,
+        ns1:_fishScale,
+        ns1:_fishScaleShape,
+        ns1:_fishy,
+        ns1:_little,
+        ns1:_littleness,
+        ns1:_place,
+        ns1:_scale,
+        ns1:_scaleShape,
+        ns1:_small,
+        ns1:_smallSpots,
+        ns1:_smallness,
+        ns1:_spot,
+        ns1:_spots,
+        ns1:_topographicPoint,
+        ns1:_waterSpot,
+        ns1:_waterSpots .
+
+ns1:_metalSurfaceDefects a owl:NamedIndividual,
+        ns1:MetalSurface ;
+    rdfs:label "metal surface defects" ;
+    ns1:showing ns1:_fish,
+        ns1:_fishScale,
+        ns1:_fishScaleShape,
+        ns1:_fishy,
+        ns1:_little,
+        ns1:_littleness,
+        ns1:_place,
+        ns1:_scale,
+        ns1:_scaleShape,
+        ns1:_small,
+        ns1:_smallSpots,
+        ns1:_smallness,
+        ns1:_spot,
+        ns1:_spots,
+        ns1:_topographicPoint,
+        ns1:_waterSpot,
+        ns1:_waterSpots .
+
+ns1:_metallic a owl:NamedIndividual,
+        ns1:MetalSurface ;
+    rdfs:label "metallic" ;
+    ns1:showing ns1:_fish,
+        ns1:_fishScale,
+        ns1:_fishScaleShape,
+        ns1:_fishy,
+        ns1:_little,
+        ns1:_littleness,
+        ns1:_place,
+        ns1:_scale,
+        ns1:_scaleShape,
+        ns1:_small,
+        ns1:_smallSpots,
+        ns1:_smallness,
+        ns1:_spot,
+        ns1:_spots,
+        ns1:_topographicPoint,
+        ns1:_waterSpot,
+        ns1:_waterSpots .
+
+ns1:_metallicElement a owl:NamedIndividual,
+        ns1:MetalSurface ;
+    rdfs:label "metallic element" ;
+    ns1:showing ns1:_fish,
+        ns1:_fishScale,
+        ns1:_fishScaleShape,
+        ns1:_fishy,
+        ns1:_little,
+        ns1:_littleness,
+        ns1:_place,
+        ns1:_scale,
+        ns1:_scaleShape,
+        ns1:_small,
+        ns1:_smallSpots,
+        ns1:_smallness,
+        ns1:_spot,
+        ns1:_spots,
+        ns1:_topographicPoint,
+        ns1:_waterSpot,
+        ns1:_waterSpots .
+
+ns1:_normally a owl:NamedIndividual,
+        ns1:Usually ;
+    rdfs:label "normally" ;
+    ns1:caused ns1:_contamination,
+        ns1:_mechanical,
+        ns1:_mechanics,
+        ns1:_mechanism ;
+    ns1:detected ns1:_mistake ;
+    ns1:lies ns1:_temperature,
+        ns1:_uneven,
+        ns1:_unevenTemperature ;
+    ns1:showing ns1:_fish,
+        ns1:_fishScale,
+        ns1:_fishScaleShape,
+        ns1:_fishy,
+        ns1:_little,
+        ns1:_littleness,
+        ns1:_place,
+        ns1:_scale,
+        ns1:_scaleShape,
+        ns1:_small,
+        ns1:_smallSpots,
+        ns1:_smallness,
+        ns1:_spot,
+        ns1:_spots,
+        ns1:_topographicPoint,
+        ns1:_waterSpot,
+        ns1:_waterSpots .
+
+ns1:_occupation a owl:NamedIndividual,
+        ns1:Line ;
+    rdfs:label "occupation" ;
+    ns1:produced ns1:_strictly .
+
+ns1:_occupy a owl:NamedIndividual,
+        ns1:Line ;
+    rdfs:label "occupy" ;
+    ns1:produced ns1:_strictly .
+
+ns1:_occurrence a owl:NamedIndividual,
+        ns1:Occurrence ;
+    rdfs:label "occurrence" .
+
+ns1:_oil a owl:NamedIndividual,
+        ns1:OilSpots ;
+    rdfs:label "oil" ;
+    ns1:caused ns1:_contamination,
+        ns1:_mechanical,
+        ns1:_mechanics,
+        ns1:_mechanism .
+
+ns1:_oilSpot a owl:NamedIndividual,
+        ns1:OilSpots ;
+    rdfs:label "oil spot" ;
+    ns1:caused ns1:_contamination,
+        ns1:_mechanical,
+        ns1:_mechanics,
+        ns1:_mechanism .
+
+ns1:_oilSpots a owl:NamedIndividual,
+        ns1:OilSpots ;
+    rdfs:label "oil spots" ;
+    ns1:caused ns1:_contamination,
+        ns1:_mechanical,
+        ns1:_mechanics,
+        ns1:_mechanism .
+
+ns1:_oiler a owl:NamedIndividual,
+        ns1:OilSpots ;
+    rdfs:label "oiler" ;
+    ns1:caused ns1:_contamination,
+        ns1:_mechanical,
+        ns1:_mechanics,
+        ns1:_mechanism .
+
+ns1:_oily a owl:NamedIndividual,
+        ns1:OilSpots ;
+    rdfs:label "oily" ;
+    ns1:caused ns1:_contamination,
+        ns1:_mechanical,
+        ns1:_mechanics,
+        ns1:_mechanism .
+
+ns1:_open a owl:NamedIndividual,
+        ns1:Gap ;
+    rdfs:label "open" .
+
+ns1:_opening a owl:NamedIndividual,
+        ns1:Gap ;
+    rdfs:label "opening" .
+
+ns1:_ordinarily a owl:NamedIndividual,
+        ns1:Usually ;
+    rdfs:label "ordinarily" ;
+    ns1:caused ns1:_contamination,
+        ns1:_mechanical,
+        ns1:_mechanics,
+        ns1:_mechanism ;
+    ns1:detected ns1:_mistake ;
+    ns1:lies ns1:_temperature,
+        ns1:_uneven,
+        ns1:_unevenTemperature ;
+    ns1:showing ns1:_fish,
+        ns1:_fishScale,
+        ns1:_fishScaleShape,
+        ns1:_fishy,
+        ns1:_little,
+        ns1:_littleness,
+        ns1:_place,
+        ns1:_scale,
+        ns1:_scaleShape,
+        ns1:_small,
+        ns1:_smallSpots,
+        ns1:_smallness,
+        ns1:_spot,
+        ns1:_spots,
+        ns1:_topographicPoint,
+        ns1:_waterSpot,
+        ns1:_waterSpots .
+
+ns1:_part a owl:NamedIndividual,
+        ns1:Parts ;
+    rdfs:label "part" .
+
+ns1:_partitive a owl:NamedIndividual,
+        ns1:Parts ;
+    rdfs:label "partitive" .
+
+ns1:_parts a owl:NamedIndividual,
+        ns1:Parts ;
+    rdfs:label "parts" .
+
+ns1:_petroleum a owl:NamedIndividual,
+        ns1:OilSpots ;
+    rdfs:label "petroleum" ;
+    ns1:caused ns1:_contamination,
+        ns1:_mechanical,
+        ns1:_mechanics,
+        ns1:_mechanism .
+
+ns1:_pipeline a owl:NamedIndividual,
+        ns1:Line ;
+    rdfs:label "pipeline" ;
+    ns1:produced ns1:_strictly .
+
+ns1:_plaque a owl:NamedIndividual,
+        ns1:Plaque ;
+    rdfs:label "plaque" .
+
+ns1:_plate a owl:NamedIndividual,
+        ns1:Plate ;
+    rdfs:label "plate" .
+
+ns1:_popular a owl:NamedIndividual,
+        ns1:Popular ;
+    rdfs:label "popular" .
+
+ns1:_press a owl:NamedIndividual,
+        ns1:UnevenPressure ;
+    rdfs:label "press" .
+
+ns1:_pressing a owl:NamedIndividual,
+        ns1:UnevenPressure ;
+    rdfs:label "pressing" .
+
+ns1:_pressure a owl:NamedIndividual,
+        ns1:UnevenPressure ;
+    rdfs:label "pressure" .
+
+ns1:_pressureLevel a owl:NamedIndividual,
+        ns1:UnevenPressure ;
+    rdfs:label "pressure level" .
+
+ns1:_pressurise a owl:NamedIndividual,
+        ns1:UnevenPressure ;
+    rdfs:label "pressurise" .
+
+ns1:_pressurize a owl:NamedIndividual,
+        ns1:UnevenPressure ;
+    rdfs:label "pressurize" .
+
+ns1:_price a owl:NamedIndividual,
+        ns1:RollDamage ;
+    rdfs:label "price" .
+
+ns1:_pricey a owl:NamedIndividual,
+        ns1:RollDamage ;
+    rdfs:label "pricey" .
+
+ns1:_pricy a owl:NamedIndividual,
+        ns1:RollDamage ;
+    rdfs:label "pricy" .
+
+ns1:_primarily a owl:NamedIndividual,
+        ns1:Mainly ;
+    rdfs:label "primarily" ;
+    ns1:caused ns1:_configuration,
+        ns1:_conformation,
+        ns1:_contour,
+        ns1:_figureOut,
+        ns1:_forge,
+        ns1:_form,
+        ns1:_formation,
+        ns1:_function,
+        ns1:_functioning,
+        ns1:_go,
+        ns1:_lick,
+        ns1:_mold,
+        ns1:_mould,
+        ns1:_operant,
+        ns1:_operate,
+        ns1:_operation,
+        ns1:_operative,
+        ns1:_pattern,
+        ns1:_pieceOfWork,
+        ns1:_puzzleOut,
+        ns1:_roll,
+        ns1:_roller,
+        ns1:_run,
+        ns1:_shape,
+        ns1:_shaper,
+        ns1:_shaping,
+        ns1:_solution,
+        ns1:_solve,
+        ns1:_solvent,
+        ns1:_solver,
+        ns1:_solving,
+        ns1:_stripShape,
+        ns1:_studious,
+        ns1:_study,
+        ns1:_tension,
+        ns1:_tensionRoll,
+        ns1:_tensionRollDamage,
+        ns1:_twine,
+        ns1:_wind,
+        ns1:_winder,
+        ns1:_work,
+        ns1:_workOut,
+        ns1:_workRoll,
+        ns1:_workable,
+        ns1:_workplace,
+        ns1:_wrap .
+
+ns1:_principally a owl:NamedIndividual,
+        ns1:Mainly ;
+    rdfs:label "principally" ;
+    ns1:caused ns1:_configuration,
+        ns1:_conformation,
+        ns1:_contour,
+        ns1:_figureOut,
+        ns1:_forge,
+        ns1:_form,
+        ns1:_formation,
+        ns1:_function,
+        ns1:_functioning,
+        ns1:_go,
+        ns1:_lick,
+        ns1:_mold,
+        ns1:_mould,
+        ns1:_operant,
+        ns1:_operate,
+        ns1:_operation,
+        ns1:_operative,
+        ns1:_pattern,
+        ns1:_pieceOfWork,
+        ns1:_puzzleOut,
+        ns1:_roll,
+        ns1:_roller,
+        ns1:_run,
+        ns1:_shape,
+        ns1:_shaper,
+        ns1:_shaping,
+        ns1:_solution,
+        ns1:_solve,
+        ns1:_solvent,
+        ns1:_solver,
+        ns1:_solving,
+        ns1:_stripShape,
+        ns1:_studious,
+        ns1:_study,
+        ns1:_tension,
+        ns1:_tensionRoll,
+        ns1:_tensionRollDamage,
+        ns1:_twine,
+        ns1:_wind,
+        ns1:_winder,
+        ns1:_work,
+        ns1:_workOut,
+        ns1:_workRoll,
+        ns1:_workable,
+        ns1:_workplace,
+        ns1:_wrap .
+
+ns1:_punctate a owl:NamedIndividual,
+        ns1:Punctate ;
+    rdfs:label "punctate" .
+
+ns1:_reason a owl:NamedIndividual,
+        ns1:Reason ;
+    rdfs:label "reason" ;
+    ns1:lies ns1:_temperature,
+        ns1:_uneven,
+        ns1:_unevenTemperature .
+
+ns1:_reasons a owl:NamedIndividual,
+        ns1:Reason ;
+    rdfs:label "reasons" ;
+    ns1:lies ns1:_temperature,
+        ns1:_uneven,
+        ns1:_unevenTemperature .
+
+ns1:_region a owl:NamedIndividual,
+        ns1:Parts ;
+    rdfs:label "region" .
+
+ns1:_requirements a owl:NamedIndividual,
+        ns1:Requirements ;
+    rdfs:label "requirements" .
+
+ns1:_rockOil a owl:NamedIndividual,
+        ns1:OilSpots ;
+    rdfs:label "rock oil" ;
+    ns1:caused ns1:_contamination,
+        ns1:_mechanical,
+        ns1:_mechanics,
+        ns1:_mechanism .
+
+ns1:_rollDamage a owl:NamedIndividual,
+        ns1:RollDamage ;
+    rdfs:label "roll damage" .
+
+ns1:_rough a owl:NamedIndividual,
+        ns1:Rough ;
+    rdfs:label "rough" ;
+    ns1:pockmarked ns1:_coat,
+        ns1:_coating,
+        ns1:_earth%27sSurface,
+        ns1:_inclusion,
+        ns1:_inclusions,
+        ns1:_surface,
+        ns1:_surfaces,
+        ns1:_surficial .
+
+ns1:_roughness a owl:NamedIndividual,
+        ns1:Rough ;
+    rdfs:label "roughness" ;
+    ns1:pockmarked ns1:_coat,
+        ns1:_coating,
+        ns1:_earth%27sSurface,
+        ns1:_inclusion,
+        ns1:_inclusions,
+        ns1:_surface,
+        ns1:_surfaces,
+        ns1:_surficial .
+
+ns1:_section a owl:NamedIndividual,
+        ns1:Section ;
+    rdfs:label "section" ;
+    ns1:caused ns1:_configuration,
+        ns1:_conformation,
+        ns1:_contour,
+        ns1:_figureOut,
+        ns1:_forge,
+        ns1:_form,
+        ns1:_formation,
+        ns1:_function,
+        ns1:_functioning,
+        ns1:_go,
+        ns1:_lick,
+        ns1:_mold,
+        ns1:_mould,
+        ns1:_operant,
+        ns1:_operate,
+        ns1:_operation,
+        ns1:_operative,
+        ns1:_pattern,
+        ns1:_pieceOfWork,
+        ns1:_puzzleOut,
+        ns1:_roll,
+        ns1:_roller,
+        ns1:_run,
+        ns1:_shape,
+        ns1:_shaper,
+        ns1:_shaping,
+        ns1:_solution,
+        ns1:_solve,
+        ns1:_solvent,
+        ns1:_solver,
+        ns1:_solving,
+        ns1:_stripShape,
+        ns1:_studious,
+        ns1:_study,
+        ns1:_tension,
+        ns1:_tensionRoll,
+        ns1:_tensionRollDamage,
+        ns1:_twine,
+        ns1:_wind,
+        ns1:_winder,
+        ns1:_work,
+        ns1:_workOut,
+        ns1:_workRoll,
+        ns1:_workable,
+        ns1:_workplace,
+        ns1:_wrap .
+
+ns1:_segment a owl:NamedIndividual,
+        ns1:Section ;
+    rdfs:label "segment" ;
+    ns1:caused ns1:_configuration,
+        ns1:_conformation,
+        ns1:_contour,
+        ns1:_figureOut,
+        ns1:_forge,
+        ns1:_form,
+        ns1:_formation,
+        ns1:_function,
+        ns1:_functioning,
+        ns1:_go,
+        ns1:_lick,
+        ns1:_mold,
+        ns1:_mould,
+        ns1:_operant,
+        ns1:_operate,
+        ns1:_operation,
+        ns1:_operative,
+        ns1:_pattern,
+        ns1:_pieceOfWork,
+        ns1:_puzzleOut,
+        ns1:_roll,
+        ns1:_roller,
+        ns1:_run,
+        ns1:_shape,
+        ns1:_shaper,
+        ns1:_shaping,
+        ns1:_solution,
+        ns1:_solve,
+        ns1:_solvent,
+        ns1:_solver,
+        ns1:_solving,
+        ns1:_stripShape,
+        ns1:_studious,
+        ns1:_study,
+        ns1:_tension,
+        ns1:_tensionRoll,
+        ns1:_tensionRollDamage,
+        ns1:_twine,
+        ns1:_wind,
+        ns1:_winder,
+        ns1:_work,
+        ns1:_workOut,
+        ns1:_workRoll,
+        ns1:_workable,
+        ns1:_workplace,
+        ns1:_wrap .
+
+ns1:_separate a owl:NamedIndividual,
+        ns1:Parts ;
+    rdfs:label "separate" .
+
+ns1:_separation a owl:NamedIndividual,
+        ns1:Parts ;
+    rdfs:label "separation" .
+
+ns1:_silk a owl:NamedIndividual,
+        ns1:Silk ;
+    rdfs:label "silk" .
+
+ns1:_silkSpot a owl:NamedIndividual,
+        ns1:Silk ;
+    rdfs:label "silk spot" .
+
+ns1:_silky a owl:NamedIndividual,
+        ns1:Silk ;
+    rdfs:label "silky" .
+
+ns1:_similar a owl:NamedIndividual,
+        ns1:Like,
+        ns1:LittleLike ;
+    rdfs:label "similar" ;
+    ns1:distributed ns1:_distance,
+        ns1:_length,
+        ns1:_lengthDirection,
+        ns1:_strip,
+        ns1:_stripLength,
+        ns1:_stripLengthDirection,
+        ns1:_stripSurface ;
+    ns1:indicating ns1:_deformation,
+        ns1:_local,
+        ns1:_localDeformation .
+
+ns1:_similarity a owl:NamedIndividual,
+        ns1:Like,
+        ns1:LittleLike ;
+    rdfs:label "similarity" ;
+    ns1:distributed ns1:_distance,
+        ns1:_length,
+        ns1:_lengthDirection,
+        ns1:_strip,
+        ns1:_stripLength,
+        ns1:_stripLengthDirection,
+        ns1:_stripSurface ;
+    ns1:indicating ns1:_deformation,
+        ns1:_local,
+        ns1:_localDeformation .
+
+ns1:_spacing a owl:NamedIndividual,
+        ns1:Spacing ;
+    rdfs:label "spacing" .
+
+ns1:_subsequentCuts a owl:NamedIndividual,
+        ns1:SubsequentCuts ;
+    rdfs:label "subsequent cuts" .
+
+ns1:_switchOff a owl:NamedIndividual,
+        ns1:SubsequentCuts ;
+    rdfs:label "switch off" .
+
+ns1:_terms a owl:NamedIndividual,
+        ns1:RollDamage ;
+    rdfs:label "terms" .
+
+ns1:_transverse a owl:NamedIndividual,
+        ns1:VerticalTransverse ;
+    rdfs:label "transverse" .
+
+ns1:_transverseFold a owl:NamedIndividual,
+        ns1:VerticalTransverse ;
+    rdfs:label "transverse fold" .
+
+ns1:_turnOff a owl:NamedIndividual,
+        ns1:SubsequentCuts ;
+    rdfs:label "turn off" .
+
+ns1:_turnOut a owl:NamedIndividual,
+        ns1:SubsequentCuts ;
+    rdfs:label "turn out" .
+
+ns1:_type a owl:NamedIndividual,
+        ns1:Type ;
+    rdfs:label "type" ;
+    ns1:described ns1:_detail .
+
+ns1:_typical a owl:NamedIndividual,
+        ns1:Typical ;
+    rdfs:label "typical" .
+
+ns1:_typify a owl:NamedIndividual,
+        ns1:Type ;
+    rdfs:label "typify" ;
+    ns1:described ns1:_detail .
+
+ns1:_unevenPressure a owl:NamedIndividual,
+        ns1:UnevenPressure ;
+    rdfs:label "uneven pressure" .
+
+ns1:_uninterrupted a owl:NamedIndividual,
+        ns1:Continuous ;
+    rdfs:label "uninterrupted" .
+
+ns1:_unremarkably a owl:NamedIndividual,
+        ns1:Usually ;
+    rdfs:label "unremarkably" ;
+    ns1:caused ns1:_contamination,
+        ns1:_mechanical,
+        ns1:_mechanics,
+        ns1:_mechanism ;
+    ns1:detected ns1:_mistake ;
+    ns1:lies ns1:_temperature,
+        ns1:_uneven,
+        ns1:_unevenTemperature ;
+    ns1:showing ns1:_fish,
+        ns1:_fishScale,
+        ns1:_fishScaleShape,
+        ns1:_fishy,
+        ns1:_little,
+        ns1:_littleness,
+        ns1:_place,
+        ns1:_scale,
+        ns1:_scaleShape,
+        ns1:_small,
+        ns1:_smallSpots,
+        ns1:_smallness,
+        ns1:_spot,
+        ns1:_spots,
+        ns1:_topographicPoint,
+        ns1:_waterSpot,
+        ns1:_waterSpots .
+
+ns1:_unsmooth a owl:NamedIndividual,
+        ns1:Rough ;
+    rdfs:label "unsmooth" ;
+    ns1:pockmarked ns1:_coat,
+        ns1:_coating,
+        ns1:_earth%27sSurface,
+        ns1:_inclusion,
+        ns1:_inclusions,
+        ns1:_surface,
+        ns1:_surfaces,
+        ns1:_surficial .
+
+ns1:_usually a owl:NamedIndividual,
+        ns1:Usually ;
+    rdfs:label "usually" ;
+    ns1:caused ns1:_contamination,
+        ns1:_mechanical,
+        ns1:_mechanics,
+        ns1:_mechanism ;
+    ns1:detected ns1:_mistake ;
+    ns1:lies ns1:_temperature,
+        ns1:_uneven,
+        ns1:_unevenTemperature ;
+    ns1:showing ns1:_fish,
+        ns1:_fishScale,
+        ns1:_fishScaleShape,
+        ns1:_fishy,
+        ns1:_little,
+        ns1:_littleness,
+        ns1:_place,
+        ns1:_scale,
+        ns1:_scaleShape,
+        ns1:_small,
+        ns1:_smallSpots,
+        ns1:_smallness,
+        ns1:_spot,
+        ns1:_spots,
+        ns1:_topographicPoint,
+        ns1:_waterSpot,
+        ns1:_waterSpots .
+
+ns1:_vertical a owl:NamedIndividual,
+        ns1:Vertical ;
+    rdfs:label "vertical" .
+
+ns1:_verticalTransverse a owl:NamedIndividual,
+        ns1:VerticalTransverse ;
+    rdfs:label "vertical transverse" .
+
+ns1:_verticalTransverseFold a owl:NamedIndividual,
+        ns1:VerticalTransverse ;
+    rdfs:label "vertical transverse fold" .
+
+ns1:_waist a owl:NamedIndividual,
+        ns1:WaistFolding ;
+    rdfs:label "waist" ;
+    ns1:are ns1:_defect,
+        ns1:_defectParts,
+        ns1:_defectType,
+        ns1:_defects,
+        ns1:_fold,
+        ns1:_folding,
+        ns1:_folds,
+        ns1:_obvious,
+        ns1:_obviousFolds,
+        ns1:_surfaceDefects,
+        ns1:_typicalDefect .
+
+ns1:_waistFolding a owl:NamedIndividual,
+        ns1:WaistFolding ;
+    rdfs:label "waist folding" ;
+    ns1:are ns1:_defect,
+        ns1:_defectParts,
+        ns1:_defectType,
+        ns1:_defects,
+        ns1:_fold,
+        ns1:_folding,
+        ns1:_folds,
+        ns1:_obvious,
+        ns1:_obviousFolds,
+        ns1:_surfaceDefects,
+        ns1:_typicalDefect .
+
+ns1:_water a owl:NamedIndividual,
+        ns1:Water ;
+    rdfs:label "water" ;
+    ns1:drying ns1:_assemblyLine,
+        ns1:_different,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_ware ;
+    ns1:produced ns1:_assemblyLine,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_ware .
+
+ns1:_watery a owl:NamedIndividual,
+        ns1:Water ;
+    rdfs:label "watery" ;
+    ns1:drying ns1:_assemblyLine,
+        ns1:_different,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_ware ;
+    ns1:produced ns1:_assemblyLine,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_ware .
+
+ns1:_wave a owl:NamedIndividual,
+        ns1:Wave ;
+    rdfs:label "wave" .
+
+ns1:_weld a owl:NamedIndividual,
+        ns1:Welding ;
+    rdfs:label "weld" ;
+    ns1:produced ns1:_strictly .
+
+ns1:_weldLine a owl:NamedIndividual,
+        ns1:Welding ;
+    rdfs:label "weld line" ;
+    ns1:produced ns1:_strictly .
+
+ns1:_welder a owl:NamedIndividual,
+        ns1:Welding ;
+    rdfs:label "welder" ;
+    ns1:produced ns1:_strictly .
+
+ns1:_welding a owl:NamedIndividual,
+        ns1:Welding ;
+    rdfs:label "welding" ;
+    ns1:produced ns1:_strictly .
+
+ns1:_weldingLine a owl:NamedIndividual,
+        ns1:Welding ;
+    rdfs:label "welding line" ;
+    ns1:produced ns1:_strictly .
+
+ns1:_weldment a owl:NamedIndividual,
+        ns1:Welding ;
+    rdfs:label "weldment" ;
+    ns1:produced ns1:_strictly .
+
+ns1:_wrinkles a owl:NamedIndividual,
+        ns1:Wrinkles ;
+    rdfs:label "wrinkles" ;
+    ns1:indicating ns1:_deformation,
+        ns1:_local,
+        ns1:_localDeformation .
+
+ns1:_yield a owl:NamedIndividual,
+        ns1:Yield ;
+    rdfs:label "yield" ;
+    ns1:moving ns1:_direction,
+        ns1:_manage,
+        ns1:_management,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:accompanied a owl:ObjectProperty ;
+    rdfs:label "accompanied" .
+
+ns1:circumvented a owl:ObjectProperty ;
+    rdfs:label "circumvented" .
+
+ns1:explaining a owl:ObjectProperty ;
+    rdfs:label "explaining" .
+
+ns1:fall a owl:ObjectProperty ;
+    rdfs:label "fall" .
+
+ns1:pressed a owl:ObjectProperty ;
+    rdfs:label "pressed" .
+
+ns1:speaking a owl:ObjectProperty ;
+    rdfs:label "speaking" .
+
+ns1:Circle a owl:Class ;
+    rdfs:label "circle" ;
+    rdfs:subClassOf ns1:Defect,
+        ns1:Gap,
+        ns1:Half,
+        ns1:Like,
+        ns1:ProductionLine,
+        ns1:SteelPlate,
+        ns1:Strip .
+
+ns1:ContinuousWave a owl:Class ;
+    rdfs:label "continuous wave" ;
+    rdfs:subClassOf ns1:Direction,
+        ns1:LengthDirection,
+        ns1:Like,
+        ns1:Local,
+        ns1:Lower,
+        ns1:Plaque,
+        ns1:Silk,
+        ns1:SmallSpots,
+        ns1:Strip,
+        ns1:Surfaces,
+        ns1:UnevenTemperature,
+        ns1:Upper .
+
+ns1:Crescent a owl:Class ;
+    rdfs:label "crescent" ;
+    rdfs:subClassOf ns1:Defect,
+        ns1:Gap,
+        ns1:Half,
+        ns1:Like,
+        ns1:ProductionLine,
+        ns1:SteelPlate,
+        ns1:Strip .
+
+ns1:Density a owl:Class ;
+    rdfs:label "density" ;
+    rdfs:subClassOf ns1:Direction,
+        ns1:LengthDirection,
+        ns1:Like,
+        ns1:Local,
+        ns1:Lower,
+        ns1:Plaque,
+        ns1:Silk,
+        ns1:SmallSpots,
+        ns1:Strip,
+        ns1:Surfaces,
+        ns1:UnevenTemperature,
+        ns1:Upper .
+
+ns1:Edge a owl:Class ;
+    rdfs:label "edge" ;
+    rdfs:subClassOf ns1:Crease,
+        ns1:Folds,
+        ns1:Regular,
+        ns1:Spacing,
+        ns1:Strip,
+        ns1:VerticalTransverse .
+
+ns1:Failure a owl:Class ;
+    rdfs:label "failure" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:lead ;
+            owl:someValuesFrom ns1:UnwantedPunching ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:lead ;
+            owl:someValuesFrom ns1:Unwanted ],
+        ns1:Defect,
+        ns1:Line,
+        ns1:Mechanical,
+        ns1:Product,
+        ns1:ProductionLine,
+        ns1:Specifications,
+        ns1:SteelPlate,
+        ns1:Strip .
+
+ns1:Flaky a owl:Class ;
+    rdfs:label "flaky" ;
+    rdfs:subClassOf ns1:Bulges,
+        ns1:Like,
+        ns1:Pits,
+        ns1:Plate,
+        ns1:SteelPlate,
+        ns1:Strip,
+        ns1:Surfaces .
+
+ns1:Global a owl:Class ;
+    rdfs:label "global" ;
+    rdfs:subClassOf ns1:Defect,
+        ns1:Distribution,
+        ns1:FishScaleShape,
+        ns1:Inclusions,
+        ns1:Local,
+        ns1:Lower,
+        ns1:MetalSurface,
+        ns1:Regular,
+        ns1:Shape,
+        ns1:Small,
+        ns1:SmallSpots,
+        ns1:Strip,
+        ns1:Surfaces,
+        ns1:Upper,
+        ns1:Usually .
+
+ns1:LocalYield a owl:Class ;
+    rdfs:label "local yield" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:moving ;
+            owl:someValuesFrom ns1:Strip ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:moving ;
+            owl:someValuesFrom ns1:Direction ],
+        ns1:Direction,
+        ns1:Local,
+        ns1:Main,
+        ns1:MainReason,
+        ns1:Process,
+        ns1:Reason,
+        ns1:Strip .
+
+ns1:Loose a owl:Class ;
+    rdfs:label "loose" ;
+    rdfs:subClassOf ns1:Inclusions,
+        ns1:Plate .
+
+ns1:MechanicalFailure a owl:Class ;
+    rdfs:label "mechanical failure" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:lead ;
+            owl:someValuesFrom ns1:Unwanted ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:lead ;
+            owl:someValuesFrom ns1:UnwantedPunching ],
+        ns1:Defect,
+        ns1:Line,
+        ns1:Mechanical,
+        ns1:Product,
+        ns1:ProductionLine,
+        ns1:Specifications,
+        ns1:SteelPlate,
+        ns1:Strip .
+
+ns1:Occurrence a owl:Class ;
+    rdfs:label "occurrence" ;
+    rdfs:subClassOf ns1:Defect,
+        ns1:Reason,
+        ns1:SteelPlate,
+        ns1:Strip,
+        ns1:Surfaces .
+
+ns1:Popular a owl:Class ;
+    rdfs:label "popular" ;
+    rdfs:subClassOf ns1:Defect,
+        ns1:Deformation,
+        ns1:Folds,
+        ns1:Like,
+        ns1:LittleLike,
+        ns1:Local,
+        ns1:Small,
+        ns1:WaistFolding,
+        ns1:Wrinkles .
+
+ns1:Punctate a owl:Class ;
+    rdfs:label "punctate" ;
+    rdfs:subClassOf ns1:Bulges,
+        ns1:Like,
+        ns1:Pits,
+        ns1:Plate,
+        ns1:SteelPlate,
+        ns1:Strip,
+        ns1:Surfaces .
+
+ns1:Requirements a owl:Class ;
+    rdfs:label "requirements" ;
+    rdfs:subClassOf ns1:Defect,
+        ns1:Different,
+        ns1:Process,
+        ns1:Product .
+
+ns1:Typical a owl:Class ;
+    rdfs:label "typical" ;
+    rdfs:subClassOf ns1:Defect,
+        ns1:Distribution,
+        ns1:FishScaleShape,
+        ns1:Inclusions,
+        ns1:Local,
+        ns1:Lower,
+        ns1:MetalSurface,
+        ns1:Regular,
+        ns1:Shape,
+        ns1:Small,
+        ns1:SmallSpots,
+        ns1:Strip,
+        ns1:Surfaces,
+        ns1:Upper,
+        ns1:Usually .
+
+ns1:Vertical a owl:Class ;
+    rdfs:label "vertical" ;
+    rdfs:subClassOf ns1:Crease,
+        ns1:Folds,
+        ns1:Regular,
+        ns1:Spacing,
+        ns1:Strip,
+        ns1:VerticalTransverse .
+
+ns1:Wave a owl:Class ;
+    rdfs:label "wave" ;
+    rdfs:subClassOf ns1:Direction,
+        ns1:LengthDirection,
+        ns1:Like,
+        ns1:Local,
+        ns1:Lower,
+        ns1:Plaque,
+        ns1:Silk,
+        ns1:SmallSpots,
+        ns1:Strip,
+        ns1:Surfaces,
+        ns1:UnevenTemperature,
+        ns1:Upper .
+
+ns1:Yield a owl:Class ;
+    rdfs:label "yield" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:moving ;
+            owl:someValuesFrom ns1:Direction ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:moving ;
+            owl:someValuesFrom ns1:Strip ],
+        ns1:Direction,
+        ns1:Local,
+        ns1:Main,
+        ns1:MainReason,
+        ns1:Process,
+        ns1:Reason,
+        ns1:Strip .
+
+ns1:_coils a owl:NamedIndividual,
+        ns1:Coils ;
+    rdfs:label "coils" .
+
+ns1:_steel a owl:NamedIndividual,
+        ns1:SteelPlate ;
+    rdfs:label "steel" ;
+    ns1:cutting ns1:_defect,
+        ns1:_defectParts,
+        ns1:_defectType,
+        ns1:_defects,
+        ns1:_results,
+        ns1:_surfaceDefects,
+        ns1:_typicalDefect ;
+    ns1:punched ns1:_assemblyLine,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_productSpecifications,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_specification,
+        ns1:_specifications,
+        ns1:_ware .
+
+ns1:_steelPlate a owl:NamedIndividual,
+        ns1:SteelPlate ;
+    rdfs:label "steel plate" ;
+    ns1:cutting ns1:_defect,
+        ns1:_defectParts,
+        ns1:_defectType,
+        ns1:_defects,
+        ns1:_results,
+        ns1:_surfaceDefects,
+        ns1:_typicalDefect ;
+    ns1:punched ns1:_assemblyLine,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_productSpecifications,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_specification,
+        ns1:_specifications,
+        ns1:_ware .
+
+ns1:_steelStrip a owl:NamedIndividual,
+        ns1:SteelPlate ;
+    rdfs:label "steel strip" ;
+    ns1:cutting ns1:_defect,
+        ns1:_defectParts,
+        ns1:_defectType,
+        ns1:_defects,
+        ns1:_results,
+        ns1:_surfaceDefects,
+        ns1:_typicalDefect ;
+    ns1:punched ns1:_assemblyLine,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_productSpecifications,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_specification,
+        ns1:_specifications,
+        ns1:_ware .
+
+ns1:_steelStripSurface a owl:NamedIndividual,
+        ns1:SteelPlate ;
+    rdfs:label "steel strip surface" ;
+    ns1:cutting ns1:_defect,
+        ns1:_defectParts,
+        ns1:_defectType,
+        ns1:_defects,
+        ns1:_results,
+        ns1:_surfaceDefects,
+        ns1:_typicalDefect ;
+    ns1:punched ns1:_assemblyLine,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_productSpecifications,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_specification,
+        ns1:_specifications,
+        ns1:_ware .
+
+ns1:_steely a owl:NamedIndividual,
+        ns1:SteelPlate ;
+    rdfs:label "steely" ;
+    ns1:cutting ns1:_defect,
+        ns1:_defectParts,
+        ns1:_defectType,
+        ns1:_defects,
+        ns1:_results,
+        ns1:_surfaceDefects,
+        ns1:_typicalDefect ;
+    ns1:punched ns1:_assemblyLine,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_productSpecifications,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_specification,
+        ns1:_specifications,
+        ns1:_ware .
+
+ns1:changed a owl:ObjectProperty ;
+    rdfs:label "changed" .
+
+ns1:needs a owl:ObjectProperty ;
+    rdfs:label "needs" .
+
+ns1:tracked a owl:ObjectProperty ;
+    rdfs:label "tracked" .
+
+ns1:uncoiling a owl:ObjectProperty ;
+    rdfs:label "uncoiling" .
+
+ns1:weld a owl:ObjectProperty ;
+    rdfs:label "weld" .
+
+ns1:Coils a owl:Class ;
+    rdfs:label "coils" ;
+    rdfs:subClassOf ns1:Line,
+        ns1:Strip,
+        ns1:Welding .
+
+ns1:Easy a owl:Class ;
+    rdfs:label "easy" ;
+    rdfs:subClassOf ns1:Inclusions,
+        ns1:Plate .
+
+ns1:Necessary a owl:Class ;
+    rdfs:label "necessary" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:weld ;
+            owl:someValuesFrom ns1:Coils ],
+        ns1:Line,
+        ns1:Strip,
+        ns1:Welding .
+
+ns1:Periodic a owl:Class ;
+    rdfs:label "periodic" ;
+    rdfs:subClassOf ns1:Bulges,
+        ns1:Like,
+        ns1:Pits,
+        ns1:Plate,
+        ns1:SteelPlate,
+        ns1:Strip,
+        ns1:Surfaces .
+
+ns1:Section a owl:Class ;
+    rdfs:label "section" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:caused ;
+            owl:someValuesFrom ns1:Work ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:caused ;
+            owl:someValuesFrom ns1:WorkRoll ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:caused ;
+            owl:someValuesFrom ns1:TensionRoll ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:caused ;
+            owl:someValuesFrom ns1:Shape ],
+        ns1:LengthDirection,
+        ns1:RollDamage,
+        ns1:Strip,
+        ns1:TensionRoll,
+        ns1:WorkRoll .
+
+ns1:Subsequent a owl:Class ;
+    rdfs:label "subsequent" ;
+    rdfs:subClassOf ns1:Defect,
+        ns1:SubsequentCuts .
+
+ns1:Type a owl:Class ;
+    rdfs:label "type" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:described ;
+            owl:someValuesFrom ns1:Detail ],
+        ns1:Defect,
+        ns1:Reason,
+        ns1:SteelPlate,
+        ns1:Strip,
+        ns1:Surfaces .
+
+ns1:_necessary a owl:NamedIndividual,
+        ns1:Necessary ;
+    rdfs:label "necessary" ;
+    ns1:weld ns1:_coils .
+
+ns1:_process a owl:NamedIndividual,
+        ns1:Process ;
+    rdfs:label "process" .
+
+ns1:_processes a owl:NamedIndividual,
+        ns1:Process ;
+    rdfs:label "processes" .
+
+ns1:_processing a owl:NamedIndividual,
+        ns1:Process ;
+    rdfs:label "processing" .
+
+ns1:_processor a owl:NamedIndividual,
+        ns1:Process ;
+    rdfs:label "processor" .
+
+ns1:_subsequent a owl:NamedIndividual,
+        ns1:Subsequent ;
+    rdfs:label "subsequent" .
+
+ns1:_treat a owl:NamedIndividual,
+        ns1:Process ;
+    rdfs:label "treat" .
+
+ns1:_treatment a owl:NamedIndividual,
+        ns1:Process ;
+    rdfs:label "treatment" .
+
+ns1:described a owl:ObjectProperty ;
+    rdfs:label "described" .
+
+ns1:detected a owl:ObjectProperty ;
+    rdfs:label "detected" .
+
+ns1:pockmarked a owl:ObjectProperty ;
+    rdfs:label "pockmarked" .
+
+ns1:punching a owl:ObjectProperty ;
+    rdfs:label "punching" .
+
+ns1:resulting a owl:ObjectProperty ;
+    rdfs:label "resulting" .
+
+ns1:Automatically a owl:Class ;
+    rdfs:label "automatically" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:tracked ;
+            owl:someValuesFrom ns1:Subsequent ],
+        ns1:Defect,
+        ns1:SubsequentCuts .
+
+ns1:Crease a owl:Class ;
+    rdfs:label "crease" .
+
+ns1:Detail a owl:Class ;
+    rdfs:label "detail" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:appears ;
+            owl:someValuesFrom ns1:SteelPlate ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:appears ;
+            owl:someValuesFrom ns1:Surfaces ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:appears ;
+            owl:someValuesFrom ns1:Strip ],
+        ns1:Defect,
+        ns1:Reason,
+        ns1:SteelPlate,
+        ns1:Strip,
+        ns1:Surfaces .
+
+ns1:LowContrast a owl:Class ;
+    rdfs:label "low contrast" .
+
+ns1:Mistake a owl:Class ;
+    rdfs:label "mistake" ;
+    rdfs:subClassOf ns1:Defect,
+        ns1:LittleLike,
+        ns1:LowContrast,
+        ns1:Lower,
+        ns1:OilSpots,
+        ns1:SmallSpots,
+        ns1:Usually,
+        ns1:Water .
+
+ns1:Obvious a owl:Class ;
+    rdfs:label "obvious" ;
+    rdfs:subClassOf ns1:Defect,
+        ns1:Deformation,
+        ns1:Folds,
+        ns1:Like,
+        ns1:LittleLike,
+        ns1:Local,
+        ns1:Small,
+        ns1:WaistFolding,
+        ns1:Wrinkles .
+
+ns1:Rough a owl:Class ;
+    rdfs:label "rough" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:pockmarked ;
+            owl:someValuesFrom ns1:Inclusions ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:pockmarked ;
+            owl:someValuesFrom ns1:Surfaces ],
+        ns1:Defect,
+        ns1:Distribution,
+        ns1:FishScaleShape,
+        ns1:Inclusions,
+        ns1:Local,
+        ns1:Lower,
+        ns1:MetalSurface,
+        ns1:Regular,
+        ns1:Shape,
+        ns1:Small,
+        ns1:SmallSpots,
+        ns1:Strip,
+        ns1:Surfaces,
+        ns1:Upper,
+        ns1:Usually .
+
+ns1:_direction a owl:NamedIndividual,
+        ns1:Direction ;
+    rdfs:label "direction" .
+
+ns1:_inclusion a owl:NamedIndividual,
+        ns1:Inclusions ;
+    rdfs:label "inclusion" .
+
+ns1:_inclusions a owl:NamedIndividual,
+        ns1:Inclusions ;
+    rdfs:label "inclusions" .
+
+ns1:_manage a owl:NamedIndividual,
+        ns1:Direction ;
+    rdfs:label "manage" .
+
+ns1:_management a owl:NamedIndividual,
+        ns1:Direction ;
+    rdfs:label "management" .
+
+ns1:according a owl:ObjectProperty ;
+    rdfs:label "according" .
+
+ns1:appears a owl:ObjectProperty ;
+    rdfs:label "appears" .
+
+ns1:rolled a owl:ObjectProperty ;
+    rdfs:label "rolled" .
+
+ns1:Contamination a owl:Class ;
+    rdfs:label "contamination" ;
+    rdfs:subClassOf ns1:Mechanical,
+        ns1:MechanicalLubricant,
+        ns1:OilSpots,
+        ns1:Product,
+        ns1:SmallSpots,
+        ns1:Usually .
+
+ns1:Different a owl:Class ;
+    rdfs:label "different" .
+
+ns1:Large a owl:Class ;
+    rdfs:label "large" ;
+    rdfs:subClassOf ns1:Defect,
+        ns1:Deformation,
+        ns1:Folds,
+        ns1:Like,
+        ns1:LittleLike,
+        ns1:Local,
+        ns1:Small,
+        ns1:WaistFolding,
+        ns1:Wrinkles .
+
+ns1:Main a owl:Class ;
+    rdfs:label "main" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:lies ;
+            owl:someValuesFrom ns1:UnevenTemperature ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:lies ;
+            owl:someValuesFrom ns1:Temperature ],
+        ns1:Reason .
+
+ns1:MainReason a owl:Class ;
+    rdfs:label "main reason" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:lies ;
+            owl:someValuesFrom ns1:Temperature ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:lies ;
+            owl:someValuesFrom ns1:UnevenTemperature ],
+        ns1:Reason .
+
+ns1:Spacing a owl:Class ;
+    rdfs:label "spacing" .
+
+ns1:Strictly a owl:Class ;
+    rdfs:label "strictly" ;
+    rdfs:subClassOf ns1:Defect,
+        ns1:SubsequentCuts .
+
+ns1:_bulges a owl:NamedIndividual,
+        ns1:Bulges ;
+    rdfs:label "bulges" .
+
+ns1:_coat a owl:NamedIndividual,
+        ns1:Surfaces ;
+    rdfs:label "coat" ;
+    ns1:appear ns1:_low,
+        ns1:_lower,
+        ns1:_lowerSurface,
+        ns1:_lowerSurfaces,
+        ns1:_upper ;
+    ns1:showing ns1:_fish,
+        ns1:_fishScale,
+        ns1:_fishScaleShape,
+        ns1:_fishy,
+        ns1:_little,
+        ns1:_littleness,
+        ns1:_place,
+        ns1:_scale,
+        ns1:_scaleShape,
+        ns1:_small,
+        ns1:_smallSpots,
+        ns1:_smallness,
+        ns1:_spot,
+        ns1:_spots,
+        ns1:_topographicPoint,
+        ns1:_waterSpot,
+        ns1:_waterSpots .
+
+ns1:_coating a owl:NamedIndividual,
+        ns1:Surfaces ;
+    rdfs:label "coating" ;
+    ns1:appear ns1:_low,
+        ns1:_lower,
+        ns1:_lowerSurface,
+        ns1:_lowerSurfaces,
+        ns1:_upper ;
+    ns1:showing ns1:_fish,
+        ns1:_fishScale,
+        ns1:_fishScaleShape,
+        ns1:_fishy,
+        ns1:_little,
+        ns1:_littleness,
+        ns1:_place,
+        ns1:_scale,
+        ns1:_scaleShape,
+        ns1:_small,
+        ns1:_smallSpots,
+        ns1:_smallness,
+        ns1:_spot,
+        ns1:_spots,
+        ns1:_topographicPoint,
+        ns1:_waterSpot,
+        ns1:_waterSpots .
+
+ns1:_earth%27sSurface a owl:NamedIndividual,
+        ns1:Surfaces ;
+    rdfs:label "Earth's surface" ;
+    ns1:appear ns1:_low,
+        ns1:_lower,
+        ns1:_lowerSurface,
+        ns1:_lowerSurfaces,
+        ns1:_upper ;
+    ns1:showing ns1:_fish,
+        ns1:_fishScale,
+        ns1:_fishScaleShape,
+        ns1:_fishy,
+        ns1:_little,
+        ns1:_littleness,
+        ns1:_place,
+        ns1:_scale,
+        ns1:_scaleShape,
+        ns1:_small,
+        ns1:_smallSpots,
+        ns1:_smallness,
+        ns1:_spot,
+        ns1:_spots,
+        ns1:_topographicPoint,
+        ns1:_waterSpot,
+        ns1:_waterSpots .
+
+ns1:_periodic a owl:NamedIndividual,
+        ns1:Periodic ;
+    rdfs:label "periodic" .
+
+ns1:_periodicBulges a owl:NamedIndividual,
+        ns1:Bulges ;
+    rdfs:label "periodic bulges" .
+
+ns1:_pit a owl:NamedIndividual,
+        ns1:Pits ;
+    rdfs:label "pit" ;
+    ns1:rolled ns1:_bulges,
+        ns1:_periodic,
+        ns1:_periodicBulges,
+        ns1:_pit,
+        ns1:_pits,
+        ns1:_quarry,
+        ns1:_stonePit .
+
+ns1:_pits a owl:NamedIndividual,
+        ns1:Pits ;
+    rdfs:label "pits" ;
+    ns1:rolled ns1:_bulges,
+        ns1:_periodic,
+        ns1:_periodicBulges,
+        ns1:_pit,
+        ns1:_pits,
+        ns1:_quarry,
+        ns1:_stonePit .
+
+ns1:_quarry a owl:NamedIndividual,
+        ns1:Pits ;
+    rdfs:label "quarry" ;
+    ns1:rolled ns1:_bulges,
+        ns1:_periodic,
+        ns1:_periodicBulges,
+        ns1:_pit,
+        ns1:_pits,
+        ns1:_quarry,
+        ns1:_stonePit .
+
+ns1:_stonePit a owl:NamedIndividual,
+        ns1:Pits ;
+    rdfs:label "stone pit" ;
+    ns1:rolled ns1:_bulges,
+        ns1:_periodic,
+        ns1:_periodicBulges,
+        ns1:_pit,
+        ns1:_pits,
+        ns1:_quarry,
+        ns1:_stonePit .
+
+ns1:_surface a owl:NamedIndividual,
+        ns1:Surfaces ;
+    rdfs:label "surface" ;
+    ns1:appear ns1:_low,
+        ns1:_lower,
+        ns1:_lowerSurface,
+        ns1:_lowerSurfaces,
+        ns1:_upper ;
+    ns1:showing ns1:_fish,
+        ns1:_fishScale,
+        ns1:_fishScaleShape,
+        ns1:_fishy,
+        ns1:_little,
+        ns1:_littleness,
+        ns1:_place,
+        ns1:_scale,
+        ns1:_scaleShape,
+        ns1:_small,
+        ns1:_smallSpots,
+        ns1:_smallness,
+        ns1:_spot,
+        ns1:_spots,
+        ns1:_topographicPoint,
+        ns1:_waterSpot,
+        ns1:_waterSpots .
+
+ns1:_surfaces a owl:NamedIndividual,
+        ns1:Surfaces ;
+    rdfs:label "surfaces" ;
+    ns1:appear ns1:_low,
+        ns1:_lower,
+        ns1:_lowerSurface,
+        ns1:_lowerSurfaces,
+        ns1:_upper ;
+    ns1:showing ns1:_fish,
+        ns1:_fishScale,
+        ns1:_fishScaleShape,
+        ns1:_fishy,
+        ns1:_little,
+        ns1:_littleness,
+        ns1:_place,
+        ns1:_scale,
+        ns1:_scaleShape,
+        ns1:_small,
+        ns1:_smallSpots,
+        ns1:_smallness,
+        ns1:_spot,
+        ns1:_spots,
+        ns1:_topographicPoint,
+        ns1:_waterSpot,
+        ns1:_waterSpots .
+
+ns1:_surficial a owl:NamedIndividual,
+        ns1:Surfaces ;
+    rdfs:label "surficial" ;
+    ns1:appear ns1:_low,
+        ns1:_lower,
+        ns1:_lowerSurface,
+        ns1:_lowerSurfaces,
+        ns1:_upper ;
+    ns1:showing ns1:_fish,
+        ns1:_fishScale,
+        ns1:_fishScaleShape,
+        ns1:_fishy,
+        ns1:_little,
+        ns1:_littleness,
+        ns1:_place,
+        ns1:_scale,
+        ns1:_scaleShape,
+        ns1:_small,
+        ns1:_smallSpots,
+        ns1:_smallness,
+        ns1:_spot,
+        ns1:_spots,
+        ns1:_topographicPoint,
+        ns1:_waterSpot,
+        ns1:_waterSpots .
+
+ns1:appear a owl:ObjectProperty ;
+    rdfs:label "appear" .
+
+ns1:distributed a owl:ObjectProperty ;
+    rdfs:label "distributed" .
+
+ns1:Appearance a owl:Class ;
+    rdfs:label "appearance" ;
+    rdfs:subClassOf ns1:Mechanical,
+        ns1:MechanicalLubricant,
+        ns1:OilSpots,
+        ns1:Product,
+        ns1:SmallSpots,
+        ns1:Usually .
+
+ns1:Continuous a owl:Class ;
+    rdfs:label "continuous" ;
+    rdfs:subClassOf ns1:Direction,
+        ns1:LengthDirection,
+        ns1:Like,
+        ns1:Local,
+        ns1:Lower,
+        ns1:Plaque,
+        ns1:Silk,
+        ns1:SmallSpots,
+        ns1:Strip,
+        ns1:Surfaces,
+        ns1:UnevenTemperature,
+        ns1:Upper .
+
+ns1:Half a owl:Class ;
+    rdfs:label "half" .
+
+ns1:Mainly a owl:Class ;
+    rdfs:label "mainly" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:caused ;
+            owl:someValuesFrom ns1:TensionRoll ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:caused ;
+            owl:someValuesFrom ns1:WorkRoll ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:caused ;
+            owl:someValuesFrom ns1:Work ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:caused ;
+            owl:someValuesFrom ns1:Shape ],
+        ns1:LengthDirection,
+        ns1:RollDamage,
+        ns1:Strip,
+        ns1:TensionRoll,
+        ns1:WorkRoll .
+
+ns1:Results a owl:Class ;
+    rdfs:label "results" ;
+    rdfs:subClassOf ns1:Defect,
+        ns1:Gap,
+        ns1:Half,
+        ns1:Like,
+        ns1:ProductionLine,
+        ns1:SteelPlate,
+        ns1:Strip .
+
+ns1:Temperature a owl:Class ;
+    rdfs:label "temperature" ;
+    rdfs:subClassOf ns1:Main,
+        ns1:MainReason,
+        ns1:Reason,
+        ns1:UnevenPressure,
+        ns1:UnevenTemperature,
+        ns1:Usually,
+        ns1:WorkRoll .
+
+ns1:Unwanted a owl:Class ;
+    rdfs:label "unwanted" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:resulting ;
+            owl:someValuesFrom ns1:Defect ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:punching ;
+            owl:someValuesFrom ns1:Defect ],
+        ns1:Defect,
+        ns1:Line,
+        ns1:Mechanical,
+        ns1:Product,
+        ns1:ProductionLine,
+        ns1:Specifications,
+        ns1:SteelPlate,
+        ns1:Strip .
+
+ns1:UnwantedPunching a owl:Class ;
+    rdfs:label "unwanted punching" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:resulting ;
+            owl:someValuesFrom ns1:Defect ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:punching ;
+            owl:someValuesFrom ns1:Defect ],
+        ns1:Defect,
+        ns1:Line,
+        ns1:Mechanical,
+        ns1:Product,
+        ns1:ProductionLine,
+        ns1:Specifications,
+        ns1:SteelPlate,
+        ns1:Strip .
+
+ns1:Water a owl:Class ;
+    rdfs:label "water" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:drying ;
+            owl:someValuesFrom ns1:Product ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:drying ;
+            owl:someValuesFrom ns1:Different ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:produced ;
+            owl:someValuesFrom ns1:Product ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:produced ;
+            owl:someValuesFrom ns1:ProductionLine ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:drying ;
+            owl:someValuesFrom ns1:ProductionLine ] .
+
+ns1:_distance a owl:NamedIndividual,
+        ns1:LengthDirection ;
+    rdfs:label "distance" ;
+    ns1:caused ns1:_configuration,
+        ns1:_conformation,
+        ns1:_contour,
+        ns1:_figureOut,
+        ns1:_forge,
+        ns1:_form,
+        ns1:_formation,
+        ns1:_function,
+        ns1:_functioning,
+        ns1:_go,
+        ns1:_lick,
+        ns1:_mold,
+        ns1:_mould,
+        ns1:_operant,
+        ns1:_operate,
+        ns1:_operation,
+        ns1:_operative,
+        ns1:_pattern,
+        ns1:_pieceOfWork,
+        ns1:_puzzleOut,
+        ns1:_roll,
+        ns1:_roller,
+        ns1:_run,
+        ns1:_shape,
+        ns1:_shaper,
+        ns1:_shaping,
+        ns1:_solution,
+        ns1:_solve,
+        ns1:_solvent,
+        ns1:_solver,
+        ns1:_solving,
+        ns1:_stripShape,
+        ns1:_studious,
+        ns1:_study,
+        ns1:_tension,
+        ns1:_tensionRoll,
+        ns1:_tensionRollDamage,
+        ns1:_twine,
+        ns1:_wind,
+        ns1:_winder,
+        ns1:_work,
+        ns1:_workOut,
+        ns1:_workRoll,
+        ns1:_workable,
+        ns1:_workplace,
+        ns1:_wrap .
+
+ns1:_length a owl:NamedIndividual,
+        ns1:LengthDirection ;
+    rdfs:label "length" ;
+    ns1:caused ns1:_configuration,
+        ns1:_conformation,
+        ns1:_contour,
+        ns1:_figureOut,
+        ns1:_forge,
+        ns1:_form,
+        ns1:_formation,
+        ns1:_function,
+        ns1:_functioning,
+        ns1:_go,
+        ns1:_lick,
+        ns1:_mold,
+        ns1:_mould,
+        ns1:_operant,
+        ns1:_operate,
+        ns1:_operation,
+        ns1:_operative,
+        ns1:_pattern,
+        ns1:_pieceOfWork,
+        ns1:_puzzleOut,
+        ns1:_roll,
+        ns1:_roller,
+        ns1:_run,
+        ns1:_shape,
+        ns1:_shaper,
+        ns1:_shaping,
+        ns1:_solution,
+        ns1:_solve,
+        ns1:_solvent,
+        ns1:_solver,
+        ns1:_solving,
+        ns1:_stripShape,
+        ns1:_studious,
+        ns1:_study,
+        ns1:_tension,
+        ns1:_tensionRoll,
+        ns1:_tensionRollDamage,
+        ns1:_twine,
+        ns1:_wind,
+        ns1:_winder,
+        ns1:_work,
+        ns1:_workOut,
+        ns1:_workRoll,
+        ns1:_workable,
+        ns1:_workplace,
+        ns1:_wrap .
+
+ns1:_lengthDirection a owl:NamedIndividual,
+        ns1:LengthDirection ;
+    rdfs:label "length direction" ;
+    ns1:caused ns1:_configuration,
+        ns1:_conformation,
+        ns1:_contour,
+        ns1:_figureOut,
+        ns1:_forge,
+        ns1:_form,
+        ns1:_formation,
+        ns1:_function,
+        ns1:_functioning,
+        ns1:_go,
+        ns1:_lick,
+        ns1:_mold,
+        ns1:_mould,
+        ns1:_operant,
+        ns1:_operate,
+        ns1:_operation,
+        ns1:_operative,
+        ns1:_pattern,
+        ns1:_pieceOfWork,
+        ns1:_puzzleOut,
+        ns1:_roll,
+        ns1:_roller,
+        ns1:_run,
+        ns1:_shape,
+        ns1:_shaper,
+        ns1:_shaping,
+        ns1:_solution,
+        ns1:_solve,
+        ns1:_solvent,
+        ns1:_solver,
+        ns1:_solving,
+        ns1:_stripShape,
+        ns1:_studious,
+        ns1:_study,
+        ns1:_tension,
+        ns1:_tensionRoll,
+        ns1:_tensionRollDamage,
+        ns1:_twine,
+        ns1:_wind,
+        ns1:_winder,
+        ns1:_work,
+        ns1:_workOut,
+        ns1:_workRoll,
+        ns1:_workable,
+        ns1:_workplace,
+        ns1:_wrap .
+
+ns1:_stripLength a owl:NamedIndividual,
+        ns1:LengthDirection ;
+    rdfs:label "strip length" ;
+    ns1:caused ns1:_configuration,
+        ns1:_conformation,
+        ns1:_contour,
+        ns1:_figureOut,
+        ns1:_forge,
+        ns1:_form,
+        ns1:_formation,
+        ns1:_function,
+        ns1:_functioning,
+        ns1:_go,
+        ns1:_lick,
+        ns1:_mold,
+        ns1:_mould,
+        ns1:_operant,
+        ns1:_operate,
+        ns1:_operation,
+        ns1:_operative,
+        ns1:_pattern,
+        ns1:_pieceOfWork,
+        ns1:_puzzleOut,
+        ns1:_roll,
+        ns1:_roller,
+        ns1:_run,
+        ns1:_shape,
+        ns1:_shaper,
+        ns1:_shaping,
+        ns1:_solution,
+        ns1:_solve,
+        ns1:_solvent,
+        ns1:_solver,
+        ns1:_solving,
+        ns1:_stripShape,
+        ns1:_studious,
+        ns1:_study,
+        ns1:_tension,
+        ns1:_tensionRoll,
+        ns1:_tensionRollDamage,
+        ns1:_twine,
+        ns1:_wind,
+        ns1:_winder,
+        ns1:_work,
+        ns1:_workOut,
+        ns1:_workRoll,
+        ns1:_workable,
+        ns1:_workplace,
+        ns1:_wrap .
+
+ns1:_stripLengthDirection a owl:NamedIndividual,
+        ns1:LengthDirection ;
+    rdfs:label "strip length direction" ;
+    ns1:caused ns1:_configuration,
+        ns1:_conformation,
+        ns1:_contour,
+        ns1:_figureOut,
+        ns1:_forge,
+        ns1:_form,
+        ns1:_formation,
+        ns1:_function,
+        ns1:_functioning,
+        ns1:_go,
+        ns1:_lick,
+        ns1:_mold,
+        ns1:_mould,
+        ns1:_operant,
+        ns1:_operate,
+        ns1:_operation,
+        ns1:_operative,
+        ns1:_pattern,
+        ns1:_pieceOfWork,
+        ns1:_puzzleOut,
+        ns1:_roll,
+        ns1:_roller,
+        ns1:_run,
+        ns1:_shape,
+        ns1:_shaper,
+        ns1:_shaping,
+        ns1:_solution,
+        ns1:_solve,
+        ns1:_solvent,
+        ns1:_solver,
+        ns1:_solving,
+        ns1:_stripShape,
+        ns1:_studious,
+        ns1:_study,
+        ns1:_tension,
+        ns1:_tensionRoll,
+        ns1:_tensionRollDamage,
+        ns1:_twine,
+        ns1:_wind,
+        ns1:_winder,
+        ns1:_work,
+        ns1:_workOut,
+        ns1:_workRoll,
+        ns1:_workable,
+        ns1:_workplace,
+        ns1:_wrap .
+
+ns1:Bulges a owl:Class ;
+    rdfs:label "bulges" .
+
+ns1:Fish a owl:Class ;
+    rdfs:label "fish" ;
+    rdfs:subClassOf ns1:Defect,
+        ns1:Distribution,
+        ns1:FishScaleShape,
+        ns1:Inclusions,
+        ns1:Local,
+        ns1:Lower,
+        ns1:MetalSurface,
+        ns1:Regular,
+        ns1:Shape,
+        ns1:Small,
+        ns1:SmallSpots,
+        ns1:Strip,
+        ns1:Surfaces,
+        ns1:Upper,
+        ns1:Usually .
+
+ns1:Plaque a owl:Class ;
+    rdfs:label "plaque" .
+
+ns1:Plate a owl:Class ;
+    rdfs:label "plate" .
+
+ns1:VerticalTransverse a owl:Class ;
+    rdfs:label "vertical transverse" .
+
+ns1:WaistFolding a owl:Class ;
+    rdfs:label "waist folding" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:are ;
+            owl:someValuesFrom ns1:Folds ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:are ;
+            owl:someValuesFrom ns1:Defect ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:are ;
+            owl:someValuesFrom ns1:Obvious ] .
+
+ns1:_automatically a owl:NamedIndividual,
+        ns1:Automatically ;
+    rdfs:label "automatically" ;
+    ns1:tracked ns1:_subsequent .
+
+ns1:_fold a owl:NamedIndividual,
+        ns1:Folds ;
+    rdfs:label "fold" ;
+    ns1:are ns1:_defect,
+        ns1:_defectParts,
+        ns1:_defectType,
+        ns1:_defects,
+        ns1:_fold,
+        ns1:_folding,
+        ns1:_folds,
+        ns1:_obvious,
+        ns1:_obviousFolds,
+        ns1:_surfaceDefects,
+        ns1:_typicalDefect .
+
+ns1:_folding a owl:NamedIndividual,
+        ns1:Folds ;
+    rdfs:label "folding" ;
+    ns1:are ns1:_defect,
+        ns1:_defectParts,
+        ns1:_defectType,
+        ns1:_defects,
+        ns1:_fold,
+        ns1:_folding,
+        ns1:_folds,
+        ns1:_obvious,
+        ns1:_obviousFolds,
+        ns1:_surfaceDefects,
+        ns1:_typicalDefect .
+
+ns1:_folds a owl:NamedIndividual,
+        ns1:Folds ;
+    rdfs:label "folds" ;
+    ns1:are ns1:_defect,
+        ns1:_defectParts,
+        ns1:_defectType,
+        ns1:_defects,
+        ns1:_fold,
+        ns1:_folding,
+        ns1:_folds,
+        ns1:_obvious,
+        ns1:_obviousFolds,
+        ns1:_surfaceDefects,
+        ns1:_typicalDefect .
+
+ns1:_mechanically a owl:NamedIndividual,
+        ns1:Automatically ;
+    rdfs:label "mechanically" ;
+    ns1:tracked ns1:_subsequent .
+
+ns1:_obvious a owl:NamedIndividual,
+        ns1:Obvious ;
+    rdfs:label "obvious" .
+
+ns1:_obviousFolds a owl:NamedIndividual,
+        ns1:Folds ;
+    rdfs:label "obvious folds" ;
+    ns1:are ns1:_defect,
+        ns1:_defectParts,
+        ns1:_defectType,
+        ns1:_defects,
+        ns1:_fold,
+        ns1:_folding,
+        ns1:_folds,
+        ns1:_obvious,
+        ns1:_obviousFolds,
+        ns1:_surfaceDefects,
+        ns1:_typicalDefect .
+
+ns1:affect a owl:ObjectProperty ;
+    rdfs:label "affect" .
+
+ns1:are a owl:ObjectProperty ;
+    rdfs:label "are" .
+
+ns1:drying a owl:ObjectProperty ;
+    rdfs:label "drying" .
+
+ns1:moving a owl:ObjectProperty ;
+    rdfs:label "moving" .
+
+ns1:punched a owl:ObjectProperty ;
+    rdfs:label "punched" .
+
+ns1:Gap a owl:Class ;
+    rdfs:label "gap" .
+
+ns1:Silk a owl:Class ;
+    rdfs:label "silk" .
+
+ns1:Wrinkles a owl:Class ;
+    rdfs:label "wrinkles" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:indicating ;
+            owl:someValuesFrom ns1:Deformation ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:indicating ;
+            owl:someValuesFrom ns1:Local ] .
+
+ns1:produced a owl:ObjectProperty ;
+    rdfs:label "produced" .
+
+ns1:MechanicalLubricant a owl:Class ;
+    rdfs:label "mechanical lubricant" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:affect ;
+            owl:someValuesFrom ns1:ProductionLine ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:affect ;
+            owl:someValuesFrom ns1:Appearance ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:affect ;
+            owl:someValuesFrom ns1:Product ] .
+
+ns1:Parts a owl:Class ;
+    rdfs:label "parts" ;
+    rdfs:subClassOf ns1:Defect,
+        ns1:Deformation,
+        ns1:Folds,
+        ns1:Like,
+        ns1:LittleLike,
+        ns1:Local,
+        ns1:Small,
+        ns1:WaistFolding,
+        ns1:Wrinkles .
+
+ns1:Pits a owl:Class ;
+    rdfs:label "pits" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:rolled ;
+            owl:someValuesFrom ns1:Bulges ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:rolled ;
+            owl:someValuesFrom ns1:Periodic ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:rolled ;
+            owl:someValuesFrom ns1:Pits ] .
+
+ns1:Welding a owl:Class ;
+    rdfs:label "welding" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:produced ;
+            owl:someValuesFrom ns1:Strictly ] .
+
+ns1:_detail a owl:NamedIndividual,
+        ns1:Detail ;
+    rdfs:label "detail" ;
+    ns1:appears ns1:_coat,
+        ns1:_coating,
+        ns1:_earth%27sSurface,
+        ns1:_steel,
+        ns1:_steelPlate,
+        ns1:_steelStrip,
+        ns1:_steelStripSurface,
+        ns1:_steely,
+        ns1:_strip,
+        ns1:_stripSurface,
+        ns1:_surface,
+        ns1:_surfaces,
+        ns1:_surficial .
+
+ns1:_low a owl:NamedIndividual,
+        ns1:Lower ;
+    rdfs:label "low" .
+
+ns1:_lower a owl:NamedIndividual,
+        ns1:Lower ;
+    rdfs:label "lower" .
+
+ns1:_lowerSurface a owl:NamedIndividual,
+        ns1:Lower ;
+    rdfs:label "lower surface" .
+
+ns1:_lowerSurfaces a owl:NamedIndividual,
+        ns1:Lower ;
+    rdfs:label "lower surfaces" .
+
+ns1:_unwanted a owl:NamedIndividual,
+        ns1:Unwanted ;
+    rdfs:label "unwanted" ;
+    ns1:punching ns1:_defect,
+        ns1:_defectParts,
+        ns1:_defectType,
+        ns1:_defects,
+        ns1:_surfaceDefects,
+        ns1:_typicalDefect ;
+    ns1:resulting ns1:_defect,
+        ns1:_defectParts,
+        ns1:_defectType,
+        ns1:_defects,
+        ns1:_surfaceDefects,
+        ns1:_typicalDefect .
+
+ns1:_unwantedPunching a owl:NamedIndividual,
+        ns1:UnwantedPunching ;
+    rdfs:label "unwanted punching" ;
+    ns1:punching ns1:_defect,
+        ns1:_defectParts,
+        ns1:_defectType,
+        ns1:_defects,
+        ns1:_surfaceDefects,
+        ns1:_typicalDefect ;
+    ns1:resulting ns1:_defect,
+        ns1:_defectParts,
+        ns1:_defectType,
+        ns1:_defects,
+        ns1:_surfaceDefects,
+        ns1:_typicalDefect .
+
+ns1:_upper a owl:NamedIndividual,
+        ns1:Upper ;
+    rdfs:label "upper" .
+
+ns1:cutting a owl:ObjectProperty ;
+    rdfs:label "cutting" .
+
+ns1:indicating a owl:ObjectProperty ;
+    rdfs:label "indicating" .
+
+ns1:lead a owl:ObjectProperty ;
+    rdfs:label "lead" .
+
+ns1:lies a owl:ObjectProperty ;
+    rdfs:label "lies" .
+
+ns1:Carbon a owl:Class ;
+    rdfs:label "carbon" ;
+    rdfs:subClassOf ns1:Lower,
+        ns1:Reason .
+
+ns1:Distribution a owl:Class ;
+    rdfs:label "distribution" .
+
+ns1:Inclusions a owl:Class ;
+    rdfs:label "inclusions" .
+
+ns1:RollDamage a owl:Class ;
+    rdfs:label "roll damage" .
+
+ns1:TensionRoll a owl:Class ;
+    rdfs:label "tension roll" .
+
+ns1:UnevenPressure a owl:Class ;
+    rdfs:label "uneven pressure" .
+
+ns1:_appear a owl:NamedIndividual,
+        ns1:Appearance ;
+    rdfs:label "appear" .
+
+ns1:_appearance a owl:NamedIndividual,
+        ns1:Appearance ;
+    rdfs:label "appearance" .
+
+ns1:_productSpecifications a owl:NamedIndividual,
+        ns1:Specifications ;
+    rdfs:label "product specifications" ;
+    ns1:lead ns1:_unwanted,
+        ns1:_unwantedPunching .
+
+ns1:_specification a owl:NamedIndividual,
+        ns1:Specifications ;
+    rdfs:label "specification" ;
+    ns1:lead ns1:_unwanted,
+        ns1:_unwantedPunching .
+
+ns1:_specifications a owl:NamedIndividual,
+        ns1:Specifications ;
+    rdfs:label "specifications" ;
+    ns1:lead ns1:_unwanted,
+        ns1:_unwantedPunching .
+
+ns1:_visualAspect a owl:NamedIndividual,
+        ns1:Appearance ;
+    rdfs:label "visual aspect" .
+
+ns1:block a owl:ObjectProperty ;
+    rdfs:label "block" .
+
+ns1:Deformation a owl:Class ;
+    rdfs:label "deformation" .
+
+ns1:LittleLike a owl:Class ;
+    rdfs:label "little like" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:distributed ;
+            owl:someValuesFrom ns1:LengthDirection ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:indicating ;
+            owl:someValuesFrom ns1:Local ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:indicating ;
+            owl:someValuesFrom ns1:Deformation ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:distributed ;
+            owl:someValuesFrom ns1:Strip ],
+        ns1:Defect .
+
+ns1:MetalSurface a owl:Class ;
+    rdfs:label "metal surface" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:showing ;
+            owl:someValuesFrom ns1:FishScaleShape ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:showing ;
+            owl:someValuesFrom ns1:Small ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:showing ;
+            owl:someValuesFrom ns1:SmallSpots ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:showing ;
+            owl:someValuesFrom ns1:Fish ] .
+
+ns1:Process a owl:Class ;
+    rdfs:label "process" .
+
+ns1:Specifications a owl:Class ;
+    rdfs:label "specifications" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:lead ;
+            owl:someValuesFrom ns1:UnwantedPunching ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:lead ;
+            owl:someValuesFrom ns1:Unwanted ] .
+
+ns1:_temperature a owl:NamedIndividual,
+        ns1:Temperature ;
+    rdfs:label "temperature" .
+
+ns1:_uneven a owl:NamedIndividual,
+        ns1:UnevenTemperature ;
+    rdfs:label "uneven" .
+
+ns1:_unevenTemperature a owl:NamedIndividual,
+        ns1:UnevenTemperature ;
+    rdfs:label "uneven temperature" .
+
+ns1:Reason a owl:Class ;
+    rdfs:label "reason" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:lies ;
+            owl:someValuesFrom ns1:UnevenTemperature ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:lies ;
+            owl:someValuesFrom ns1:Temperature ] .
+
+ns1:Regular a owl:Class ;
+    rdfs:label "regular" .
+
+ns1:SubsequentCuts a owl:Class ;
+    rdfs:label "subsequent cuts" .
+
+ns1:UnevenTemperature a owl:Class ;
+    rdfs:label "uneven temperature" .
+
+ns1:Upper a owl:Class ;
+    rdfs:label "upper" ;
+    rdfs:subClassOf ns1:Local,
+        ns1:Lower,
+        ns1:SmallSpots,
+        ns1:Strip,
+        ns1:Surfaces .
+
+ns1:_different a owl:NamedIndividual,
+        ns1:Different ;
+    rdfs:label "different" .
+
+ns1:Direction a owl:Class ;
+    rdfs:label "direction" ;
+    rdfs:subClassOf ns1:Local,
+        ns1:Strip .
+
+ns1:FishScaleShape a owl:Class ;
+    rdfs:label "fish scale shape" .
+
+ns1:Folds a owl:Class ;
+    rdfs:label "folds" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:are ;
+            owl:someValuesFrom ns1:Obvious ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:are ;
+            owl:someValuesFrom ns1:Folds ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:are ;
+            owl:someValuesFrom ns1:Defect ] .
+
+ns1:Mechanical a owl:Class ;
+    rdfs:label "mechanical" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:affect ;
+            owl:someValuesFrom ns1:Product ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:lead ;
+            owl:someValuesFrom ns1:Unwanted ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:lead ;
+            owl:someValuesFrom ns1:UnwantedPunching ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:affect ;
+            owl:someValuesFrom ns1:Appearance ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:affect ;
+            owl:someValuesFrom ns1:ProductionLine ],
+        ns1:Product .
+
+ns1:_configuration a owl:NamedIndividual,
+        ns1:Shape ;
+    rdfs:label "configuration" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_conformation a owl:NamedIndividual,
+        ns1:Shape ;
+    rdfs:label "conformation" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_contour a owl:NamedIndividual,
+        ns1:Shape ;
+    rdfs:label "contour" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_deformation a owl:NamedIndividual,
+        ns1:Deformation ;
+    rdfs:label "deformation" .
+
+ns1:_figureOut a owl:NamedIndividual,
+        ns1:Work ;
+    rdfs:label "figure out" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_forge a owl:NamedIndividual,
+        ns1:Shape,
+        ns1:Work ;
+    rdfs:label "forge" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_form a owl:NamedIndividual,
+        ns1:Shape,
+        ns1:Work ;
+    rdfs:label "form" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_formation a owl:NamedIndividual,
+        ns1:Shape,
+        ns1:Work ;
+    rdfs:label "formation" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_function a owl:NamedIndividual,
+        ns1:Work ;
+    rdfs:label "function" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_functioning a owl:NamedIndividual,
+        ns1:Work ;
+    rdfs:label "functioning" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_go a owl:NamedIndividual,
+        ns1:Work ;
+    rdfs:label "go" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_lick a owl:NamedIndividual,
+        ns1:Work ;
+    rdfs:label "lick" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_local a owl:NamedIndividual,
+        ns1:Local ;
+    rdfs:label "local" ;
+    ns1:moving ns1:_direction,
+        ns1:_manage,
+        ns1:_management,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_localDeformation a owl:NamedIndividual,
+        ns1:Deformation ;
+    rdfs:label "local deformation" .
+
+ns1:_mold a owl:NamedIndividual,
+        ns1:Shape,
+        ns1:Work ;
+    rdfs:label "mold" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_mould a owl:NamedIndividual,
+        ns1:Shape,
+        ns1:Work ;
+    rdfs:label "mould" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_operant a owl:NamedIndividual,
+        ns1:Work ;
+    rdfs:label "operant" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_operate a owl:NamedIndividual,
+        ns1:Work ;
+    rdfs:label "operate" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_operation a owl:NamedIndividual,
+        ns1:Work ;
+    rdfs:label "operation" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_operative a owl:NamedIndividual,
+        ns1:Work ;
+    rdfs:label "operative" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_pattern a owl:NamedIndividual,
+        ns1:Shape ;
+    rdfs:label "pattern" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_pieceOfWork a owl:NamedIndividual,
+        ns1:Work ;
+    rdfs:label "piece of work" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_puzzleOut a owl:NamedIndividual,
+        ns1:Work ;
+    rdfs:label "puzzle out" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_roll a owl:NamedIndividual,
+        ns1:WorkRoll ;
+    rdfs:label "roll" .
+
+ns1:_roller a owl:NamedIndividual,
+        ns1:WorkRoll ;
+    rdfs:label "roller" .
+
+ns1:_run a owl:NamedIndividual,
+        ns1:Work ;
+    rdfs:label "run" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_shape a owl:NamedIndividual,
+        ns1:Shape,
+        ns1:Work ;
+    rdfs:label "shape" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_shaper a owl:NamedIndividual,
+        ns1:Shape,
+        ns1:Work ;
+    rdfs:label "shaper" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_shaping a owl:NamedIndividual,
+        ns1:Shape,
+        ns1:Work ;
+    rdfs:label "shaping" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_solution a owl:NamedIndividual,
+        ns1:Work ;
+    rdfs:label "solution" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_solve a owl:NamedIndividual,
+        ns1:Work ;
+    rdfs:label "solve" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_solvent a owl:NamedIndividual,
+        ns1:Work ;
+    rdfs:label "solvent" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_solver a owl:NamedIndividual,
+        ns1:Work ;
+    rdfs:label "solver" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_solving a owl:NamedIndividual,
+        ns1:Work ;
+    rdfs:label "solving" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_stripShape a owl:NamedIndividual,
+        ns1:Shape ;
+    rdfs:label "strip shape" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_studious a owl:NamedIndividual,
+        ns1:Work ;
+    rdfs:label "studious" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_study a owl:NamedIndividual,
+        ns1:Work ;
+    rdfs:label "study" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_tension a owl:NamedIndividual,
+        ns1:TensionRoll ;
+    rdfs:label "tension" .
+
+ns1:_tensionRoll a owl:NamedIndividual,
+        ns1:TensionRoll ;
+    rdfs:label "tension roll" .
+
+ns1:_tensionRollDamage a owl:NamedIndividual,
+        ns1:TensionRoll ;
+    rdfs:label "tension roll damage" .
+
+ns1:_twine a owl:NamedIndividual,
+        ns1:WorkRoll ;
+    rdfs:label "twine" .
+
+ns1:_wind a owl:NamedIndividual,
+        ns1:WorkRoll ;
+    rdfs:label "wind" .
+
+ns1:_winder a owl:NamedIndividual,
+        ns1:WorkRoll ;
+    rdfs:label "winder" .
+
+ns1:_work a owl:NamedIndividual,
+        ns1:Shape,
+        ns1:Work ;
+    rdfs:label "work" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_workOut a owl:NamedIndividual,
+        ns1:Work ;
+    rdfs:label "work out" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_workRoll a owl:NamedIndividual,
+        ns1:WorkRoll ;
+    rdfs:label "work roll" .
+
+ns1:_workable a owl:NamedIndividual,
+        ns1:Work ;
+    rdfs:label "workable" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_workplace a owl:NamedIndividual,
+        ns1:Work ;
+    rdfs:label "workplace" ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface .
+
+ns1:_wrap a owl:NamedIndividual,
+        ns1:WorkRoll ;
+    rdfs:label "wrap" .
+
+ns1:OilSpots a owl:Class ;
+    rdfs:label "oil spots" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:caused ;
+            owl:someValuesFrom ns1:Mechanical ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:caused ;
+            owl:someValuesFrom ns1:Contamination ] .
+
+ns1:_mistake a owl:NamedIndividual,
+        ns1:Mistake ;
+    rdfs:label "mistake" .
+
+ns1:LengthDirection a owl:Class ;
+    rdfs:label "length direction" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:caused ;
+            owl:someValuesFrom ns1:Shape ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:caused ;
+            owl:someValuesFrom ns1:TensionRoll ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:caused ;
+            owl:someValuesFrom ns1:WorkRoll ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:caused ;
+            owl:someValuesFrom ns1:Work ] .
+
+ns1:Usually a owl:Class ;
+    rdfs:label "usually" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:caused ;
+            owl:someValuesFrom ns1:Mechanical ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:showing ;
+            owl:someValuesFrom ns1:FishScaleShape ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:detected ;
+            owl:someValuesFrom ns1:Mistake ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:showing ;
+            owl:someValuesFrom ns1:Fish ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:lies ;
+            owl:someValuesFrom ns1:UnevenTemperature ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:showing ;
+            owl:someValuesFrom ns1:Small ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:caused ;
+            owl:someValuesFrom ns1:Contamination ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:lies ;
+            owl:someValuesFrom ns1:Temperature ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:showing ;
+            owl:someValuesFrom ns1:SmallSpots ] .
+
+ns1:WorkRoll a owl:Class ;
+    rdfs:label "work roll" .
+
+ns1:Line a owl:Class ;
+    rdfs:label "line" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:produced ;
+            owl:someValuesFrom ns1:Strictly ] .
+
+ns1:Small a owl:Class ;
+    rdfs:label "small" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:indicating ;
+            owl:someValuesFrom ns1:Local ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:indicating ;
+            owl:someValuesFrom ns1:Deformation ] .
+
+ns1:showing a owl:ObjectProperty ;
+    rdfs:label "showing" .
+
+ns1:Lower a owl:Class ;
+    rdfs:label "lower" .
+
+ns1:_results a owl:NamedIndividual,
+        ns1:Results ;
+    rdfs:label "results" .
+
+ns1:Like a owl:Class ;
+    rdfs:label "like" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:distributed ;
+            owl:someValuesFrom ns1:LengthDirection ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:indicating ;
+            owl:someValuesFrom ns1:Local ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:distributed ;
+            owl:someValuesFrom ns1:Strip ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:indicating ;
+            owl:someValuesFrom ns1:Deformation ] .
+
+ns1:_strictly a owl:NamedIndividual,
+        ns1:Strictly ;
+    rdfs:label "strictly" .
+
+ns1:caused a owl:ObjectProperty ;
+    rdfs:label "caused" .
+
+ns1:SteelPlate a owl:Class ;
+    rdfs:label "steel plate" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:cutting ;
+            owl:someValuesFrom ns1:Results ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:punched ;
+            owl:someValuesFrom ns1:Specifications ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:punched ;
+            owl:someValuesFrom ns1:ProductionLine ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:cutting ;
+            owl:someValuesFrom ns1:Defect ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:punched ;
+            owl:someValuesFrom ns1:Product ] .
+
+ns1:Local a owl:Class ;
+    rdfs:label "local" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:moving ;
+            owl:someValuesFrom ns1:Strip ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:moving ;
+            owl:someValuesFrom ns1:Direction ] .
+
+ns1:Shape a owl:Class ;
+    rdfs:label "shape" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:block ;
+            owl:someValuesFrom ns1:Strip ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:block ;
+            owl:someValuesFrom ns1:Distribution ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:block ;
+            owl:someValuesFrom ns1:Regular ] .
+
+ns1:ProductionLine a owl:Class ;
+    rdfs:label "production line" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:produced ;
+            owl:someValuesFrom ns1:Strictly ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:cutting ;
+            owl:someValuesFrom ns1:Results ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:cutting ;
+            owl:someValuesFrom ns1:Defect ] .
+
+ns1:SmallSpots a owl:Class ;
+    rdfs:label "small spots" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:caused ;
+            owl:someValuesFrom ns1:Contamination ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:produced ;
+            owl:someValuesFrom ns1:ProductionLine ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:drying ;
+            owl:someValuesFrom ns1:ProductionLine ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:caused ;
+            owl:someValuesFrom ns1:Mechanical ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:produced ;
+            owl:someValuesFrom ns1:Product ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:drying ;
+            owl:someValuesFrom ns1:Different ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:drying ;
+            owl:someValuesFrom ns1:Product ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:detected ;
+            owl:someValuesFrom ns1:Mistake ] .
+
+ns1:Surfaces a owl:Class ;
+    rdfs:label "surfaces" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:showing ;
+            owl:someValuesFrom ns1:Fish ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:appear ;
+            owl:someValuesFrom ns1:Lower ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:showing ;
+            owl:someValuesFrom ns1:Small ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:showing ;
+            owl:someValuesFrom ns1:FishScaleShape ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:showing ;
+            owl:someValuesFrom ns1:SmallSpots ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:appear ;
+            owl:someValuesFrom ns1:Upper ] .
+
+ns1:_contamination a owl:NamedIndividual,
+        ns1:Contamination ;
+    rdfs:label "contamination" .
+
+ns1:_mechanical a owl:NamedIndividual,
+        ns1:Mechanical ;
+    rdfs:label "mechanical" ;
+    ns1:affect ns1:_appear,
+        ns1:_appearance,
+        ns1:_assemblyLine,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_visualAspect,
+        ns1:_ware ;
+    ns1:lead ns1:_unwanted,
+        ns1:_unwantedPunching .
+
+ns1:_mechanics a owl:NamedIndividual,
+        ns1:Mechanical ;
+    rdfs:label "mechanics" ;
+    ns1:affect ns1:_appear,
+        ns1:_appearance,
+        ns1:_assemblyLine,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_visualAspect,
+        ns1:_ware ;
+    ns1:lead ns1:_unwanted,
+        ns1:_unwantedPunching .
+
+ns1:_mechanism a owl:NamedIndividual,
+        ns1:Mechanical ;
+    rdfs:label "mechanism" ;
+    ns1:affect ns1:_appear,
+        ns1:_appearance,
+        ns1:_assemblyLine,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_visualAspect,
+        ns1:_ware ;
+    ns1:lead ns1:_unwanted,
+        ns1:_unwantedPunching .
+
+ns1:Product a owl:Class ;
+    rdfs:label "product" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:cutting ;
+            owl:someValuesFrom ns1:Defect ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:cutting ;
+            owl:someValuesFrom ns1:Results ] .
+
+ns1:_fish a owl:NamedIndividual,
+        ns1:Fish ;
+    rdfs:label "fish" .
+
+ns1:_fishScale a owl:NamedIndividual,
+        ns1:FishScaleShape ;
+    rdfs:label "fish scale" .
+
+ns1:_fishScaleShape a owl:NamedIndividual,
+        ns1:FishScaleShape ;
+    rdfs:label "fish scale shape" .
+
+ns1:_fishy a owl:NamedIndividual,
+        ns1:Fish ;
+    rdfs:label "fishy" .
+
+ns1:_little a owl:NamedIndividual,
+        ns1:Small ;
+    rdfs:label "little" ;
+    ns1:indicating ns1:_deformation,
+        ns1:_local,
+        ns1:_localDeformation .
+
+ns1:_littleness a owl:NamedIndividual,
+        ns1:Small ;
+    rdfs:label "littleness" ;
+    ns1:indicating ns1:_deformation,
+        ns1:_local,
+        ns1:_localDeformation .
+
+ns1:_place a owl:NamedIndividual,
+        ns1:SmallSpots ;
+    rdfs:label "place" ;
+    ns1:caused ns1:_contamination,
+        ns1:_mechanical,
+        ns1:_mechanics,
+        ns1:_mechanism ;
+    ns1:detected ns1:_mistake ;
+    ns1:drying ns1:_assemblyLine,
+        ns1:_different,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_ware ;
+    ns1:produced ns1:_assemblyLine,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_ware .
+
+ns1:_scale a owl:NamedIndividual,
+        ns1:FishScaleShape ;
+    rdfs:label "scale" .
+
+ns1:_scaleShape a owl:NamedIndividual,
+        ns1:FishScaleShape ;
+    rdfs:label "scale shape" .
+
+ns1:_small a owl:NamedIndividual,
+        ns1:Small ;
+    rdfs:label "small" ;
+    ns1:indicating ns1:_deformation,
+        ns1:_local,
+        ns1:_localDeformation .
+
+ns1:_smallSpots a owl:NamedIndividual,
+        ns1:SmallSpots ;
+    rdfs:label "small spots" ;
+    ns1:caused ns1:_contamination,
+        ns1:_mechanical,
+        ns1:_mechanics,
+        ns1:_mechanism ;
+    ns1:detected ns1:_mistake ;
+    ns1:drying ns1:_assemblyLine,
+        ns1:_different,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_ware ;
+    ns1:produced ns1:_assemblyLine,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_ware .
+
+ns1:_smallness a owl:NamedIndividual,
+        ns1:Small ;
+    rdfs:label "smallness" ;
+    ns1:indicating ns1:_deformation,
+        ns1:_local,
+        ns1:_localDeformation .
+
+ns1:_spot a owl:NamedIndividual,
+        ns1:SmallSpots ;
+    rdfs:label "spot" ;
+    ns1:caused ns1:_contamination,
+        ns1:_mechanical,
+        ns1:_mechanics,
+        ns1:_mechanism ;
+    ns1:detected ns1:_mistake ;
+    ns1:drying ns1:_assemblyLine,
+        ns1:_different,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_ware ;
+    ns1:produced ns1:_assemblyLine,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_ware .
+
+ns1:_spots a owl:NamedIndividual,
+        ns1:SmallSpots ;
+    rdfs:label "spots" ;
+    ns1:caused ns1:_contamination,
+        ns1:_mechanical,
+        ns1:_mechanics,
+        ns1:_mechanism ;
+    ns1:detected ns1:_mistake ;
+    ns1:drying ns1:_assemblyLine,
+        ns1:_different,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_ware ;
+    ns1:produced ns1:_assemblyLine,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_ware .
+
+ns1:_topographicPoint a owl:NamedIndividual,
+        ns1:SmallSpots ;
+    rdfs:label "topographic point" ;
+    ns1:caused ns1:_contamination,
+        ns1:_mechanical,
+        ns1:_mechanics,
+        ns1:_mechanism ;
+    ns1:detected ns1:_mistake ;
+    ns1:drying ns1:_assemblyLine,
+        ns1:_different,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_ware ;
+    ns1:produced ns1:_assemblyLine,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_ware .
+
+ns1:_waterSpot a owl:NamedIndividual,
+        ns1:SmallSpots ;
+    rdfs:label "water spot" ;
+    ns1:caused ns1:_contamination,
+        ns1:_mechanical,
+        ns1:_mechanics,
+        ns1:_mechanism ;
+    ns1:detected ns1:_mistake ;
+    ns1:drying ns1:_assemblyLine,
+        ns1:_different,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_ware ;
+    ns1:produced ns1:_assemblyLine,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_ware .
+
+ns1:_waterSpots a owl:NamedIndividual,
+        ns1:SmallSpots ;
+    rdfs:label "water spots" ;
+    ns1:caused ns1:_contamination,
+        ns1:_mechanical,
+        ns1:_mechanics,
+        ns1:_mechanism ;
+    ns1:detected ns1:_mistake ;
+    ns1:drying ns1:_assemblyLine,
+        ns1:_different,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_ware ;
+    ns1:produced ns1:_assemblyLine,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_ware .
+
+ns1:_defect a owl:NamedIndividual,
+        ns1:Defect ;
+    rdfs:label "defect" ;
+    ns1:described ns1:_detail ;
+    ns1:needs ns1:_automatically,
+        ns1:_mechanically ;
+    ns1:showing ns1:_fish,
+        ns1:_fishScale,
+        ns1:_fishScaleShape,
+        ns1:_fishy,
+        ns1:_little,
+        ns1:_littleness,
+        ns1:_place,
+        ns1:_scale,
+        ns1:_scaleShape,
+        ns1:_small,
+        ns1:_smallSpots,
+        ns1:_smallness,
+        ns1:_spot,
+        ns1:_spots,
+        ns1:_topographicPoint,
+        ns1:_waterSpot,
+        ns1:_waterSpots .
+
+ns1:_defectParts a owl:NamedIndividual,
+        ns1:Defect ;
+    rdfs:label "defect parts" ;
+    ns1:described ns1:_detail ;
+    ns1:needs ns1:_automatically,
+        ns1:_mechanically ;
+    ns1:showing ns1:_fish,
+        ns1:_fishScale,
+        ns1:_fishScaleShape,
+        ns1:_fishy,
+        ns1:_little,
+        ns1:_littleness,
+        ns1:_place,
+        ns1:_scale,
+        ns1:_scaleShape,
+        ns1:_small,
+        ns1:_smallSpots,
+        ns1:_smallness,
+        ns1:_spot,
+        ns1:_spots,
+        ns1:_topographicPoint,
+        ns1:_waterSpot,
+        ns1:_waterSpots .
+
+ns1:_defectType a owl:NamedIndividual,
+        ns1:Defect ;
+    rdfs:label "defect type" ;
+    ns1:described ns1:_detail ;
+    ns1:needs ns1:_automatically,
+        ns1:_mechanically ;
+    ns1:showing ns1:_fish,
+        ns1:_fishScale,
+        ns1:_fishScaleShape,
+        ns1:_fishy,
+        ns1:_little,
+        ns1:_littleness,
+        ns1:_place,
+        ns1:_scale,
+        ns1:_scaleShape,
+        ns1:_small,
+        ns1:_smallSpots,
+        ns1:_smallness,
+        ns1:_spot,
+        ns1:_spots,
+        ns1:_topographicPoint,
+        ns1:_waterSpot,
+        ns1:_waterSpots .
+
+ns1:_defects a owl:NamedIndividual,
+        ns1:Defect ;
+    rdfs:label "defects" ;
+    ns1:described ns1:_detail ;
+    ns1:needs ns1:_automatically,
+        ns1:_mechanically ;
+    ns1:showing ns1:_fish,
+        ns1:_fishScale,
+        ns1:_fishScaleShape,
+        ns1:_fishy,
+        ns1:_little,
+        ns1:_littleness,
+        ns1:_place,
+        ns1:_scale,
+        ns1:_scaleShape,
+        ns1:_small,
+        ns1:_smallSpots,
+        ns1:_smallness,
+        ns1:_spot,
+        ns1:_spots,
+        ns1:_topographicPoint,
+        ns1:_waterSpot,
+        ns1:_waterSpots .
+
+ns1:_surfaceDefects a owl:NamedIndividual,
+        ns1:Defect ;
+    rdfs:label "surface defects" ;
+    ns1:described ns1:_detail ;
+    ns1:needs ns1:_automatically,
+        ns1:_mechanically ;
+    ns1:showing ns1:_fish,
+        ns1:_fishScale,
+        ns1:_fishScaleShape,
+        ns1:_fishy,
+        ns1:_little,
+        ns1:_littleness,
+        ns1:_place,
+        ns1:_scale,
+        ns1:_scaleShape,
+        ns1:_small,
+        ns1:_smallSpots,
+        ns1:_smallness,
+        ns1:_spot,
+        ns1:_spots,
+        ns1:_topographicPoint,
+        ns1:_waterSpot,
+        ns1:_waterSpots .
+
+ns1:_typicalDefect a owl:NamedIndividual,
+        ns1:Defect ;
+    rdfs:label "typical defect" ;
+    ns1:described ns1:_detail ;
+    ns1:needs ns1:_automatically,
+        ns1:_mechanically ;
+    ns1:showing ns1:_fish,
+        ns1:_fishScale,
+        ns1:_fishScaleShape,
+        ns1:_fishy,
+        ns1:_little,
+        ns1:_littleness,
+        ns1:_place,
+        ns1:_scale,
+        ns1:_scaleShape,
+        ns1:_small,
+        ns1:_smallSpots,
+        ns1:_smallness,
+        ns1:_spot,
+        ns1:_spots,
+        ns1:_topographicPoint,
+        ns1:_waterSpot,
+        ns1:_waterSpots .
+
+ns1:Work a owl:Class ;
+    rdfs:label "work" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:block ;
+            owl:someValuesFrom ns1:Strip ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:block ;
+            owl:someValuesFrom ns1:Distribution ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:block ;
+            owl:someValuesFrom ns1:Regular ],
+        ns1:LengthDirection,
+        ns1:RollDamage,
+        ns1:Strip,
+        ns1:TensionRoll,
+        ns1:WorkRoll .
+
+ns1:_distribution a owl:NamedIndividual,
+        ns1:Distribution ;
+    rdfs:label "distribution" .
+
+ns1:_irregular a owl:NamedIndividual,
+        ns1:Regular ;
+    rdfs:label "irregular" .
+
+ns1:_irregularDistribution a owl:NamedIndividual,
+        ns1:Distribution ;
+    rdfs:label "irregular distribution" .
+
+ns1:_regular a owl:NamedIndividual,
+        ns1:Regular ;
+    rdfs:label "regular" .
+
+ns1:Defect a owl:Class ;
+    rdfs:label "defect" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:showing ;
+            owl:someValuesFrom ns1:FishScaleShape ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:showing ;
+            owl:someValuesFrom ns1:Fish ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:needs ;
+            owl:someValuesFrom ns1:Automatically ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:described ;
+            owl:someValuesFrom ns1:Detail ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:showing ;
+            owl:someValuesFrom ns1:Small ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:showing ;
+            owl:someValuesFrom ns1:SmallSpots ] .
+
+ns1:_assemblyLine a owl:NamedIndividual,
+        ns1:Line,
+        ns1:ProductionLine ;
+    rdfs:label "assembly line" ;
+    ns1:cutting ns1:_defect,
+        ns1:_defectParts,
+        ns1:_defectType,
+        ns1:_defects,
+        ns1:_results,
+        ns1:_surfaceDefects,
+        ns1:_typicalDefect ;
+    ns1:produced ns1:_strictly .
+
+ns1:_differentProducts a owl:NamedIndividual,
+        ns1:Product ;
+    rdfs:label "different products" ;
+    ns1:cutting ns1:_defect,
+        ns1:_defectParts,
+        ns1:_defectType,
+        ns1:_defects,
+        ns1:_results,
+        ns1:_surfaceDefects,
+        ns1:_typicalDefect .
+
+ns1:_line a owl:NamedIndividual,
+        ns1:Line,
+        ns1:ProductionLine ;
+    rdfs:label "line" ;
+    ns1:cutting ns1:_defect,
+        ns1:_defectParts,
+        ns1:_defectType,
+        ns1:_defects,
+        ns1:_results,
+        ns1:_surfaceDefects,
+        ns1:_typicalDefect ;
+    ns1:produced ns1:_strictly .
+
+ns1:_merchandise a owl:NamedIndividual,
+        ns1:Product ;
+    rdfs:label "merchandise" ;
+    ns1:cutting ns1:_defect,
+        ns1:_defectParts,
+        ns1:_defectType,
+        ns1:_defects,
+        ns1:_results,
+        ns1:_surfaceDefects,
+        ns1:_typicalDefect .
+
+ns1:_produce a owl:NamedIndividual,
+        ns1:Product,
+        ns1:ProductionLine ;
+    rdfs:label "produce" ;
+    ns1:cutting ns1:_defect,
+        ns1:_defectParts,
+        ns1:_defectType,
+        ns1:_defects,
+        ns1:_results,
+        ns1:_surfaceDefects,
+        ns1:_typicalDefect ;
+    ns1:produced ns1:_strictly .
+
+ns1:_product a owl:NamedIndividual,
+        ns1:Product,
+        ns1:ProductionLine ;
+    rdfs:label "product" ;
+    ns1:cutting ns1:_defect,
+        ns1:_defectParts,
+        ns1:_defectType,
+        ns1:_defects,
+        ns1:_results,
+        ns1:_surfaceDefects,
+        ns1:_typicalDefect ;
+    ns1:produced ns1:_strictly .
+
+ns1:_production a owl:NamedIndividual,
+        ns1:Product,
+        ns1:ProductionLine ;
+    rdfs:label "production" ;
+    ns1:cutting ns1:_defect,
+        ns1:_defectParts,
+        ns1:_defectType,
+        ns1:_defects,
+        ns1:_results,
+        ns1:_surfaceDefects,
+        ns1:_typicalDefect ;
+    ns1:produced ns1:_strictly .
+
+ns1:_productionLine a owl:NamedIndividual,
+        ns1:Line,
+        ns1:ProductionLine ;
+    rdfs:label "production line" ;
+    ns1:cutting ns1:_defect,
+        ns1:_defectParts,
+        ns1:_defectType,
+        ns1:_defects,
+        ns1:_results,
+        ns1:_surfaceDefects,
+        ns1:_typicalDefect ;
+    ns1:produced ns1:_strictly .
+
+ns1:_products a owl:NamedIndividual,
+        ns1:Product ;
+    rdfs:label "products" ;
+    ns1:cutting ns1:_defect,
+        ns1:_defectParts,
+        ns1:_defectType,
+        ns1:_defects,
+        ns1:_results,
+        ns1:_surfaceDefects,
+        ns1:_typicalDefect .
+
+ns1:_ware a owl:NamedIndividual,
+        ns1:Product ;
+    rdfs:label "ware" ;
+    ns1:cutting ns1:_defect,
+        ns1:_defectParts,
+        ns1:_defectType,
+        ns1:_defects,
+        ns1:_results,
+        ns1:_surfaceDefects,
+        ns1:_typicalDefect .
+
+ns1:Strip a owl:Class ;
+    rdfs:label "strip" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:punched ;
+            owl:someValuesFrom ns1:ProductionLine ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:block ;
+            owl:someValuesFrom ns1:Distribution ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:according ;
+            owl:someValuesFrom ns1:Product ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:block ;
+            owl:someValuesFrom ns1:Strip ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:according ;
+            owl:someValuesFrom ns1:Specifications ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:appear ;
+            owl:someValuesFrom ns1:Lower ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:cutting ;
+            owl:someValuesFrom ns1:Defect ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:punched ;
+            owl:someValuesFrom ns1:Product ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:appear ;
+            owl:someValuesFrom ns1:Upper ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:changed ;
+            owl:someValuesFrom ns1:Necessary ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:cutting ;
+            owl:someValuesFrom ns1:Results ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:punched ;
+            owl:someValuesFrom ns1:Specifications ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:according ;
+            owl:someValuesFrom ns1:ProductionLine ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:block ;
+            owl:someValuesFrom ns1:Regular ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:uncoiling ;
+            owl:someValuesFrom ns1:Process ] .
+
+ns1:_strip a owl:NamedIndividual,
+        ns1:Strip ;
+    rdfs:label "strip" ;
+    ns1:according ns1:_assemblyLine,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_productSpecifications,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_specification,
+        ns1:_specifications,
+        ns1:_ware ;
+    ns1:appear ns1:_low,
+        ns1:_lower,
+        ns1:_lowerSurface,
+        ns1:_lowerSurfaces,
+        ns1:_upper ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface ;
+    ns1:changed ns1:_necessary ;
+    ns1:cutting ns1:_defect,
+        ns1:_defectParts,
+        ns1:_defectType,
+        ns1:_defects,
+        ns1:_results,
+        ns1:_surfaceDefects,
+        ns1:_typicalDefect ;
+    ns1:punched ns1:_assemblyLine,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_productSpecifications,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_specification,
+        ns1:_specifications,
+        ns1:_ware ;
+    ns1:uncoiling ns1:_process,
+        ns1:_processes,
+        ns1:_processing,
+        ns1:_processor,
+        ns1:_treat,
+        ns1:_treatment .
+
+ns1:_stripSurface a owl:NamedIndividual,
+        ns1:Strip ;
+    rdfs:label "strip surface" ;
+    ns1:according ns1:_assemblyLine,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_productSpecifications,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_specification,
+        ns1:_specifications,
+        ns1:_ware ;
+    ns1:appear ns1:_low,
+        ns1:_lower,
+        ns1:_lowerSurface,
+        ns1:_lowerSurfaces,
+        ns1:_upper ;
+    ns1:block ns1:_distribution,
+        ns1:_irregular,
+        ns1:_irregularDistribution,
+        ns1:_regular,
+        ns1:_strip,
+        ns1:_stripSurface ;
+    ns1:changed ns1:_necessary ;
+    ns1:cutting ns1:_defect,
+        ns1:_defectParts,
+        ns1:_defectType,
+        ns1:_defects,
+        ns1:_results,
+        ns1:_surfaceDefects,
+        ns1:_typicalDefect ;
+    ns1:punched ns1:_assemblyLine,
+        ns1:_differentProducts,
+        ns1:_line,
+        ns1:_merchandise,
+        ns1:_produce,
+        ns1:_product,
+        ns1:_productSpecifications,
+        ns1:_production,
+        ns1:_productionLine,
+        ns1:_products,
+        ns1:_specification,
+        ns1:_specifications,
+        ns1:_ware ;
+    ns1:uncoiling ns1:_process,
+        ns1:_processes,
+        ns1:_processing,
+        ns1:_processor,
+        ns1:_treat,
+        ns1:_treatment .
+
