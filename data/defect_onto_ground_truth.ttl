@@ -1,0 +1,436 @@
+@prefix : <http://www.semanticweb.org/metallic_defect_onto#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/metallic_defect_onto#> .
+
+<http://www.semanticweb.org/metallic_defect_onto> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/metallic_defect_onto#hasAbnormal
+:hasAbnormal rdf:type owl:ObjectProperty ;
+             rdfs:domain :Product ;
+             rdfs:range :Appearance .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#hasAppearance
+:hasAppearance rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               rdfs:domain :Defect ;
+               rdfs:range :Appearance .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#isCausedBy
+:isCausedBy rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdfs:domain :Defect ;
+            rdfs:range :Cause .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#isPartOf
+:isPartOf rdf:type owl:ObjectProperty ;
+          rdfs:domain :Factory ;
+          rdfs:range :Factory .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#isProducedBy
+:isProducedBy rdf:type owl:ObjectProperty ;
+              rdfs:domain :Product ;
+              rdfs:range :Factory .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/metallic_defect_onto#Appearance
+:Appearance rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Cause
+:Cause rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Continous
+:Continous rdf:type owl:Class ;
+           rdfs:subClassOf :Wave_like_plaque .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Crease
+:Crease rdf:type owl:Class ;
+        owl:equivalentClass [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasAppearance ;
+                              owl:someValuesFrom :Vertical
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :isCausedBy ;
+                              owl:someValuesFrom :Local_yield
+                            ] ;
+        rdfs:subClassOf :Defect .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Crescent_Gap
+:Crescent_Gap rdf:type owl:Class ;
+              owl:equivalentClass [ rdf:type owl:Restriction ;
+                                    owl:onProperty :hasAppearance ;
+                                    owl:someValuesFrom :Half_circle
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :isCausedBy ;
+                                    owl:someValuesFrom :Cutting
+                                  ] ;
+              rdfs:subClassOf :Defect .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Cut
+:Cut rdf:type owl:Class ;
+     rdfs:subClassOf :Appearance .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Cutting
+:Cutting rdf:type owl:Class ;
+         rdfs:subClassOf :Process .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Damage
+:Damage rdf:type owl:Class ;
+        rdfs:subClassOf :Cause .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Defect
+:Defect rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Drying
+:Drying rdf:type owl:Class ;
+        rdfs:subClassOf :Process .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Factory
+:Factory rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Fish_scale
+:Fish_scale rdf:type owl:Class ;
+            rdfs:subClassOf :Spot .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Flaky
+:Flaky rdf:type owl:Class ;
+       rdfs:subClassOf :Periodic_bulges_or_pits .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Fold
+:Fold rdf:type owl:Class ;
+      rdfs:subClassOf :Appearance .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Half_circle
+:Half_circle rdf:type owl:Class ;
+             rdfs:subClassOf :Cut .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Inclusion
+:Inclusion rdf:type owl:Class ;
+           owl:equivalentClass [ rdf:type owl:Restriction ;
+                                 owl:onProperty :hasAppearance ;
+                                 owl:someValuesFrom :Spot
+                               ] ;
+           rdfs:subClassOf :Defect .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Local
+:Local rdf:type owl:Class ;
+       rdfs:subClassOf :Wave_like_plaque .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Local_yield
+:Local_yield rdf:type owl:Class ;
+             rdfs:subClassOf :Cause .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Low_carbon
+:Low_carbon rdf:type owl:Class ;
+            rdfs:subClassOf :Property .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Machine
+:Machine rdf:type owl:Class ;
+         owl:equivalentClass [ rdf:type owl:Restriction ;
+                               owl:onProperty :isPartOf ;
+                               owl:someValuesFrom :Factory
+                             ] ;
+         rdfs:subClassOf :Factory .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Mechanical_failure
+:Mechanical_failure rdf:type owl:Class ;
+                    rdfs:subClassOf :Cause .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Mechanical_lubricant
+:Mechanical_lubricant rdf:type owl:Class ;
+                      rdfs:subClassOf :Cause .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Oil_spot
+:Oil_spot rdf:type owl:Class ;
+          owl:equivalentClass [ rdf:type owl:Restriction ;
+                                owl:onProperty :isCausedBy ;
+                                owl:someValuesFrom :Mechanical_lubricant
+                              ] ;
+          rdfs:subClassOf :Spots .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Periodic_bulges_or_pits
+:Periodic_bulges_or_pits rdf:type owl:Class ;
+                         rdfs:subClassOf :Surface_distortion .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Process
+:Process rdf:type owl:Class ;
+         rdfs:subClassOf :Cause .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Product
+:Product rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Production_line
+:Production_line rdf:type owl:Class ;
+                 owl:equivalentClass [ rdf:type owl:Restriction ;
+                                       owl:onProperty :isPartOf ;
+                                       owl:someValuesFrom :Factory
+                                     ] ;
+                 rdfs:subClassOf :Factory .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Property
+:Property rdf:type owl:Class ;
+          rdfs:subClassOf :Cause .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Punching
+:Punching rdf:type owl:Class ;
+          owl:equivalentClass [ rdf:type owl:Restriction ;
+                                owl:onProperty :isCausedBy ;
+                                owl:someValuesFrom :Mechanical_failure
+                              ] ;
+          rdfs:subClassOf :Defect .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Punctate
+:Punctate rdf:type owl:Class ;
+          rdfs:subClassOf :Periodic_bulges_or_pits .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Rolled_pit
+:Rolled_pit rdf:type owl:Class ;
+            owl:equivalentClass [ rdf:type owl:Class ;
+                                  owl:unionOf ( [ rdf:type owl:Restriction ;
+                                                  owl:onProperty :isCausedBy ;
+                                                  owl:someValuesFrom :Tension_roll_damage
+                                                ]
+                                                [ rdf:type owl:Restriction ;
+                                                  owl:onProperty :isCausedBy ;
+                                                  owl:someValuesFrom :Work_roll_damage
+                                                ]
+                                              )
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :hasAppearance ;
+                                  owl:someValuesFrom :Periodic_bulges_or_pits
+                                ] ;
+            rdfs:subClassOf :Defect .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Roller
+:Roller rdf:type owl:Class ;
+        owl:equivalentClass [ rdf:type owl:Restriction ;
+                              owl:onProperty :isPartOf ;
+                              owl:someValuesFrom :Machine
+                            ] ;
+        rdfs:subClassOf :Machine .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Rough_pockmarked_surface
+:Rough_pockmarked_surface rdf:type owl:Class ;
+                          rdfs:subClassOf :Surface_distortion .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Silk_spot
+:Silk_spot rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                        owl:onProperty :isCausedBy ;
+                                                        owl:someValuesFrom :Uneven_pressure
+                                                      ]
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty :isCausedBy ;
+                                                        owl:someValuesFrom :Uneven_temperature
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :hasAppearance ;
+                                 owl:someValuesFrom :Wave_like_plaque
+                               ] ;
+           rdfs:subClassOf :Spots .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Spot
+:Spot rdf:type owl:Class ;
+      rdfs:subClassOf :Appearance .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Spots
+:Spots rdf:type owl:Class ;
+       rdfs:subClassOf :Defect .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Steel_strip
+:Steel_strip rdf:type owl:Class ;
+             owl:equivalentClass [ rdf:type owl:Restriction ;
+                                   owl:onProperty :hasAbnormal ;
+                                   owl:someValuesFrom :Appearance
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :isProducedBy ;
+                                   owl:someValuesFrom :Machine
+                                 ] ;
+             rdfs:subClassOf :Product .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Strip
+:Strip rdf:type owl:Class ;
+       rdfs:subClassOf :Spot .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Strip_like
+:Strip_like rdf:type owl:Class ;
+            rdfs:subClassOf :Periodic_bulges_or_pits .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Surface_distortion
+:Surface_distortion rdf:type owl:Class ;
+                    rdfs:subClassOf :Appearance .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Tension_roll_damage
+:Tension_roll_damage rdf:type owl:Class ;
+                     rdfs:subClassOf :Damage .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Uneven_pressure
+:Uneven_pressure rdf:type owl:Class ;
+                 rdfs:subClassOf :Property .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Uneven_temperature
+:Uneven_temperature rdf:type owl:Class ;
+                    rdfs:subClassOf :Property .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Vertical
+:Vertical rdf:type owl:Class ;
+          rdfs:subClassOf :Fold .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Waist_folding
+:Waist_folding rdf:type owl:Class ;
+               owl:equivalentClass [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasAppearance ;
+                                     owl:someValuesFrom :Wrinkles_like
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :isCausedBy ;
+                                     owl:someValuesFrom :Low_carbon
+                                   ] ;
+               rdfs:subClassOf :Defect .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Water_spot
+:Water_spot rdf:type owl:Class ;
+            owl:equivalentClass [ rdf:type owl:Restriction ;
+                                  owl:onProperty :isCausedBy ;
+                                  owl:someValuesFrom :Drying
+                                ] ;
+            rdfs:subClassOf :Spots .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Wave_like_plaque
+:Wave_like_plaque rdf:type owl:Class ;
+                  rdfs:subClassOf :Appearance .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Welding_line
+:Welding_line rdf:type owl:Class ;
+              rdfs:subClassOf :Defect .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Work_roll_damage
+:Work_roll_damage rdf:type owl:Class ;
+                  rdfs:subClassOf :Damage .
+
+
+###  http://www.semanticweb.org/metallic_defect_onto#Wrinkles_like
+:Wrinkles_like rdf:type owl:Class ;
+               rdfs:subClassOf :Fold .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Crease
+                :Crescent_Gap
+                :Inclusion
+                :Oil_spot
+                :Punching
+                :Rolled_pit
+                :Silk_spot
+                :Waist_folding
+                :Water_spot
+                :Welding_line
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Cut
+                :Fold
+                :Spot
+                :Wave_like_plaque
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Drying
+                :Local_yield
+                :Low_carbon
+                :Mechanical_failure
+                :Mechanical_lubricant
+                :Tension_roll_damage
+                :Uneven_pressure
+                :Uneven_temperature
+                :Work_roll_damage
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Flaky
+                :Punctate
+                :Strip_like
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
